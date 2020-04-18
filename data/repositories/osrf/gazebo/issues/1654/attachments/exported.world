@@ -1,0 +1,624 @@
+<sdf version="1.5">
+  <world name="world">
+    <model name="default_body">
+      <static>false</static>
+      <pose>0 0 0 0 0 0</pose>
+      <link name="140494037398544">
+        <gravity>true</gravity>
+        <self_collide>true</self_collide>
+        <visual name="basic_bot_visual0-0">
+          <pose>-0.309982060197 0.24753164557 0.0 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.351632936588 -0.25</point>
+              <point>-0.344490079445 -0.25</point>
+              <point>-0.344490079445 0.25</point>
+              <point>0.337347222303 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual0-1">
+          <pose>-0.309982060197 0.24753164557 2.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.351632936588 -0.25</point>
+              <point>-0.344490079445 -0.25</point>
+              <point>-0.344490079445 0.25</point>
+              <point>0.337347222303 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual0-2">
+          <pose>-0.304985021837 0.24753164557 5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.356629974948 -0.25</point>
+              <point>-0.349487117805 -0.25</point>
+              <point>-0.349487117805 0.25</point>
+              <point>0.342344260662 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual0-3">
+          <pose>-0.309982060197 0.24753164557 7.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.351632936588 -0.25</point>
+              <point>-0.344490079445 -0.25</point>
+              <point>-0.344490079445 0.25</point>
+              <point>0.337347222303 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual0-4">
+          <pose>-0.309982060197 0.24753164557 0.0001 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.351632936588 -0.25</point>
+              <point>-0.344490079445 -0.25</point>
+              <point>-0.344490079445 0.25</point>
+              <point>0.337347222303 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <collision name="basic_bot_collision0-0">
+          <pose>-0.309982060197 0.24753164557 0.0 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.351632936588 -0.25</point>
+              <point>-0.344490079445 -0.25</point>
+              <point>-0.344490079445 0.25</point>
+              <point>0.337347222303 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision0-1">
+          <pose>-0.309982060197 0.24753164557 2.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.351632936588 -0.25</point>
+              <point>-0.344490079445 -0.25</point>
+              <point>-0.344490079445 0.25</point>
+              <point>0.337347222303 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision0-2">
+          <pose>-0.304985021837 0.24753164557 5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.356629974948 -0.25</point>
+              <point>-0.349487117805 -0.25</point>
+              <point>-0.349487117805 0.25</point>
+              <point>0.342344260662 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision0-3">
+          <pose>-0.309982060197 0.24753164557 7.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.351632936588 -0.25</point>
+              <point>-0.344490079445 -0.25</point>
+              <point>-0.344490079445 0.25</point>
+              <point>0.337347222303 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision0-4">
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.05</mu>
+                <mu2>0.05</mu2>
+                <slip1>1</slip1>
+                <slip2>1</slip2>
+              </ode>
+            </friction>
+          </surface>
+          <pose>-0.309982060197 0.24753164557 0.0001 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.351632936588 -0.25</point>
+              <point>-0.344490079445 -0.25</point>
+              <point>-0.344490079445 0.25</point>
+              <point>0.337347222303 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <inertial>
+          <mass>4.31861858897e-14</mass>
+          <pose>-0.310173128715 0.24753164557 2.5e-05 0 0 0</pose>
+        </inertial>
+      </link>
+      <link name="140494037400528">
+        <gravity>true</gravity>
+        <self_collide>true</self_collide>
+        <visual name="basic_bot_visual1-0">
+          <pose>0.42476210706 0.24753164557 0.0 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.368533597444 -0.25</point>
+              <point>-0.363103069068 -0.25</point>
+              <point>-0.377388783354 0.25</point>
+              <point>0.371958254978 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual1-1">
+          <pose>0.42476210706 0.24753164557 2.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.368533597444 -0.25</point>
+              <point>-0.363103069068 -0.25</point>
+              <point>-0.377388783354 0.25</point>
+              <point>0.371958254978 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual1-2">
+          <pose>0.424760185864 0.24753164557 5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.378525752968 -0.25</point>
+              <point>-0.373095224592 -0.25</point>
+              <point>-0.387380938878 0.25</point>
+              <point>0.381950410502 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual1-3">
+          <pose>0.42476210706 0.24753164557 7.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.368533597444 -0.25</point>
+              <point>-0.363103069068 -0.25</point>
+              <point>-0.377388783354 0.25</point>
+              <point>0.371958254978 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual1-4">
+          <pose>0.42476210706 0.24753164557 0.0001 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.368533597444 -0.25</point>
+              <point>-0.363103069068 -0.25</point>
+              <point>-0.377388783354 0.25</point>
+              <point>0.371958254978 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <collision name="basic_bot_collision1-0">
+          <pose>0.42476210706 0.24753164557 0.0 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.368533597444 -0.25</point>
+              <point>-0.363103069068 -0.25</point>
+              <point>-0.377388783354 0.25</point>
+              <point>0.371958254978 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision1-1">
+          <pose>0.42476210706 0.24753164557 2.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.368533597444 -0.25</point>
+              <point>-0.363103069068 -0.25</point>
+              <point>-0.377388783354 0.25</point>
+              <point>0.371958254978 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision1-2">
+          <pose>0.424760185864 0.24753164557 5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.378525752968 -0.25</point>
+              <point>-0.373095224592 -0.25</point>
+              <point>-0.387380938878 0.25</point>
+              <point>0.381950410502 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision1-3">
+          <pose>0.42476210706 0.24753164557 7.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.368533597444 -0.25</point>
+              <point>-0.363103069068 -0.25</point>
+              <point>-0.377388783354 0.25</point>
+              <point>0.371958254978 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision1-4">
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.05</mu>
+                <mu2>0.05</mu2>
+                <slip1>1</slip1>
+                <slip2>1</slip2>
+              </ode>
+            </friction>
+          </surface>
+          <pose>0.42476210706 0.24753164557 0.0001 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.368533597444 -0.25</point>
+              <point>-0.363103069068 -0.25</point>
+              <point>-0.377388783354 0.25</point>
+              <point>0.371958254978 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <inertial>
+          <mass>4.65305446645e-14</mass>
+          <pose>0.426237587139 0.24753164557 2.5e-05 0 0 0</pose>
+        </inertial>
+      </link>
+      <link name="140494037305680">
+        <gravity>true</gravity>
+        <self_collide>true</self_collide>
+        <visual name="basic_bot_visual2-0">
+          <pose>1.22308977136 0.24753164557 0.0 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.388600749485 -0.25</point>
+              <point>-0.409793597732 -0.25</point>
+              <point>-0.406368940198 0.25</point>
+              <point>0.427561788446 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual2-1">
+          <pose>1.22308977136 0.24753164557 2.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.388600749485 -0.25</point>
+              <point>-0.409793597732 -0.25</point>
+              <point>-0.406368940198 0.25</point>
+              <point>0.427561788446 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual2-2">
+          <pose>1.22310479569 0.24753164557 5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.398606008145 -0.25</point>
+              <point>-0.419798856393 -0.25</point>
+              <point>-0.416374198859 0.25</point>
+              <point>0.437567047106 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual2-3">
+          <pose>1.22308977136 0.24753164557 7.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.388600749485 -0.25</point>
+              <point>-0.409793597732 -0.25</point>
+              <point>-0.406368940198 0.25</point>
+              <point>0.427561788446 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual2-4">
+          <pose>1.22308977136 0.24753164557 0.0001 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.388600749485 -0.25</point>
+              <point>-0.409793597732 -0.25</point>
+              <point>-0.406368940198 0.25</point>
+              <point>0.427561788446 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <collision name="basic_bot_collision2-0">
+          <pose>1.22308977136 0.24753164557 0.0 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.388600749485 -0.25</point>
+              <point>-0.409793597732 -0.25</point>
+              <point>-0.406368940198 0.25</point>
+              <point>0.427561788446 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision2-1">
+          <pose>1.22308977136 0.24753164557 2.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.388600749485 -0.25</point>
+              <point>-0.409793597732 -0.25</point>
+              <point>-0.406368940198 0.25</point>
+              <point>0.427561788446 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision2-2">
+          <pose>1.22310479569 0.24753164557 5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.398606008145 -0.25</point>
+              <point>-0.419798856393 -0.25</point>
+              <point>-0.416374198859 0.25</point>
+              <point>0.437567047106 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision2-3">
+          <pose>1.22308977136 0.24753164557 7.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.388600749485 -0.25</point>
+              <point>-0.409793597732 -0.25</point>
+              <point>-0.406368940198 0.25</point>
+              <point>0.427561788446 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision2-4">
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.05</mu>
+                <mu2>0.05</mu2>
+                <slip1>1</slip1>
+                <slip2>1</slip2>
+              </ode>
+            </friction>
+          </surface>
+          <pose>1.22308977136 0.24753164557 0.0001 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>0.388600749485 -0.25</point>
+              <point>-0.409793597732 -0.25</point>
+              <point>-0.406368940198 0.25</point>
+              <point>0.427561788446 0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <inertial>
+          <mass>5.12602900872e-14</mass>
+          <pose>1.22013141111 0.24753164557 2.5e-05 0 0 0</pose>
+        </inertial>
+      </link>
+      <link name="140494037373264">
+        <gravity>true</gravity>
+        <self_collide>true</self_collide>
+        <visual name="basic_bot_visual3-0">
+          <pose>1.99837976365 0.24753164557 0.0 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>-0.327667577228 0.25</point>
+              <point>0.347148096709 0.25</point>
+              <point>0.347148096709 -0.25</point>
+              <point>-0.36662861619 -0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual3-1">
+          <pose>1.99837976365 0.24753164557 2.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>-0.327667577228 0.25</point>
+              <point>0.347148096709 0.25</point>
+              <point>0.347148096709 -0.25</point>
+              <point>-0.36662861619 -0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual3-2">
+          <pose>1.99336962215 0.24753164557 5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>-0.332677718725 0.25</point>
+              <point>0.352158238206 0.25</point>
+              <point>0.352158238206 -0.25</point>
+              <point>-0.371638757686 -0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual3-3">
+          <pose>1.99837976365 0.24753164557 7.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>-0.327667577228 0.25</point>
+              <point>0.347148096709 0.25</point>
+              <point>0.347148096709 -0.25</point>
+              <point>-0.36662861619 -0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <visual name="basic_bot_visual3-4">
+          <pose>1.99837976365 0.24753164557 0.0001 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>-0.327667577228 0.25</point>
+              <point>0.347148096709 0.25</point>
+              <point>0.347148096709 -0.25</point>
+              <point>-0.36662861619 -0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+          <cast_shadows>true</cast_shadows>
+        </visual>
+        <collision name="basic_bot_collision3-0">
+          <pose>1.99837976365 0.24753164557 0.0 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>-0.327667577228 0.25</point>
+              <point>0.347148096709 0.25</point>
+              <point>0.347148096709 -0.25</point>
+              <point>-0.36662861619 -0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision3-1">
+          <pose>1.99837976365 0.24753164557 2.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>-0.327667577228 0.25</point>
+              <point>0.347148096709 0.25</point>
+              <point>0.347148096709 -0.25</point>
+              <point>-0.36662861619 -0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision3-2">
+          <pose>1.99336962215 0.24753164557 5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>-0.332677718725 0.25</point>
+              <point>0.352158238206 0.25</point>
+              <point>0.352158238206 -0.25</point>
+              <point>-0.371638757686 -0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision3-3">
+          <pose>1.99837976365 0.24753164557 7.5e-05 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>-0.327667577228 0.25</point>
+              <point>0.347148096709 0.25</point>
+              <point>0.347148096709 -0.25</point>
+              <point>-0.36662861619 -0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <collision name="basic_bot_collision3-4">
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.05</mu>
+                <mu2>0.05</mu2>
+                <slip1>1</slip1>
+                <slip2>1</slip2>
+              </ode>
+            </friction>
+          </surface>
+          <pose>1.99837976365 0.24753164557 0.0001 0 0 0</pose>
+          <geometry>
+            <polyline>
+              <point>-0.327667577228 0.25</point>
+              <point>0.347148096709 0.25</point>
+              <point>0.347148096709 -0.25</point>
+              <point>-0.36662861619 -0.25</point>
+              <height>2.5e-08</height>
+            </polyline>
+          </geometry>
+        </collision>
+        <inertial>
+          <mass>4.3518765626e-14</mass>
+          <pose>2.0006244886 0.24753164557 2.5e-05 0 0 0</pose>
+        </inertial>
+      </link>
+      <joint name="hingejoint0" type="revolute">
+        <parent>140494037305680</parent>
+        <child>140494037373264</child>
+        <pose>1.63636418182 0.185454607273 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>0.0776865841998 0.996977830564 0</xyz>
+          <limit>
+            <lower>-3.145159</lower>
+            <upper>3.14519</upper>
+          </limit>
+
+        </axis>
+      </joint>
+      <joint name="hingejoint1" type="revolute">
+        <parent>140494037398544</parent>
+        <child>140494037400528</child>
+        <pose>0.0436363781818 0.278181910909 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-0.0285597738989 0.999592086461 0</xyz>
+          <limit>
+            <lower>-3.145159</lower>
+            <upper>3.14519</upper>
+          </limit>
+        </axis>
+      </joint>
+      <joint name="hingejoint2" type="revolute">
+        <parent>140494037400528</parent>
+        <child>140494037305680</child>
+        <pose>0.804545722727 0.18000006 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>0.00684915441279 0.999976544267 0</xyz>
+          <limit>
+            <lower>-3.145159</lower>
+            <upper>3.14519</upper>
+          </limit>
+ 
+        </axis>
+      </joint>
+    </model>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+  </world>
+</sdf>

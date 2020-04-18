@@ -1,0 +1,229 @@
+# HG changeset patch
+# User Elte Hupkes <elte@hupkes.org>
+# Date 1447184933 -3600
+#      Tue Nov 10 20:48:53 2015 +0100
+# Branch gazebo6-revolve
+# Node ID a6ffd051987e13f55c4ad16ecf5bf1330d143aad
+# Parent  c79ef995e3bc3b4ca75c3a3d4d16941bec6c7c3f
+Fixing ODE spaces not being deleted
+
+diff -r c79ef995e3bc -r a6ffd051987e gazebo/physics/ode/CMakeLists.txt
+--- a/gazebo/physics/ode/CMakeLists.txt	Tue Sep 15 15:29:07 2015 +0200
++++ b/gazebo/physics/ode/CMakeLists.txt	Tue Nov 10 20:48:53 2015 +0100
+@@ -23,6 +23,7 @@
+   ODELink.cc
+   ODEMesh.cc
+   ODEMeshShape.cc
++  ODEModel.cc
+   ODEMultiRayShape.cc
+   ODEPhysics.cc
+   ODEPolylineShape.cc
+@@ -48,6 +49,7 @@
+   ODELink.hh
+   ODEMesh.hh
+   ODEMeshShape.hh
++  ODEModel.hh
+   ODEMultiRayShape.hh
+   ODEPhysics.hh
+   ODEPlaneShape.hh
+diff -r c79ef995e3bc -r a6ffd051987e gazebo/physics/ode/ODEModel.cc
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/gazebo/physics/ode/ODEModel.cc	Tue Nov 10 20:48:53 2015 +0100
+@@ -0,0 +1,42 @@
++/*
++ * Copyright (C) 2012-2015 Open Source Robotics Foundation
++ *
++ * Licensed under the Apache License, Version 2.0 (the "License");
++ * you may not use this file except in compliance with the License.
++ * You may obtain a copy of the License at
++ *
++ *     http://www.apache.org/licenses/LICENSE-2.0
++ *
++ * Unless required by applicable law or agreed to in writing, software
++ * distributed under the License is distributed on an "AS IS" BASIS,
++ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++ * See the License for the specific language governing permissions and
++ * limitations under the License.
++ *
++*/
++#include "gazebo/physics/ode/ODEModel.hh"
++
++using namespace gazebo;
++using namespace physics;
++
++//////////////////////////////////////////////////
++ODEModel::ODEModel(BasePtr _parent, dSpaceID _parentSpaceId)
++  : Model(_parent)
++{
++  this->spaceId = dSimpleSpaceCreate(_parentSpaceId);
++}
++
++//////////////////////////////////////////////////
++ODEModel::~ODEModel()
++{
++  if (this->spaceId)
++    dSpaceDestroy(this->spaceId);
++
++  this->spaceId = NULL;
++}
++
++///////////////////////////////////////////////////
++dSpaceID ODEModel::GetSpaceId()
++{
++  return this->spaceId;
++}
+diff -r c79ef995e3bc -r a6ffd051987e gazebo/physics/ode/ODEModel.hh
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/gazebo/physics/ode/ODEModel.hh	Tue Nov 10 20:48:53 2015 +0100
+@@ -0,0 +1,58 @@
++/*
++ * Copyright (C) 2012-2015 Open Source Robotics Foundation
++ *
++ * Licensed under the Apache License, Version 2.0 (the "License");
++ * you may not use this file except in compliance with the License.
++ * You may obtain a copy of the License at
++ *
++ *     http://www.apache.org/licenses/LICENSE-2.0
++ *
++ * Unless required by applicable law or agreed to in writing, software
++ * distributed under the License is distributed on an "AS IS" BASIS,
++ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++ * See the License for the specific language governing permissions and
++ * limitations under the License.
++ *
++*/
++/* Desc: ODE Link class
++ * Author: Elte Hupkes
++ */
++#ifndef _ODEMODEL_HH_
++#define _ODEMODEL_HH_
++
++#include "gazebo/physics/ode/ode_inc.h"
++#include "gazebo/physics/ode/ODETypes.hh"
++#include "gazebo/physics/Model.hh"
++#include "gazebo/util/system.hh"
++
++namespace gazebo
++{
++  namespace physics
++  {
++    /// \addtogroup gazebo_physics
++    /// \{
++
++    /// \class ODEModel OdeModel.hh physics/physics.hh
++    /// \brief A model is a collection of links, joints, and plugins.
++    class GZ_PHYSICS_ODE_VISIBLE ODEModel : public Model
++    {
++      /// \brief Constructor.
++      /// \param[in] _parent Parent object.
++      /// \param[in] _parentSpaceId ID of the parent collision space
++      public: explicit ODEModel(BasePtr _parent, dSpaceID _parentSpaceId);
++
++      /// \brief Destructor.
++      public: virtual ~ODEModel();
++
++      /// \brief Get the ID of the collision space for this model
++      /// \return The collision space ID for this model.
++      public: dSpaceID GetSpaceId();
++
++      /// \brief The collision space for this model
++      private: dSpaceID spaceId;
++    };
++    /// \}
++  }
++}
++
++#endif // _ODEMODEL_HH_
+diff -r c79ef995e3bc -r a6ffd051987e gazebo/physics/ode/ODEPhysics.cc
+--- a/gazebo/physics/ode/ODEPhysics.cc	Tue Sep 15 15:29:07 2015 +0200
++++ b/gazebo/physics/ode/ODEPhysics.cc	Tue Nov 10 20:48:53 2015 +0100
+@@ -55,6 +55,7 @@
+ 
+ #include "gazebo/physics/ode/ODECollision.hh"
+ #include "gazebo/physics/ode/ODELink.hh"
++#include "gazebo/physics/ode/ODEModel.hh"
+ #include "gazebo/physics/ode/ODEScrewJoint.hh"
+ #include "gazebo/physics/ode/ODEHingeJoint.hh"
+ #include "gazebo/physics/ode/ODEGearboxJoint.hh"
+@@ -481,22 +482,26 @@
+   dJointGroupEmpty(this->dataPtr->contactGroup);
+ }
+ 
++ModelPtr ODEPhysics::CreateModel(BasePtr _parent)
++{
++  ODEModelPtr model(new ODEModel(_parent, this->dataPtr->spaceId));
++
++  return model;
++}
++
+ //////////////////////////////////////////////////
+ LinkPtr ODEPhysics::CreateLink(ModelPtr _parent)
+ {
+   if (_parent == NULL)
+     gzthrow("Link must have a parent\n");
+ 
+-  std::map<std::string, dSpaceID>::iterator iter;
+-  iter = this->dataPtr->spaces.find(_parent->GetName());
+-
+-  if (iter == this->dataPtr->spaces.end())
+-    this->dataPtr->spaces[_parent->GetName()] =
+-      dSimpleSpaceCreate(this->dataPtr->spaceId);
++  auto _odeParent = boost::dynamic_pointer_cast<ODEModel>(_parent);
++  if (!_odeParent)
++    gzthrow("Link parent is not of type ODEModel");
+ 
+   ODELinkPtr link(new ODELink(_parent));
+ 
+-  link->SetSpaceId(this->dataPtr->spaces[_parent->GetName()]);
++  link->SetSpaceId(_odeParent->GetSpaceId());
+   link->SetWorld(_parent->GetWorld());
+ 
+   return link;
+diff -r c79ef995e3bc -r a6ffd051987e gazebo/physics/ode/ODEPhysics.hh
+--- a/gazebo/physics/ode/ODEPhysics.hh	Tue Sep 15 15:29:07 2015 +0200
++++ b/gazebo/physics/ode/ODEPhysics.hh	Tue Nov 10 20:48:53 2015 +0100
+@@ -120,6 +120,9 @@
+                       { return "ode"; }
+ 
+       // Documentation inherited
++      public: virtual ModelPtr CreateModel(BasePtr _parent);
++
++      // Documentation inherited
+       public: virtual LinkPtr CreateLink(ModelPtr _parent);
+ 
+       // Documentation inherited
+diff -r c79ef995e3bc -r a6ffd051987e gazebo/physics/ode/ODEPhysicsPrivate.hh
+--- a/gazebo/physics/ode/ODEPhysicsPrivate.hh	Tue Sep 15 15:29:07 2015 +0200
++++ b/gazebo/physics/ode/ODEPhysicsPrivate.hh	Tue Nov 10 20:48:53 2015 +0100
+@@ -65,9 +65,6 @@
+       /// \brief Physics step function.
+       public: int (*physicsStepFunc)(dxWorld*, dReal);
+ 
+-      /// \brief All the collsiion spaces.
+-      public: std::map<std::string, dSpaceID> spaces;
+-
+       /// \brief All the normal colliders.
+       public: std::vector< std::pair<ODECollision*, ODECollision*> > colliders;
+ 
+diff -r c79ef995e3bc -r a6ffd051987e gazebo/physics/ode/ODETypes.hh
+--- a/gazebo/physics/ode/ODETypes.hh	Tue Sep 15 15:29:07 2015 +0200
++++ b/gazebo/physics/ode/ODETypes.hh	Tue Nov 10 20:48:53 2015 +0100
+@@ -27,6 +27,7 @@
+     class ODECollision;
+     class ODEJoint;
+     class ODELink;
++    class ODEModel;
+     class ODERayShape;
+     class ODESurfaceParams;
+     class ODEPhysics;
+@@ -43,6 +44,10 @@
+     /// \brief Boost shared point to ODELink
+     typedef boost::shared_ptr<ODELink> ODELinkPtr;
+ 
++    /// \def ODEModelPtr
++    /// \brief Boost shared point to ODEModel
++    typedef boost::shared_ptr<ODEModel> ODEModelPtr;
++
+     /// \def ODERayShapePtr
+     /// \brief Boost shared point to ODERayShape
+     typedef boost::shared_ptr<ODERayShape> ODERayShapePtr;

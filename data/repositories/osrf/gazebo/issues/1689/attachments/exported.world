@@ -1,0 +1,1782 @@
+<sdf version="1.5">
+  <world name="world">
+    <model name="default_body">
+      <static>false</static>
+      <pose>0 0 0 0 0 0</pose>
+      <plugin filename="libmodel_vel.so" name="Model_Vel"/>
+      <link name="*">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual0">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065903661264.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065903661264">
+          <pose>0.00597611751 -0.0676266271431 6.25161244788e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.0650002 0.1420002 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>6.0595835349e-07</mass>
+          <pose>0.00597611751 -0.0676266271431 6.25161244788e-05 0 0 0</pose>
+          <inertia>
+            <ixx>1.13880484572e-09</ixx>
+            <ixy>2.91163048876e-25</ixy>
+            <ixz>1.32008241998e-28</ixz>
+            <iyy>2.93558777108e-10</iyy>
+            <iyz>-1.37965658533e-16</iyz>
+            <izz>1.43236204607e-09</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*D0A0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual1">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065900404880.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065900404880">
+          <pose>-0.00817524884737 -0.122103766714 6.24317069162e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.019 0.013995 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>2.38451735347e-08</mass>
+          <pose>-0.00817524884737 -0.122103766714 6.24317069162e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.41459172524e-13</ixx>
+            <ixy>1.8088601127e-13</ixy>
+            <ixz>2.60989959731e-18</ixz>
+            <iyy>6.6652719573e-13</iyy>
+            <iyz>8.36861133808e-18</iyz>
+            <izz>1.0079244814e-12</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*E0A0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual2">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065900330512.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065900330512">
+          <pose>-0.00817524884737 -0.0771037667138 6.24317069162e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.019 0.013995 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>2.38451735347e-08</mass>
+          <pose>-0.00817524884737 -0.0771037667138 6.24317069162e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.41459172524e-13</ixx>
+            <ixy>1.8088601127e-13</ixy>
+            <ixz>2.60989959732e-18</ixz>
+            <iyy>6.6652719573e-13</iyy>
+            <iyz>8.36861133811e-18</iyz>
+            <izz>1.0079244814e-12</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*A0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual3">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065900440528.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065900440528">
+          <pose>-0.01152388249 -0.10973558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.00799 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>8.38280464243e-09</mass>
+          <pose>-0.01152388249 -0.10973558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.93102818947e-14</ixx>
+            <ixy>-9.36753836022e-28</ixy>
+            <ixz>7.81843297986e-31</ixz>
+            <iyy>5.75484237895e-14</iyy>
+            <iyz>6.99384902395e-18</iyz>
+            <izz>9.6837081221e-14</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual4">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065900523472.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065900523472">
+          <pose>-0.01152388249 -0.10023558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.01099 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>1.17578046424e-08</mass>
+          <pose>-0.01152388249 -0.10023558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>1.07760706736e-13</ixx>
+            <ixy>-2.77124370814e-28</ixy>
+            <ixz>6.70955474026e-30</ixz>
+            <iyy>8.03340683208e-14</iyy>
+            <iyz>9.79512542015e-18</iyz>
+            <izz>1.88064361531e-13</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*B0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual5">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065901233168.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065901233168">
+          <pose>-0.01152388249 -0.06473558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.00799 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>8.38280464243e-09</mass>
+          <pose>-0.01152388249 -0.06473558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.93102818947e-14</ixx>
+            <ixy>-5.40721009698e-28</ixy>
+            <ixz>3.01265998963e-30</ixz>
+            <iyy>5.75484237895e-14</iyy>
+            <iyz>6.99384902394e-18</iyz>
+            <izz>9.6837081221e-14</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*B0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual6">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065901135888.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065901135888">
+          <pose>-0.01152388249 -0.05523558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.01099 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>1.17578046424e-08</mass>
+          <pose>-0.01152388249 -0.05523558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>1.07760706736e-13</ixx>
+            <ixy>2.0377263258e-28</ixy>
+            <ixz>7.70617533823e-30</ixz>
+            <iyy>8.03340683208e-14</iyy>
+            <iyz>9.79512542017e-18</iyz>
+            <izz>1.88064361531e-13</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*F0A0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual7">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065901108240.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065901108240">
+          <pose>-0.00817524884737 -0.0321037667138 6.24317069162e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.019 0.013995 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>2.38451735347e-08</mass>
+          <pose>-0.00817524884737 -0.0321037667138 6.24317069162e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.41459172524e-13</ixx>
+            <ixy>1.8088601127e-13</ixy>
+            <ixz>2.60989959732e-18</ixz>
+            <iyy>6.6652719573e-13</iyy>
+            <iyz>8.36861133811e-18</iyz>
+            <izz>1.0079244814e-12</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*C0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual8">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065903015760.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065903015760">
+          <pose>-0.01152388249 -0.01973558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.00799 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>8.38280464243e-09</mass>
+          <pose>-0.01152388249 -0.01973558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.93102818947e-14</ixx>
+            <ixy>8.12280213345e-29</ixy>
+            <ixz>-2.16185636257e-31</ixz>
+            <iyy>5.75484237895e-14</iyy>
+            <iyz>6.99384902394e-18</iyz>
+            <izz>9.6837081221e-14</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*C0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual9">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065903074128.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065903074128">
+          <pose>-0.01152388249 -0.01023558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.01099 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>1.17578046424e-08</mass>
+          <pose>-0.01152388249 -0.01023558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>1.07760706736e-13</ixx>
+            <ixy>1.52003635675e-28</ixy>
+            <ixz>-5.86277149196e-31</ixz>
+            <iyy>8.03340683208e-14</iyy>
+            <iyz>9.79512542017e-18</iyz>
+            <izz>1.88064361531e-13</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*D0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual10">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065902411600.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065902411600">
+          <pose>-0.00152388249 -0.11673558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.00799 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>8.38280464243e-09</mass>
+          <pose>-0.00152388249 -0.11673558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.93102818947e-14</ixx>
+            <ixy>2.43228003793e-28</ixy>
+            <ixz>-1.21162660214e-30</ixz>
+            <iyy>5.75484237895e-14</iyy>
+            <iyz>6.99384902394e-18</iyz>
+            <izz>9.6837081221e-14</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*D0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual11">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065902580624.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065902580624">
+          <pose>-0.00152388249 -0.10723558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.01099 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>1.17578046424e-08</mass>
+          <pose>-0.00152388249 -0.10723558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>1.07760706736e-13</ixx>
+            <ixy>-1.63244903574e-28</ixy>
+            <ixz>-3.21258355492e-30</ixz>
+            <iyy>8.03340683208e-14</iyy>
+            <iyz>9.79512542017e-18</iyz>
+            <izz>1.88064361531e-13</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*E0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual12">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065902499728.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065902499728">
+          <pose>-0.00152388249 -0.07173558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.00799 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>8.38280464243e-09</mass>
+          <pose>-0.00152388249 -0.07173558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.93102818947e-14</ixx>
+            <ixy>-1.37187841799e-29</ixy>
+            <ixz>-5.64947475062e-31</ixz>
+            <iyy>5.75484237895e-14</iyy>
+            <iyz>6.99384902394e-18</iyz>
+            <izz>9.6837081221e-14</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*E0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual13">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065904761744.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065904761744">
+          <pose>-0.00152388249 -0.06223558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.01099 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>1.17578046424e-08</mass>
+          <pose>-0.00152388249 -0.06223558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>1.07760706736e-13</ixx>
+            <ixy>-1.04400810425e-29</ixy>
+            <ixz>1.26918783335e-31</ixz>
+            <iyy>8.03340683208e-14</iyy>
+            <iyz>9.79512542017e-18</iyz>
+            <izz>1.88064361531e-13</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*F0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual14">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065904914320.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065904914320">
+          <pose>-0.00152388249 -0.02673558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.00799 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>8.38280464243e-09</mass>
+          <pose>-0.00152388249 -0.02673558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.93102818947e-14</ixx>
+            <ixy>3.06669676905e-29</ixy>
+            <ixz>2.34457896605e-31</ixz>
+            <iyy>5.75484237895e-14</iyy>
+            <iyz>6.99384902394e-18</iyz>
+            <izz>9.6837081221e-14</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*F0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual15">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065904960464.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065904960464">
+          <pose>-0.00152388249 -0.01723558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.01099 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>1.17578046424e-08</mass>
+          <pose>-0.00152388249 -0.01723558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>1.07760706736e-13</ixx>
+            <ixy>2.09294658916e-29</ixy>
+            <ixz>5.55594677769e-31</ixz>
+            <iyy>8.03340683208e-14</iyy>
+            <iyz>9.79512542017e-18</iyz>
+            <izz>1.88064361531e-13</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*J0A0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual16">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065903507408.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065903507408">
+          <pose>0.0201274838674 -0.122103766714 6.24317069162e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.019 0.013995 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>2.38451735347e-08</mass>
+          <pose>0.0201274838674 -0.122103766714 6.24317069162e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.41459172524e-13</ixx>
+            <ixy>-1.8088601127e-13</ixy>
+            <ixz>-2.60989959732e-18</ixz>
+            <iyy>6.6652719573e-13</iyy>
+            <iyz>8.3686113381e-18</iyz>
+            <izz>1.0079244814e-12</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*G0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual17">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065903637584.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065903637584">
+          <pose>0.01347611751 -0.11673558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.00799 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>8.38280464243e-09</mass>
+          <pose>0.01347611751 -0.11673558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.93102818947e-14</ixx>
+            <ixy>-2.07040858658e-27</ixy>
+            <ixz>9.11144215921e-30</ixz>
+            <iyy>5.75484237895e-14</iyy>
+            <iyz>6.99384902396e-18</iyz>
+            <izz>9.6837081221e-14</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*G0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual18">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065619482704.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065619482704">
+          <pose>0.01347611751 -0.10723558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.01099 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>1.17578046424e-08</mass>
+          <pose>0.01347611751 -0.10723558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>1.07760706736e-13</ixx>
+            <ixy>6.50391164451e-28</ixy>
+            <ixz>-2.40388557127e-30</ixz>
+            <iyy>8.03340683208e-14</iyy>
+            <iyz>9.79512542016e-18</iyz>
+            <izz>1.88064361531e-13</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*K0A0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual19">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065619496016.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065619496016">
+          <pose>0.0201274838674 -0.0771037667138 6.24317069162e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.019 0.013995 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>2.38451735347e-08</mass>
+          <pose>0.0201274838674 -0.0771037667138 6.24317069162e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.41459172524e-13</ixx>
+            <ixy>-1.8088601127e-13</ixy>
+            <ixz>-2.6098995973e-18</ixz>
+            <iyy>6.6652719573e-13</iyy>
+            <iyz>8.36861133812e-18</iyz>
+            <izz>1.0079244814e-12</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*H0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual20">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065619470544.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065619470544">
+          <pose>0.01347611751 -0.07173558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.00799 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>8.38280464243e-09</mass>
+          <pose>0.01347611751 -0.07173558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.93102818947e-14</ixx>
+            <ixy>-5.9876391599e-28</ixy>
+            <ixz>-3.34100697103e-31</ixz>
+            <iyy>5.75484237895e-14</iyy>
+            <iyz>6.99384902393e-18</iyz>
+            <izz>9.6837081221e-14</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*H0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual21">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065902800080.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065902800080">
+          <pose>0.01347611751 -0.06223558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.01099 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>1.17578046424e-08</mass>
+          <pose>0.01347611751 -0.06223558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>1.07760706736e-13</ixx>
+            <ixy>-9.71346619312e-28</ixy>
+            <ixz>-4.19436245526e-30</ixz>
+            <iyy>8.03340683208e-14</iyy>
+            <iyz>9.79512542018e-18</iyz>
+            <izz>1.88064361531e-13</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*L0A0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual22">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065902702864.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065902702864">
+          <pose>0.0201274838674 -0.0321037667138 6.24317069162e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.019 0.013995 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>2.38451735347e-08</mass>
+          <pose>0.0201274838674 -0.0321037667138 6.24317069162e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.41459172524e-13</ixx>
+            <ixy>-1.8088601127e-13</ixy>
+            <ixz>-2.60989959733e-18</ixz>
+            <iyy>6.6652719573e-13</iyy>
+            <iyz>8.36861133808e-18</iyz>
+            <izz>1.0079244814e-12</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*I0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual23">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065902808080.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065902808080">
+          <pose>0.01347611751 -0.02673558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.00799 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>8.38280464243e-09</mass>
+          <pose>0.01347611751 -0.02673558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.93102818947e-14</ixx>
+            <ixy>2.44676303111e-28</ixy>
+            <ixz>7.73959022276e-31</ixz>
+            <iyy>5.75484237895e-14</iyy>
+            <iyz>6.99384902395e-18</iyz>
+            <izz>9.6837081221e-14</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*I0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual24">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065900838992.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065900838992">
+          <pose>0.01347611751 -0.01723558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.01099 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>1.17578046424e-08</mass>
+          <pose>0.01347611751 -0.01723558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>1.07760706736e-13</ixx>
+            <ixy>1.27265450725e-28</ixy>
+            <ixz>2.62432029047e-31</ixz>
+            <iyy>8.03340683208e-14</iyy>
+            <iyz>9.79512542016e-18</iyz>
+            <izz>1.88064361531e-13</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*J0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual25">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065900991568.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065900991568">
+          <pose>0.02347611751 -0.10973558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.00799 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>8.38280464243e-09</mass>
+          <pose>0.02347611751 -0.10973558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.93102818947e-14</ixx>
+            <ixy>7.62791517494e-28</ixy>
+            <ixz>4.39373231569e-30</ixz>
+            <iyy>5.75484237895e-14</iyy>
+            <iyz>6.99384902393e-18</iyz>
+            <izz>9.6837081221e-14</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*J0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual26">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065900742736.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065900742736">
+          <pose>0.02347611751 -0.10023558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.01099 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>1.17578046424e-08</mass>
+          <pose>0.02347611751 -0.10023558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>1.07760706736e-13</ixx>
+            <ixy>-2.58308805629e-27</ixy>
+            <ixz>2.94799689175e-30</ixz>
+            <iyy>8.03340683208e-14</iyy>
+            <iyz>9.7951254202e-18</iyz>
+            <izz>1.88064361531e-13</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*K0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual27">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065900616784.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065900616784">
+          <pose>0.02347611751 -0.06473558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.00799 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>8.38280464243e-09</mass>
+          <pose>0.02347611751 -0.06473558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.93102818947e-14</ixx>
+            <ixy>8.29844694438e-29</ixy>
+            <ixz>8.66496344985e-30</ixz>
+            <iyy>5.75484237895e-14</iyy>
+            <iyz>6.99384902395e-18</iyz>
+            <izz>9.6837081221e-14</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*K0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual28">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065906300752.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065906300752">
+          <pose>0.02347611751 -0.05523558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.01099 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>1.17578046424e-08</mass>
+          <pose>0.02347611751 -0.05523558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>1.07760706736e-13</ixx>
+            <ixy>-1.53032852637e-28</ixy>
+            <ixz>-3.21525578272e-30</ixz>
+            <iyy>8.03340683208e-14</iyy>
+            <iyz>9.79512542016e-18</iyz>
+            <izz>1.88064361531e-13</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*L0A0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual29">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065900698448.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065900698448">
+          <pose>0.02347611751 -0.01973558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.00799 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>8.38280464243e-09</mass>
+          <pose>0.02347611751 -0.01973558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>3.93102818947e-14</ixx>
+            <ixy>5.30139180212e-29</ixy>
+            <ixz>5.26690080423e-30</ixz>
+            <iyy>5.75484237895e-14</iyy>
+            <iyz>6.99384902393e-18</iyz>
+            <izz>9.6837081221e-14</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <link name="*L0">
+        <gravity>true</gravity>
+        <self_collide>False</self_collide>
+        <visual name="basic_bot_visual30">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>file:///home/skylion/popupCAD_files/export/140065900752720.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name="collision:140065900752720">
+          <pose>0.02347611751 -0.01023558386 6.25e-05 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.009 0.01099 0.0001</size>
+            </box>
+          </geometry>
+          <surface>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+            </bounce>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>1.17578046424e-08</mass>
+          <pose>0.02347611751 -0.01023558386 6.25e-05 0 0 0</pose>
+          <inertia>
+            <ixx>1.07760706736e-13</ixx>
+            <ixy>-5.65021623365e-29</ixy>
+            <ixz>1.46513916813e-30</ixz>
+            <iyy>8.03340683208e-14</iyy>
+            <iyz>9.79512542017e-18</iyz>
+            <izz>1.88064361531e-13</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <joint name="hingejoint*A0A0|*D0A0A0" type="revolute">
+        <parent>*A0A0</parent>
+        <child>*D0A0A0</child>
+        <pose>-0.01152388249 -0.11373558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*A0|*A0A0" type="revolute">
+        <parent>*A0</parent>
+        <child>*A0A0</child>
+        <pose>-0.01152388249 -0.10573558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>0.0</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-10</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>5e-10</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*|*A0" type="revolute">
+        <parent>*</parent>
+        <child>*A0</child>
+        <pose>-0.01152388249 -0.09473558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>-1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*B0A0|*E0A0A0" type="revolute">
+        <parent>*B0A0</parent>
+        <child>*E0A0A0</child>
+        <pose>-0.01152388249 -0.06873558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*B0|*B0A0" type="revolute">
+        <parent>*B0</parent>
+        <child>*B0A0</child>
+        <pose>-0.01152388249 -0.06073558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>0.0</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-10</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>5e-10</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*|*B0" type="revolute">
+        <parent>*</parent>
+        <child>*B0</child>
+        <pose>-0.01152388249 -0.04973558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>-1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*C0A0|*F0A0A0" type="revolute">
+        <parent>*C0A0</parent>
+        <child>*F0A0A0</child>
+        <pose>-0.01152388249 -0.02373558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*C0|*C0A0" type="revolute">
+        <parent>*C0</parent>
+        <child>*C0A0</child>
+        <pose>-0.01152388249 -0.01573558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>0.0</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-10</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>5e-10</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*|*C0" type="revolute">
+        <parent>*</parent>
+        <child>*C0</child>
+        <pose>-0.01152388249 -0.00473558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>-1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*D0A0|*D0A0A0" type="revolute">
+        <parent>*D0A0</parent>
+        <child>*D0A0A0</child>
+        <pose>-0.00152388249 -0.12073558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*D0|*D0A0" type="revolute">
+        <parent>*D0</parent>
+        <child>*D0A0</child>
+        <pose>-0.00152388249 -0.11273558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>0.0</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-10</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>5e-10</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*|*D0" type="revolute">
+        <parent>*</parent>
+        <child>*D0</child>
+        <pose>-0.00152388249 -0.10173558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>-1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*E0A0|*E0A0A0" type="revolute">
+        <parent>*E0A0</parent>
+        <child>*E0A0A0</child>
+        <pose>-0.00152388249 -0.07573558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*E0|*E0A0" type="revolute">
+        <parent>*E0</parent>
+        <child>*E0A0</child>
+        <pose>-0.00152388249 -0.06773558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>0.0</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-10</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>5e-10</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*|*E0" type="revolute">
+        <parent>*</parent>
+        <child>*E0</child>
+        <pose>-0.00152388249 -0.05673558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>-1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*F0A0|*F0A0A0" type="revolute">
+        <parent>*F0A0</parent>
+        <child>*F0A0A0</child>
+        <pose>-0.00152388249 -0.03073558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*F0|*F0A0" type="revolute">
+        <parent>*F0</parent>
+        <child>*F0A0</child>
+        <pose>-0.00152388249 -0.02273558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>0.0</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-10</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>5e-10</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*|*F0" type="revolute">
+        <parent>*</parent>
+        <child>*F0</child>
+        <pose>-0.00152388249 -0.01173558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>-1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*G0|*G0A0" type="revolute">
+        <parent>*G0</parent>
+        <child>*G0A0</child>
+        <pose>0.01347611751 -0.11273558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>0.0</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-10</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>5e-10</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*H0|*H0A0" type="revolute">
+        <parent>*H0</parent>
+        <child>*H0A0</child>
+        <pose>0.01347611751 -0.06773558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>0.0</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-10</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>5e-10</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*I0|*I0A0" type="revolute">
+        <parent>*I0</parent>
+        <child>*I0A0</child>
+        <pose>0.01347611751 -0.02273558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>0.0</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-10</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>5e-10</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*G0A0|*J0A0A0" type="revolute">
+        <parent>*G0A0</parent>
+        <child>*J0A0A0</child>
+        <pose>0.01347611751 -0.12073558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>-1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*J0|*J0A0" type="revolute">
+        <parent>*J0</parent>
+        <child>*J0A0</child>
+        <pose>0.02347611751 -0.10573558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>0.0</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-10</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>5e-10</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*|*G0" type="revolute">
+        <parent>*</parent>
+        <child>*G0</child>
+        <pose>0.01347611751 -0.10173558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*H0A0|*K0A0A0" type="revolute">
+        <parent>*H0A0</parent>
+        <child>*K0A0A0</child>
+        <pose>0.01347611751 -0.07573558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>-1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*K0|*K0A0" type="revolute">
+        <parent>*K0</parent>
+        <child>*K0A0</child>
+        <pose>0.02347611751 -0.06073558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>0.0</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-10</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>5e-10</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*|*H0" type="revolute">
+        <parent>*</parent>
+        <child>*H0</child>
+        <pose>0.01347611751 -0.05673558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*I0A0|*L0A0A0" type="revolute">
+        <parent>*I0A0</parent>
+        <child>*L0A0A0</child>
+        <pose>0.01347611751 -0.03073558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>-1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*L0|*L0A0" type="revolute">
+        <parent>*L0</parent>
+        <child>*L0A0</child>
+        <pose>0.02347611751 -0.01573558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>-1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>0.0</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-10</damping>
+            <spring_reference>0.0</spring_reference>
+            <spring_stiffness>5e-10</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*|*I0" type="revolute">
+        <parent>*</parent>
+        <child>*I0</child>
+        <pose>0.01347611751 -0.01173558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*J0A0|*J0A0A0" type="revolute">
+        <parent>*J0A0</parent>
+        <child>*J0A0A0</child>
+        <pose>0.02347611751 -0.11373558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>-1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*|*J0" type="revolute">
+        <parent>*</parent>
+        <child>*J0</child>
+        <pose>0.02347611751 -0.09473558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*K0A0|*K0A0A0" type="revolute">
+        <parent>*K0A0</parent>
+        <child>*K0A0A0</child>
+        <pose>0.02347611751 -0.06873558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>-1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*|*K0" type="revolute">
+        <parent>*</parent>
+        <child>*K0</child>
+        <pose>0.02347611751 -0.04973558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*L0A0|*L0A0A0" type="revolute">
+        <parent>*L0A0</parent>
+        <child>*L0A0A0</child>
+        <pose>0.02347611751 -0.02373558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>-1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <joint name="hingejoint*|*L0" type="revolute">
+        <parent>*</parent>
+        <child>*L0</child>
+        <pose>0.02347611751 -0.00473558386 5e-05 0 0 0</pose>
+        <axis>
+          <xyz>1.0 0.0 0</xyz>
+          <limit>
+            <lower>-3.14159265359</lower>
+            <upper>3.14159265359</upper>
+          </limit>
+          <dynamics>
+            <damping>2.5e-08</damping>
+            <spring_reference>1.57079632679</spring_reference>
+            <spring_stiffness>5e-08</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+    </model>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <physics default="true" name="Simbody" type="revolute">
+      <simbody>
+        <contact>
+          <plastic_coef_restitution>0</plastic_coef_restitution>
+          <override_impact_capture_velocity>100000000</override_impact_capture_velocity>
+        </contact>
+      </simbody>
+    </physics>
+  </world>
+</sdf>

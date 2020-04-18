@@ -1,0 +1,120 @@
+Scanning dependencies of target gazebo_opende_ou
+[  0%] Building CXX object deps/opende/ou/CMakeFiles/gazebo_opende_ou.dir/src/atomic.cpp.o
+Scanning dependencies of target gazebo_gimpact
+[  0%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_tri_tri_overlap.cpp.o
+Scanning dependencies of target gazebo_math
+[  0%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Angle.cc.o
+Scanning dependencies of target gazebo_opcode
+[  0%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_AABBCollider.cpp.o
+[  1%] Building CXX object deps/opende/ou/CMakeFiles/gazebo_opende_ou.dir/src/customization.cpp.o
+[  1%] Building CXX object deps/opende/ou/CMakeFiles/gazebo_opende_ou.dir/src/malloc.cpp.o
+[  1%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_math.cpp.o
+[  1%] Building CXX object deps/opende/ou/CMakeFiles/gazebo_opende_ou.dir/src/threadlocalstorage.cpp.o
+[  1%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gimpact.cpp.o
+[  1%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_trimesh_trimesh_collision.cpp.o
+[  1%] Linking CXX shared library libgazebo_opende_ou.so
+[  1%] Built target gazebo_opende_ou
+Scanning dependencies of target gazebomsgs_out
+[  1%] Building CXX object gazebo/msgs/CMakeFiles/gazebomsgs_out.dir/generator/GazeboGenerator.cc.o
+[  1%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_trimesh_sphere_collision.cpp.o
+[  2%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_trimesh.cpp.o
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_AABBTree.cpp.o
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_BaseModel.cpp.o
+[  2%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_trimesh_capsule_collision.cpp.o
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_Collider.cpp.o
+[  2%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_memory.cpp.o
+[  2%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_contact.cpp.o
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_Common.cpp.o
+[  2%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_boxpruning.cpp.o
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_HybridModel.cpp.o
+[  2%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_trimesh_ray_collision.cpp.o
+[  2%] Linking CXX shared library libgazebo_gimpact.so
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_LSSCollider.cpp.o
+[  2%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Box.cc.o
+[  2%] Built target gazebo_gimpact
+[  2%] Building CXX object gazebo/msgs/CMakeFiles/gazebomsgs_out.dir/generator/gazebo_generator.cc.o
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_MeshInterface.cpp.o
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_Model.cpp.o
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_OBBCollider.cpp.o
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Opcode.cpp.o
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_OptimizedTree.cpp.o
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_Picking.cpp.o
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_PlanesCollider.cpp.o
+[  2%] Linking CXX executable gazebomsgs_out
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_RayCollider.cpp.o
+CMakeFiles/gazebomsgs_out.dir/generator/GazeboGenerator.cc.o: In function `google::protobuf::compiler::cpp::GazeboGenerator::~GazeboGenerator()':
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:38: undefined reference to `google::protobuf::compiler::CodeGenerator::~CodeGenerator()'
+CMakeFiles/gazebomsgs_out.dir/generator/GazeboGenerator.cc.o: In function `google::protobuf::compiler::cpp::GazeboGenerator::Generate(google::protobuf::FileDescriptor const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, google::protobuf::compiler::GeneratorContext*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) const':
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:55: undefined reference to `google::protobuf::io::Printer::Printer(google::protobuf::io::ZeroCopyOutputStream*, char)'
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:55: undefined reference to `google::protobuf::io::Printer::~Printer()'
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:65: undefined reference to `google::protobuf::io::Printer::Printer(google::protobuf::io::ZeroCopyOutputStream*, char)'
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:65: undefined reference to `google::protobuf::io::Printer::~Printer()'
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:76: undefined reference to `google::protobuf::io::Printer::Printer(google::protobuf::io::ZeroCopyOutputStream*, char)'
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:76: undefined reference to `google::protobuf::io::Printer::~Printer()'
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:89: undefined reference to `google::protobuf::io::Printer::Printer(google::protobuf::io::ZeroCopyOutputStream*, char)'
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:89: undefined reference to `google::protobuf::io::Printer::~Printer()'
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:106: undefined reference to `google::protobuf::io::Printer::Printer(google::protobuf::io::ZeroCopyOutputStream*, char)'
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:106: undefined reference to `google::protobuf::io::Printer::~Printer()'
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:123: undefined reference to `google::protobuf::io::Printer::Printer(google::protobuf::io::ZeroCopyOutputStream*, char)'
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:123: undefined reference to `google::protobuf::io::Printer::~Printer()'
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:55: undefined reference to `google::protobuf::io::Printer::~Printer()'
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:65: undefined reference to `google::protobuf::io::Printer::~Printer()'
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:76: undefined reference to `google::protobuf::io::Printer::~Printer()'
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:89: undefined reference to `google::protobuf::io::Printer::~Printer()'
+CMakeFiles/gazebomsgs_out.dir/generator/GazeboGenerator.cc.o:/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/GazeboGenerator.cc:106: more undefined references to `google::protobuf::io::Printer::~Printer()' follow
+CMakeFiles/gazebomsgs_out.dir/generator/GazeboGenerator.cc.o: In function `google::protobuf::compiler::CodeGenerator::CodeGenerator()':
+/usr/local/include/google/protobuf/compiler/code_generator.h:68: undefined reference to `vtable for google::protobuf::compiler::CodeGenerator'
+CMakeFiles/gazebomsgs_out.dir/generator/GazeboGenerator.cc.o: In function `google::protobuf::io::Printer::PrintInternal(std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >*, char const*)':
+/usr/local/include/google/protobuf/io/printer.h:300: undefined reference to `google::protobuf::io::Printer::Print(std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&, char const*)'
+CMakeFiles/gazebomsgs_out.dir/generator/GazeboGenerator.cc.o:(.data.rel.ro._ZTVN6google8protobuf8compiler3cpp15GazeboGeneratorE[_ZTVN6google8protobuf8compiler3cpp15GazeboGeneratorE]+0x28): undefined reference to `google::protobuf::compiler::CodeGenerator::GenerateAll(std::vector<google::protobuf::FileDescriptor const*, std::allocator<google::protobuf::FileDescriptor const*> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, google::protobuf::compiler::GeneratorContext*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) const'
+CMakeFiles/gazebomsgs_out.dir/generator/GazeboGenerator.cc.o:(.data.rel.ro._ZTIN6google8protobuf8compiler3cpp15GazeboGeneratorE[_ZTIN6google8protobuf8compiler3cpp15GazeboGeneratorE]+0x10): undefined reference to `typeinfo for google::protobuf::compiler::CodeGenerator'
+CMakeFiles/gazebomsgs_out.dir/generator/gazebo_generator.cc.o: In function `main':
+/home/deadmanlogan/i_am_from_source/gazebo_7/gazebo/msgs/generator/gazebo_generator.cc:29: undefined reference to `google::protobuf::compiler::PluginMain(int, char**, google::protobuf::compiler::CodeGenerator const*)'
+collect2: error: ld returned 1 exit status
+gazebo/msgs/CMakeFiles/gazebomsgs_out.dir/build.make:98: recipe for target 'gazebo/msgs/gazebomsgs_out' failed
+make[2]: *** [gazebo/msgs/gazebomsgs_out] Error 1
+CMakeFiles/Makefile2:914: recipe for target 'gazebo/msgs/CMakeFiles/gazebomsgs_out.dir/all' failed
+make[1]: *** [gazebo/msgs/CMakeFiles/gazebomsgs_out.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_SphereCollider.cpp.o
+[  2%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Helpers.cc.o
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_TreeBuilders.cpp.o
+[  2%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_TreeCollider.cpp.o
+[  3%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_VolumeCollider.cpp.o
+[  3%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/StdAfx.cpp.o
+[  3%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Kmeans.cc.o
+[  3%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceAABB.cpp.o
+[  3%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceContainer.cpp.o
+[  3%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceHPoint.cpp.o
+[  3%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceIndexedTriangle.cpp.o
+[  3%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceMatrix3x3.cpp.o
+[  3%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceMatrix4x4.cpp.o
+[  3%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceOBB.cpp.o
+[  3%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IcePlane.cpp.o
+[  4%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Matrix3.cc.o
+[  4%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IcePoint.cpp.o
+[  4%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceRandom.cpp.o
+[  4%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceRay.cpp.o
+[  4%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceRevisitedRadix.cpp.o
+[  4%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceSegment.cpp.o
+[  4%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceTriangle.cpp.o
+[  4%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceUtils.cpp.o
+[  4%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Matrix4.cc.o
+[  4%] Linking CXX shared library libgazebo_opcode.so
+[  4%] Built target gazebo_opcode
+[  4%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Plane.cc.o
+[  4%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Pose.cc.o
+[  4%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Quaternion.cc.o
+[  4%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Rand.cc.o
+[  4%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/RotationSpline.cc.o
+[  4%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/SignalStats.cc.o
+[  4%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Spline.cc.o
+[  4%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Vector2d.cc.o
+[  4%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Vector2i.cc.o
+[  4%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Vector3.cc.o
+[  4%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Vector3Stats.cc.o
+[  4%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Vector4.cc.o
+[  4%] Linking CXX shared library libgazebo_math.so
+[  4%] Built target gazebo_math
+Makefile:162: recipe for target 'all' failed
+make: *** [all] Error 2

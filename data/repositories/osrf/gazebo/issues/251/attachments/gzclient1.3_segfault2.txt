@@ -1,0 +1,127 @@
+scpeters@t2:~/osrf/gazebo/test/sdf$ gdb gzclient
+GNU gdb (Ubuntu/Linaro 7.4-2012.04-0ubuntu2) 7.4-2012.04
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+For bug reporting instructions, please see:
+<http://bugs.launchpad.net/gdb-linaro/>...
+Reading symbols from /home/scpeters/local/bin/gzclient...done.
+(gdb) r
+Starting program: /home/scpeters/local/bin/gzclient 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7fffe2d42700 (LWP 6749)]
+Gazebo multi-robot simulator, version 1.3.0
+Copyright (C) 2012 Nate Koenig, John Hsu, and contributors.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[New Thread 0x7fffe2541700 (LWP 6750)]
+Msg Waiting for master
+Msg Connected to gazebo master @ http://localhost:11345
+[New Thread 0x7fffe1b33700 (LWP 6751)]
+[New Thread 0x7fffd19fe700 (LWP 6753)]
+[New Thread 0x7fffc91fd700 (LWP 6754)]
+[New Thread 0x7fffd11fd700 (LWP 6755)]
+[New Thread 0x7fffd09fc700 (LWP 6756)]
+[New Thread 0x7fffcbfff700 (LWP 6757)]
+[New Thread 0x7fffcb7fe700 (LWP 6758)]
+[New Thread 0x7fffcaffd700 (LWP 6759)]
+[New Thread 0x7fffca7fc700 (LWP 6760)]
+[New Thread 0x7fffa429e700 (LWP 6761)]
+[New Thread 0x7fffa3a9d700 (LWP 6762)]
+[New Thread 0x7fffa262c700 (LWP 6763)]
+[Thread 0x7fffa262c700 (LWP 6763) exited]
+Warning [parser.cc:362] Converting a deprecatd SDF source[data-string].
+  Version[1.2] to Version[1.3]
+  Please use the gzsdf tool to update your SDF files.
+    $ gzsdf convert [sdf_file]
+Warning [parser.cc:362] Converting a deprecatd SDF source[data-string].
+  Version[1.2] to Version[1.3]
+  Please use the gzsdf tool to update your SDF files.
+    $ gzsdf convert [sdf_file]
+Warning [parser.cc:362] Converting a deprecatd SDF source[data-string].
+  Version[1.2] to Version[1.3]
+  Please use the gzsdf tool to update your SDF files.
+    $ gzsdf convert [sdf_file]
+Warning [parser.cc:362] Converting a deprecatd SDF source[data-string].
+  Version[1.2] to Version[1.3]
+  Please use the gzsdf tool to update your SDF files.
+    $ gzsdf convert [sdf_file]
+libprotobuf ERROR google/protobuf/message_lite.cc:123] Can't parse message of type "gazebo.msgs.Model" because it is missing required fields: name, visual[0].name
+libprotobuf ERROR google/protobuf/message_lite.cc:123] Can't parse message of type "gazebo.msgs.Model" because it is missing required fields: name, visual[0].name
+libprotobuf ERROR google/protobuf/message_lite.cc:123] Can't parse message of type "gazebo.msgs.Model" because it is missing required fields: name, visual[0].name
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00007ffff70eb101 in gazebo::rendering::Visual::Update (this=0x6427cc0)
+    at /home/scpeters/osrf/gazebo_1_3/gazebo/rendering/Visual.cc:447
+447	    (*iter)->Update();
+(gdb) bt
+#0  0x00007ffff70eb101 in gazebo::rendering::Visual::Update (this=0x6427cc0)
+    at /home/scpeters/osrf/gazebo_1_3/gazebo/rendering/Visual.cc:447
+#1  0x00007ffff70fde94 in boost::_mfi::mf0<void, gazebo::rendering::Visual>::operator() (this=0x67e2748, p=0x6427cc0)
+    at /usr/include/boost/bind/mem_fn_template.hpp:49
+#2  0x00007ffff70fdc3e in boost::_bi::list1<boost::_bi::value<gazebo::rendering::Visual*> >::operator()<boost::_mfi::mf0<void, gazebo::rendering::Visual>, boost::_bi::list0> (this=0x67e2758, f=..., a=...)
+    at /usr/include/boost/bind/bind.hpp:253
+#3  0x00007ffff70fd9e3 in boost::_bi::bind_t<void, boost::_mfi::mf0<void, gazebo::rendering::Visual>, boost::_bi::list1<boost::_bi::value<gazebo::rendering::Visual*> > >::operator() (this=0x67e2748)
+    at /usr/include/boost/bind/bind_template.hpp:20
+#4  0x00007ffff70fd67a in boost::detail::function::void_function_obj_invoker0<boost::_bi::bind_t<void, boost::_mfi::mf0<void, gazebo::rendering::Visual>, boost::_bi::list1<boost::_bi::value<gazebo::rendering::Visual*> > >, void>::invoke (
+    function_obj_ptr=...)
+    at /usr/include/boost/function/function_template.hpp:153
+#5  0x0000000000593c9c in boost::function0<void>::operator() (this=0x67e2740)
+    at /usr/include/boost/function/function_template.hpp:1013
+#6  0x000000000059ba8d in gazebo::event::EventT<void ()>::Signal() (this=
+    0x7ffff7dd8b60)
+    at /home/scpeters/osrf/gazebo_1_3/gazebo/common/Event.hh:122
+#7  0x0000000000595da0 in gazebo::event::EventT<void ()>::operator()() (
+    this=0x7ffff7dd8b60)
+    at /home/scpeters/osrf/gazebo_1_3/gazebo/common/Event.hh:115
+#8  0x00000000005adb48 in gazebo::gui::GLWidget::paintEvent (this=0x14b7340, 
+    _e=0x7fffffffcb90)
+    at /home/scpeters/osrf/gazebo_1_3/gazebo/gui/GLWidget.cc:186
+#9  0x00007ffff60340f6 in QWidget::event(QEvent*) ()
+   from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#10 0x00007ffff5fe3894 in QApplicationPrivate::notify_helper(QObject*, QEvent*)
+    () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#11 0x00007ffff5fe8713 in QApplication::notify(QObject*, QEvent*) ()
+   from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#12 0x00007ffff5ac0e9c in QCoreApplication::notifyInternal(QObject*, QEvent*)
+    () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+#13 0x00007ffff602fd96 in QWidgetPrivate::drawWidget(QPaintDevice*, QRegion const&, QPoint const&, int, QPainter*, QWidgetBackingStore*) ()
+   from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#14 0x00007ffff61fb787 in QWidgetPrivate::repaint_sys(QRegion const&) ()
+   from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#15 0x00007ffff6026a64 in QWidgetPrivate::syncBackingStore() ()
+   from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#16 0x00007ffff603460c in QWidget::event(QEvent*) ()
+   from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#17 0x00007ffff5fe3894 in QApplicationPrivate::notify_helper(QObject*, QEvent*)
+    () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#18 0x00007ffff5fe8713 in QApplication::notify(QObject*, QEvent*) ()
+   from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#19 0x00007ffff5ac0e9c in QCoreApplication::notifyInternal(QObject*, QEvent*)
+---Type <return> to continue, or q <return> to quit---
+    () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+#20 0x00007ffff5ac4c6a in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+#21 0x00007ffff5aeff93 in ?? () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+#22 0x00007fffefde9d53 in g_main_context_dispatch ()
+   from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#23 0x00007fffefdea0a0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#24 0x00007fffefdea164 in g_main_context_iteration ()
+   from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#25 0x00007ffff5af03bf in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+#26 0x00007ffff608bd5e in ?? () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#27 0x00007ffff5abfc82 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+#28 0x00007ffff5abfed7 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+#29 0x00007ffff5ac4f67 in QCoreApplication::exec() ()
+   from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+#30 0x0000000000581967 in gazebo::gui::run (_argc=1, _argv=0x7fffffffd8f8)
+    at /home/scpeters/osrf/gazebo_1_3/gazebo/gui/Gui.cc:195
+#31 0x000000000057a35b in main (_argc=1, _argv=0x7fffffffd8f8)
+    at /home/scpeters/osrf/gazebo_1_3/gazebo/gui/main.cc:23
+(gdb) 
+(gdb) 
+

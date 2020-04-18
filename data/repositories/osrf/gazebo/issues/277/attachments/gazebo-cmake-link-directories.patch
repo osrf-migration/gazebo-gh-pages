@@ -1,0 +1,42 @@
+diff -r ad9812ffde0e gazebo/CMakeLists.txt
+--- a/gazebo/CMakeLists.txt	Wed Nov 28 23:37:33 2012 -0800
++++ b/gazebo/CMakeLists.txt	Wed Dec 05 18:03:53 2012 +0100
+@@ -12,7 +12,10 @@
+ 
+ link_directories(  
+   ${ogre_library_dirs}
+-  ${Boost_LIBRARY_DIRS} 
++  ${Boost_LIBRARY_DIRS}
++  ${urdfdom_LIBRARY_DIRS}
++  ${urdfdom_headers_LIBRARY_DIRS}
++  ${console_bridge_LIBRARY_DIRS}
+ )
+ 
+ add_subdirectory(msgs)
+diff -r ad9812ffde0e plugins/CMakeLists.txt
+--- a/plugins/CMakeLists.txt	Wed Nov 28 23:37:33 2012 -0800
++++ b/plugins/CMakeLists.txt	Wed Dec 05 18:03:53 2012 +0100
+@@ -18,6 +18,10 @@
+   JointTrajectoryPlugin
+   VehiclePlugin)
+ 
++link_directories(${urdfdom_LIBRARY_DIRS}
++  ${urdfdom_headers_LIBRARY_DIRS}
++  ${console_bridge_LIBRARY_DIRS})
++
+ foreach (src ${plugins})
+   add_library(${src} SHARED ${src}.cc)
+   target_link_libraries(${src} libgazebo gazebo_sensors)
+diff -r ad9812ffde0e test/CMakeLists.txt
+--- a/test/CMakeLists.txt	Wed Nov 28 23:37:33 2012 -0800
++++ b/test/CMakeLists.txt	Wed Dec 05 18:03:53 2012 +0100
+@@ -14,6 +14,9 @@
+   ${ogre_library_dirs}
+   ${Boost_LIBRARY_DIRS} 
+   ${ODE_LIBRARY_DIRS}
++  ${urdfdom_LIBRARY_DIRS}
++  ${urdfdom_headers_LIBRARY_DIRS}
++  ${console_bridge_LIBRARY_DIRS}
+ )
+ 
+ configure_file (test_config.h.in ${PROJECT_BINARY_DIR}/test_config.h)

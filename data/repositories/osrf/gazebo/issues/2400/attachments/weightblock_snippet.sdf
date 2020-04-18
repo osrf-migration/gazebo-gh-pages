@@ -1,0 +1,67 @@
+    <link name='weight_block_1_link'>
+      <pose frame=''>0.05126 0 -0.04130 0 0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 -0.013 0 0 0</pose>
+        <mass>0.055</mass>
+        <inertia>
+          <ixx>3.613E-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>4.9E-06</iyy>
+          <iyz>0</iyz>
+          <izz>3.190E-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='weight_block_1_link_collision'>
+	<max_contacts>1</max_contacts>
+        <pose frame=''>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+	    <scale>1 1 1</scale>
+            <uri>model://weight_blocks/meshes/weight_block_small_0.STL</uri>
+	  </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode>
+	      <kp>100000000</kp>
+	      <kd>1000</kd>
+	      <max_vel>0</max_vel>
+	      <min_depth>0.0001</min_depth>
+            </ode>
+            <bullet>
+	      <split_impulse>0</split_impulse>
+            </bullet>
+          </contact>
+          <friction>
+            <ode>
+	      <mu>2</mu>
+	      <mu2>2</mu2>
+	    </ode>
+          </friction>
+ 	  <soft_contact>
+            <dart>
+	      <damping>100</damping>
+            </dart>
+          </soft_contact>
+        </surface>
+      </collision>
+      <visual name='weight_block_1_link_visual'>
+        <pose frame=''>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://weight_blocks/meshes/weight_block_small_0.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/White</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <gravity>1</gravity>
+      <velocity_decay/>
+      <self_collide>0</self_collide>
+    </link>

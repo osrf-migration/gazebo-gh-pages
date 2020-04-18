@@ -1,0 +1,111 @@
+diff -r 3a23a70a1900 gazebo/rendering/Camera.cc
+--- a/gazebo/rendering/Camera.cc	Thu Nov 03 12:16:06 2016 -0700
++++ b/gazebo/rendering/Camera.cc	Thu Nov 10 16:46:34 2016 -0800
+@@ -2184,6 +2184,16 @@
+ }
+ 
+ //////////////////////////////////////////////////
++bool Camera::SetBackgroundColor(const common::Color &_color)
++{
++  if( this->OgreViewport() ) {
++    this->OgreViewport()->setBackgroundColour(Conversions::Convert(_color));
++    return true;
++  }
++  return false;
++}
++
++//////////////////////////////////////////////////
+ ignition::math::Matrix4d Camera::ProjectionMatrix() const
+ {
+   return Conversions::ConvertIgn(this->camera->getProjectionMatrix());
+diff -r 3a23a70a1900 gazebo/rendering/Camera.hh
+--- a/gazebo/rendering/Camera.hh	Thu Nov 03 12:16:06 2016 -0700
++++ b/gazebo/rendering/Camera.hh	Thu Nov 10 16:46:34 2016 -0800
+@@ -863,6 +863,11 @@
+       /// \sa SetProjectionType(const std::string &_type)
+       public: std::string ProjectionType() const;
+ 
++      /// \brief Set background color for viewport (if viewport is not null)
++      /// \param[in] _color 
++      /// \return True if successful. False if viewport is null
++      public: virtual bool SetBackgroundColor(const common::Color &_color);
++
+       /// \brief Return the projection matrix of this camera.
+       /// \return the projection matrix
+       public: ignition::math::Matrix4d ProjectionMatrix() const;
+diff -r 3a23a70a1900 gazebo/rendering/Scene.cc
+--- a/gazebo/rendering/Scene.cc	Thu Nov 03 12:16:06 2016 -0700
++++ b/gazebo/rendering/Scene.cc	Thu Nov 10 16:46:34 2016 -0800
+@@ -519,20 +519,14 @@
+   for (iter = this->dataPtr->cameras.begin();
+       iter != this->dataPtr->cameras.end(); ++iter)
+   {
+-    if ((*iter)->OgreViewport() &&
+-        (*iter)->OgreViewport()->getBackgroundColour() != clr)
+-      (*iter)->OgreViewport()->setBackgroundColour(clr);
++    (*iter)->SetBackgroundColor(_color);
+   }
+ 
+   std::vector<UserCameraPtr>::iterator iter2;
+   for (iter2 = this->dataPtr->userCameras.begin();
+        iter2 != this->dataPtr->userCameras.end(); ++iter2)
+   {
+-    if ((*iter2)->OgreViewport() &&
+-        (*iter2)->OgreViewport()->getBackgroundColour() != clr)
+-    {
+-      (*iter2)->OgreViewport()->setBackgroundColour(clr);
+-    }
++    (*iter2)->SetBackgroundColor(_color);
+   }
+ }
+ 
+diff -r 3a23a70a1900 gazebo/rendering/WideAngleCamera.cc
+--- a/gazebo/rendering/WideAngleCamera.cc	Thu Nov 03 12:16:06 2016 -0700
++++ b/gazebo/rendering/WideAngleCamera.cc	Thu Nov 10 16:46:34 2016 -0800
+@@ -607,6 +607,33 @@
+ }
+ 
+ //////////////////////////////////////////////////
++bool WideAngleCamera::SetBackgroundColor(const common::Color &_color)
++{
++  bool retVal = true;
++  Ogre::ColourValue clr = Conversions::Convert(_color);
++  if(this->OgreViewport()) {
++    this->OgreViewport()->setBackgroundColour(clr);
++    for (int i = 0; i < 6; ++i)
++    {
++      if (this->dataPtr->envViewports[i]) 
++      {
++        this->dataPtr->envViewports[i]->setBackgroundColour(clr);
++      }
++      else
++      {
++        retVal = false;
++      }
++    }
++  }
++  else
++  {
++    retVal = false;
++  }
++  return retVal;
++}
++
++
++//////////////////////////////////////////////////
+ void WideAngleCamera::CreateEnvRenderTexture(const std::string &_textureName)
+ {
+   int fsaa = 4;
+diff -r 3a23a70a1900 gazebo/rendering/WideAngleCamera.hh
+--- a/gazebo/rendering/WideAngleCamera.hh	Thu Nov 03 12:16:06 2016 -0700
++++ b/gazebo/rendering/WideAngleCamera.hh	Thu Nov 10 16:46:34 2016 -0800
+@@ -220,6 +220,9 @@
+       // Documentation inherited
+       public: void SetClipDist() override;
+ 
++      // Documentation inherited
++      public: bool SetBackgroundColor(const common::Color &_color) override;
++
+       /// \brief Set the camera's render target
+       /// \param[in] _textureName Name used as a base for environment texture
+       protected: void CreateEnvRenderTexture(const std::string &_textureName);

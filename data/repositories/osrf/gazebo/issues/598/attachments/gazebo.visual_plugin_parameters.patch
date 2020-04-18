@@ -1,0 +1,43 @@
+diff -ur gazebo-r3c730325a4dd-orig/gazebo/msgs/msgs.cc gazebo-r3c730325a4dd/gazebo/msgs/msgs.cc
+--- gazebo/msgs/msgs.cc	2013-01-13 18:11:05.000000000 -0600
++++ gazebo/msgs/msgs.cc	2013-03-21 17:33:05.231214184 -0500
+@@ -581,6 +581,14 @@
+           plgnMsg->set_name(elem->GetValueString("name"));
+         // if (elem->HasElement("filename"))
+           plgnMsg->set_filename(elem->GetValueString("filename"));
++
++        std::stringstream ss;
++        for (sdf::ElementPtr innerElem = elem->GetFirstElement();
++            innerElem;
++            innerElem = innerElem->GetNextElement("")) {
++          ss << innerElem->ToString("");
++        }
++        plgnMsg->set_innerxml("<root>" + ss.str() + "</root>");
+       }
+ 
+       return result;
+diff -ur gazebo-r3c730325a4dd-orig/gazebo/msgs/plugin.proto gazebo-r3c730325a4dd/gazebo/msgs/plugin.proto
+--- gazebo/msgs/plugin.proto	2013-01-13 18:11:05.000000000 -0600
++++ gazebo/msgs/plugin.proto	2013-03-21 15:49:27.231208034 -0500
+@@ -9,6 +9,7 @@
+ {
+   required string name         = 1;
+   required string filename     = 2;
++  optional string innerxml     = 3 [default = ""];
+ }
+ 
+ 
+diff -ur gazebo-r3c730325a4dd-orig/gazebo/rendering/Visual.cc gazebo-r3c730325a4dd/gazebo/rendering/Visual.cc
+--- gazebo/rendering/Visual.cc	2013-01-13 18:11:05.000000000 -0600
++++ gazebo/rendering/Visual.cc	2013-03-21 17:33:04.619214183 -0500
+@@ -345,6 +345,10 @@
+       elem->GetAttribute("name")->Set(_msg->plugin().name());
+     if (_msg->plugin().has_filename())
+       elem->GetAttribute("filename")->Set(_msg->plugin().filename());
++      
++    TiXmlDocument innerXML;
++    innerXML.Parse(_msg->plugin().innerxml().c_str());
++    sdf::copyChildren(elem, innerXML.RootElement());
+   }
+ 
+   this->Load();

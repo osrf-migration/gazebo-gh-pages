@@ -1,0 +1,219 @@
+[  0%] Built target gazebo_opende_ou
+[  1%] Built target gazebo_gimpact
+[  1%] [  3%] Built target gazebo_math
+Built target gazebomsgs_out
+[  7%] Built target gazebo_opcode
+[  9%] Built target gazebo_skyx
+[  9%] Built target gtest
+[ 13%] Built target gazebo_common
+[ 15%] [ 15%] Built target gzqtpropertybrowser
+Built target gtest_main
+[ 23%] Built target gazebo_ode
+[ 23%] Built target gazebo_selection_buffer
+[ 44%] Built target gazebo_msgs
+[ 45%] Built target gazebo_rendering_deferred
+[ 46%] Built target gazebo_transport
+[ 47%] Built target gazebo_gui_terrain
+[ 49%] Built target gazebo_physics_ode
+[ 51%] Built target gazebo_physics_bullet
+[ 53%] [ 55%] Built target gazebo_physics_dart
+Built target gazebo_physics_simbody
+[ 56%] Built target server_fixture
+[ 57%] Built target SimEventsPlugin
+[ 58%] Built target gazebo_util
+[ 66%] [ 66%] Built target gazebo_physics
+Built target gazebo_rendering
+[ 68%] Built target gazebo_gui_viewers
+[ 70%] Built target gazebo_sensors
+[ 72%] Built target gazebo_gui_model
+[ 72%] Built target libgazebo
+[ 72%] Built target ExceptionModelPluginConstructor
+[ 73%] Built target gzserver
+[ 81%] Built target gazebo_gui_building
+[ 81%] [ 82%] Built target ExceptionModelPluginInit
+Built target ExceptionModelPluginLoad
+[ 82%] Built target ForceTorqueModelRemovalTestPlugin
+[ 82%] Built target Issue1208Plugin
+[ 82%] Built target ModelTrajectoryTestPlugin
+[ 82%] Built target SpringTestPlugin
+[ 82%] [ 82%] Built target ForceTorquePlugin
+Built target ArrangePlugin
+[ 82%] Built target CameraPlugin
+[ 82%] [ 82%] Built target CartDemoPlugin
+Built target ContactPlugin
+[ 82%] Built target DepthCameraPlugin
+[ 82%] Built target DiffDrivePlugin
+[ 82%] Built target GpuRayPlugin
+[ 82%] Built target HydraDemoPlugin
+[ 82%] Built target HydraPlugin
+[ 82%] Built target ImuSensorPlugin
+[ 82%] Built target JointTrajectoryPlugin
+[ 82%] Built target InitialVelocityPlugin
+[ 83%] [ 83%] Built target ModelPropShop
+Built target LiftDragPlugin
+[ 83%] Built target MudPlugin
+[ 83%] Built target PressurePlugin
+[ 83%] [ 83%] Built target RaySensorNoisePlugin
+Built target RayPlugin
+[ 83%] [ 83%] Built target SonarPlugin
+Built target SkidSteerDrivePlugin
+[ 83%] Built target RubblePlugin
+[ 83%] Built target SphereAtlasDemoPlugin
+[ 84%] [ 84%] Built target TimerGUIPlugin
+Built target VehiclePlugin
+[ 84%] Built target BreakableJointPlugin
+[ 84%] Building CXX object gazebo/gui/CMakeFiles/gazebo_gui.dir/TimePanel.cc.o
+[ 84%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/TimePanel.cc.o
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from .../src/gazebo-5.0.1/gazebo/transport/TopicManager.hh:20,
+                 from .../src/gazebo-5.0.1/gazebo/transport/Node.hh:29,
+                 from .../src/gazebo-5.0.1/gazebo/gui/TimePanel.cc:19:
+/usr/include/boost/bind/bind.hpp: In instantiation of ‘void boost::_bi::list2<A1, A2>::operator()(boost::_bi::type<void>, F&, A&, int) [with F = boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>; A = boost::_bi::list1<const bool&>; A1 = boost::_bi::value<gazebo::gui::TimePanel*>; A2 = boost::arg<1>]’:
+/usr/include/boost/bind/bind.hpp:905:50:   required from ‘boost::_bi::bind_t<R, F, L>::result_type boost::_bi::bind_t<R, F, L>::operator()(A1&&) [with A1 = bool; R = void; F = boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>; L = boost::_bi::list2<boost::_bi::value<gazebo::gui::TimePanel*>, boost::arg<1> >; boost::_bi::bind_t<R, F, L>::result_type = void]’
+/usr/include/boost/function/function_template.hpp:159:43:   required from ‘static void boost::detail::function::void_function_obj_invoker1<FunctionObj, R, T0>::invoke(boost::detail::function::function_buffer&, T0) [with FunctionObj = boost::_bi::bind_t<void, boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>, boost::_bi::list2<boost::_bi::value<gazebo::gui::TimePanel*>, boost::arg<1> > >; R = void; T0 = bool]’
+/usr/include/boost/function/function_template.hpp:940:38:   required from ‘void boost::function1<R, T1>::assign_to(Functor) [with Functor = boost::_bi::bind_t<void, boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>, boost::_bi::list2<boost::_bi::value<gazebo::gui::TimePanel*>, boost::arg<1> > >; R = void; T0 = bool]’
+/usr/include/boost/function/function_template.hpp:728:7:   required from ‘boost::function1<R, T1>::function1(Functor, typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type) [with Functor = boost::_bi::bind_t<void, boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>, boost::_bi::list2<boost::_bi::value<gazebo::gui::TimePanel*>, boost::arg<1> > >; R = void; T0 = bool; typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type = int]’
+/usr/include/boost/function/function_template.hpp:1077:16:   required from ‘boost::function<R(T0)>::function(Functor, typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type) [with Functor = boost::_bi::bind_t<void, boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>, boost::_bi::list2<boost::_bi::value<gazebo::gui::TimePanel*>, boost::arg<1> > >; R = void; T0 = bool; typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type = int]’
+.../src/gazebo-5.0.1/gazebo/gui/GuiEvents.hh:76:54:   required from ‘static gazebo::event::ConnectionPtr gazebo::gui::Events::ConnectFullScreen(T) [with T = boost::_bi::bind_t<void, boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>, boost::_bi::list2<boost::_bi::value<gazebo::gui::TimePanel*>, boost::arg<1> > >; gazebo::event::ConnectionPtr = boost::shared_ptr<gazebo::event::Connection>]’
+.../src/gazebo-5.0.1/gazebo/gui/TimePanel.cc:160:56:   required from here
+/usr/include/boost/bind/bind.hpp:313:34: error: no match for call to ‘(boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>) (gazebo::gui::TimePanel*&, const bool&)’
+         unwrapper<F>::unwrap(f, 0)(a[base_type::a1_], a[base_type::a2_]);
+                                  ^
+In file included from /usr/include/boost/bind/mem_fn.hpp:215:0,
+                 from /usr/include/boost/mem_fn.hpp:22,
+                 from /usr/include/boost/bind/bind.hpp:26,
+                 from /usr/include/boost/bind.hpp:22,
+                 from .../src/gazebo-5.0.1/gazebo/transport/TopicManager.hh:20,
+                 from .../src/gazebo-5.0.1/gazebo/transport/Node.hh:29,
+                 from .../src/gazebo-5.0.1/gazebo/gui/TimePanel.cc:19:
+/usr/include/boost/bind/mem_fn_template.hpp:136:45: note: candidates are:
+ template<class R, class T, class A1 BOOST_MEM_FN_CLASS_F> class BOOST_MEM_FN_NAME(mf1)
+                                             ^
+/usr/include/boost/bind/mem_fn_template.hpp:163:7: note: R boost::_mfi::mf1<R, T, A1>::operator()(T*, A1) const [with R = void; T = gazebo::gui::TimePanel; A1 = bool&]
+     R operator()(T * p, A1 a1) const
+       ^
+/usr/include/boost/bind/mem_fn_template.hpp:163:7: note:   no known conversion for argument 2 from ‘const bool’ to ‘bool&’
+/usr/include/boost/bind/mem_fn_template.hpp:168:25: note: template<class U> R boost::_mfi::mf1<R, T, A1>::operator()(U&, A1) const [with U = U; R = void; T = gazebo::gui::TimePanel; A1 = bool&]
+     template<class U> R operator()(U & u, A1 a1) const
+                         ^
+/usr/include/boost/bind/mem_fn_template.hpp:168:25: note:   template argument deduction/substitution failed:
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from .../src/gazebo-5.0.1/gazebo/transport/TopicManager.hh:20,
+                 from .../src/gazebo-5.0.1/gazebo/transport/Node.hh:29,
+                 from .../src/gazebo-5.0.1/gazebo/gui/TimePanel.cc:19:
+/usr/include/boost/bind/bind.hpp:313:34: note:   cannot convert ‘(& a)->boost::_bi::list1<A1>::operator[]<const bool&>(boost::_bi::storage2<A1, boost::arg<I> >::a2_<boost::_bi::value<gazebo::gui::TimePanel*>, 1>)’ (type ‘const bool’) to type ‘bool&’
+         unwrapper<F>::unwrap(f, 0)(a[base_type::a1_], a[base_type::a2_]);
+                                  ^
+In file included from /usr/include/boost/bind/mem_fn.hpp:215:0,
+                 from /usr/include/boost/mem_fn.hpp:22,
+                 from /usr/include/boost/bind/bind.hpp:26,
+                 from /usr/include/boost/bind.hpp:22,
+                 from .../src/gazebo-5.0.1/gazebo/transport/TopicManager.hh:20,
+                 from .../src/gazebo-5.0.1/gazebo/transport/Node.hh:29,
+                 from .../src/gazebo-5.0.1/gazebo/gui/TimePanel.cc:19:
+/usr/include/boost/bind/mem_fn_template.hpp:176:25: note: template<class U> R boost::_mfi::mf1<R, T, A1>::operator()(const U&, A1) const [with U = U; R = void; T = gazebo::gui::TimePanel; A1 = bool&]
+     template<class U> R operator()(U const & u, A1 a1) const
+                         ^
+/usr/include/boost/bind/mem_fn_template.hpp:176:25: note:   template argument deduction/substitution failed:
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from .../src/gazebo-5.0.1/gazebo/transport/TopicManager.hh:20,
+                 from .../src/gazebo-5.0.1/gazebo/transport/Node.hh:29,
+                 from .../src/gazebo-5.0.1/gazebo/gui/TimePanel.cc:19:
+/usr/include/boost/bind/bind.hpp:313:34: note:   cannot convert ‘(& a)->boost::_bi::list1<A1>::operator[]<const bool&>(boost::_bi::storage2<A1, boost::arg<I> >::a2_<boost::_bi::value<gazebo::gui::TimePanel*>, 1>)’ (type ‘const bool’) to type ‘bool&’
+         unwrapper<F>::unwrap(f, 0)(a[base_type::a1_], a[base_type::a2_]);
+                                  ^
+In file included from /usr/include/boost/bind/mem_fn.hpp:215:0,
+                 from /usr/include/boost/mem_fn.hpp:22,
+                 from /usr/include/boost/bind/bind.hpp:26,
+                 from /usr/include/boost/bind.hpp:22,
+                 from .../src/gazebo-5.0.1/gazebo/transport/TopicManager.hh:20,
+                 from .../src/gazebo-5.0.1/gazebo/transport/Node.hh:29,
+                 from .../src/gazebo-5.0.1/gazebo/gui/TimePanel.cc:19:
+/usr/include/boost/bind/mem_fn_template.hpp:184:7: note: R boost::_mfi::mf1<R, T, A1>::operator()(T&, A1) const [with R = void; T = gazebo::gui::TimePanel; A1 = bool&]
+     R operator()(T & t, A1 a1) const
+       ^
+/usr/include/boost/bind/mem_fn_template.hpp:184:7: note:   no known conversion for argument 1 from ‘gazebo::gui::TimePanel*’ to ‘gazebo::gui::TimePanel&’
+gazebo/gui/CMakeFiles/gzclient.dir/build.make:912: recipe for target 'gazebo/gui/CMakeFiles/gzclient.dir/TimePanel.cc.o' failed
+make[2]: *** [gazebo/gui/CMakeFiles/gzclient.dir/TimePanel.cc.o] Error 1
+make[2]: Target 'gazebo/gui/CMakeFiles/gzclient.dir/build' not remade because of errors.
+CMakeFiles/Makefile2:1244: recipe for target 'gazebo/gui/CMakeFiles/gzclient.dir/all' failed
+make[1]: *** [gazebo/gui/CMakeFiles/gzclient.dir/all] Error 2
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from .../src/gazebo-5.0.1/gazebo/transport/TopicManager.hh:20,
+                 from .../src/gazebo-5.0.1/gazebo/transport/Node.hh:29,
+                 from .../src/gazebo-5.0.1/gazebo/gui/TimePanel.cc:19:
+/usr/include/boost/bind/bind.hpp: In instantiation of ‘void boost::_bi::list2<A1, A2>::operator()(boost::_bi::type<void>, F&, A&, int) [with F = boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>; A = boost::_bi::list1<const bool&>; A1 = boost::_bi::value<gazebo::gui::TimePanel*>; A2 = boost::arg<1>]’:
+/usr/include/boost/bind/bind.hpp:905:50:   required from ‘boost::_bi::bind_t<R, F, L>::result_type boost::_bi::bind_t<R, F, L>::operator()(A1&&) [with A1 = bool; R = void; F = boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>; L = boost::_bi::list2<boost::_bi::value<gazebo::gui::TimePanel*>, boost::arg<1> >; boost::_bi::bind_t<R, F, L>::result_type = void]’
+/usr/include/boost/function/function_template.hpp:159:43:   required from ‘static void boost::detail::function::void_function_obj_invoker1<FunctionObj, R, T0>::invoke(boost::detail::function::function_buffer&, T0) [with FunctionObj = boost::_bi::bind_t<void, boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>, boost::_bi::list2<boost::_bi::value<gazebo::gui::TimePanel*>, boost::arg<1> > >; R = void; T0 = bool]’
+/usr/include/boost/function/function_template.hpp:940:38:   required from ‘void boost::function1<R, T1>::assign_to(Functor) [with Functor = boost::_bi::bind_t<void, boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>, boost::_bi::list2<boost::_bi::value<gazebo::gui::TimePanel*>, boost::arg<1> > >; R = void; T0 = bool]’
+/usr/include/boost/function/function_template.hpp:728:7:   required from ‘boost::function1<R, T1>::function1(Functor, typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type) [with Functor = boost::_bi::bind_t<void, boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>, boost::_bi::list2<boost::_bi::value<gazebo::gui::TimePanel*>, boost::arg<1> > >; R = void; T0 = bool; typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type = int]’
+/usr/include/boost/function/function_template.hpp:1077:16:   required from ‘boost::function<R(T0)>::function(Functor, typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type) [with Functor = boost::_bi::bind_t<void, boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>, boost::_bi::list2<boost::_bi::value<gazebo::gui::TimePanel*>, boost::arg<1> > >; R = void; T0 = bool; typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type = int]’
+.../src/gazebo-5.0.1/gazebo/gui/GuiEvents.hh:76:54:   required from ‘static gazebo::event::ConnectionPtr gazebo::gui::Events::ConnectFullScreen(T) [with T = boost::_bi::bind_t<void, boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>, boost::_bi::list2<boost::_bi::value<gazebo::gui::TimePanel*>, boost::arg<1> > >; gazebo::event::ConnectionPtr = boost::shared_ptr<gazebo::event::Connection>]’
+.../src/gazebo-5.0.1/gazebo/gui/TimePanel.cc:160:56:   required from here
+/usr/include/boost/bind/bind.hpp:313:34: error: no match for call to ‘(boost::_mfi::mf1<void, gazebo::gui::TimePanel, bool&>) (gazebo::gui::TimePanel*&, const bool&)’
+         unwrapper<F>::unwrap(f, 0)(a[base_type::a1_], a[base_type::a2_]);
+                                  ^
+In file included from /usr/include/boost/bind/mem_fn.hpp:215:0,
+                 from /usr/include/boost/mem_fn.hpp:22,
+                 from /usr/include/boost/bind/bind.hpp:26,
+                 from /usr/include/boost/bind.hpp:22,
+                 from .../src/gazebo-5.0.1/gazebo/transport/TopicManager.hh:20,
+                 from .../src/gazebo-5.0.1/gazebo/transport/Node.hh:29,
+                 from .../src/gazebo-5.0.1/gazebo/gui/TimePanel.cc:19:
+/usr/include/boost/bind/mem_fn_template.hpp:136:45: note: candidates are:
+ template<class R, class T, class A1 BOOST_MEM_FN_CLASS_F> class BOOST_MEM_FN_NAME(mf1)
+                                             ^
+/usr/include/boost/bind/mem_fn_template.hpp:163:7: note: R boost::_mfi::mf1<R, T, A1>::operator()(T*, A1) const [with R = void; T = gazebo::gui::TimePanel; A1 = bool&]
+     R operator()(T * p, A1 a1) const
+       ^
+/usr/include/boost/bind/mem_fn_template.hpp:163:7: note:   no known conversion for argument 2 from ‘const bool’ to ‘bool&’
+/usr/include/boost/bind/mem_fn_template.hpp:168:25: note: template<class U> R boost::_mfi::mf1<R, T, A1>::operator()(U&, A1) const [with U = U; R = void; T = gazebo::gui::TimePanel; A1 = bool&]
+     template<class U> R operator()(U & u, A1 a1) const
+                         ^
+/usr/include/boost/bind/mem_fn_template.hpp:168:25: note:   template argument deduction/substitution failed:
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from .../src/gazebo-5.0.1/gazebo/transport/TopicManager.hh:20,
+                 from .../src/gazebo-5.0.1/gazebo/transport/Node.hh:29,
+                 from .../src/gazebo-5.0.1/gazebo/gui/TimePanel.cc:19:
+/usr/include/boost/bind/bind.hpp:313:34: note:   cannot convert ‘(& a)->boost::_bi::list1<A1>::operator[]<const bool&>(boost::_bi::storage2<A1, boost::arg<I> >::a2_<boost::_bi::value<gazebo::gui::TimePanel*>, 1>)’ (type ‘const bool’) to type ‘bool&’
+         unwrapper<F>::unwrap(f, 0)(a[base_type::a1_], a[base_type::a2_]);
+                                  ^
+In file included from /usr/include/boost/bind/mem_fn.hpp:215:0,
+                 from /usr/include/boost/mem_fn.hpp:22,
+                 from /usr/include/boost/bind/bind.hpp:26,
+                 from /usr/include/boost/bind.hpp:22,
+                 from .../src/gazebo-5.0.1/gazebo/transport/TopicManager.hh:20,
+                 from .../src/gazebo-5.0.1/gazebo/transport/Node.hh:29,
+                 from .../src/gazebo-5.0.1/gazebo/gui/TimePanel.cc:19:
+/usr/include/boost/bind/mem_fn_template.hpp:176:25: note: template<class U> R boost::_mfi::mf1<R, T, A1>::operator()(const U&, A1) const [with U = U; R = void; T = gazebo::gui::TimePanel; A1 = bool&]
+     template<class U> R operator()(U const & u, A1 a1) const
+                         ^
+/usr/include/boost/bind/mem_fn_template.hpp:176:25: note:   template argument deduction/substitution failed:
+In file included from /usr/include/boost/bind.hpp:22:0,
+                 from .../src/gazebo-5.0.1/gazebo/transport/TopicManager.hh:20,
+                 from .../src/gazebo-5.0.1/gazebo/transport/Node.hh:29,
+                 from .../src/gazebo-5.0.1/gazebo/gui/TimePanel.cc:19:
+/usr/include/boost/bind/bind.hpp:313:34: note:   cannot convert ‘(& a)->boost::_bi::list1<A1>::operator[]<const bool&>(boost::_bi::storage2<A1, boost::arg<I> >::a2_<boost::_bi::value<gazebo::gui::TimePanel*>, 1>)’ (type ‘const bool’) to type ‘bool&’
+         unwrapper<F>::unwrap(f, 0)(a[base_type::a1_], a[base_type::a2_]);
+                                  ^
+In file included from /usr/include/boost/bind/mem_fn.hpp:215:0,
+                 from /usr/include/boost/mem_fn.hpp:22,
+                 from /usr/include/boost/bind/bind.hpp:26,
+                 from /usr/include/boost/bind.hpp:22,
+                 from .../src/gazebo-5.0.1/gazebo/transport/TopicManager.hh:20,
+                 from .../src/gazebo-5.0.1/gazebo/transport/Node.hh:29,
+                 from .../src/gazebo-5.0.1/gazebo/gui/TimePanel.cc:19:
+/usr/include/boost/bind/mem_fn_template.hpp:184:7: note: R boost::_mfi::mf1<R, T, A1>::operator()(T&, A1) const [with R = void; T = gazebo::gui::TimePanel; A1 = bool&]
+     R operator()(T & t, A1 a1) const
+       ^
+/usr/include/boost/bind/mem_fn_template.hpp:184:7: note:   no known conversion for argument 1 from ‘gazebo::gui::TimePanel*’ to ‘gazebo::gui::TimePanel&’
+gazebo/gui/CMakeFiles/gazebo_gui.dir/build.make:912: recipe for target 'gazebo/gui/CMakeFiles/gazebo_gui.dir/TimePanel.cc.o' failed
+make[2]: *** [gazebo/gui/CMakeFiles/gazebo_gui.dir/TimePanel.cc.o] Error 1
+make[2]: Target 'gazebo/gui/CMakeFiles/gazebo_gui.dir/build' not remade because of errors.
+CMakeFiles/Makefile2:1185: recipe for target 'gazebo/gui/CMakeFiles/gazebo_gui.dir/all' failed
+make[1]: *** [gazebo/gui/CMakeFiles/gazebo_gui.dir/all] Error 2
+make[1]: Target 'all' not remade because of errors.
+Makefile:146: recipe for target 'all' failed
+make: *** [all] Error 2
+make: Target 'default_target' not remade because of errors.
+  30.64s user 2.35s system 190% cpu 17.320 total

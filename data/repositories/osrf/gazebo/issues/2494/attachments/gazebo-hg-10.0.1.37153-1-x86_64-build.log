@@ -1,0 +1,914 @@
+-- The C compiler identification is GNU 8.1.1
+-- The CXX compiler identification is GNU 8.1.1
+-- Check for working C compiler: /usr/lib/ccache/bin/cc
+-- Check for working C compiler: /usr/lib/ccache/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/lib/ccache/bin/c++
+-- Check for working CXX compiler: /usr/lib/ccache/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Gazebo version 10.0.1
+-- Found CPack generators: DEB
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.14") found components:  doxygen dot 
+-- High memory tests: enabled
+-- 
+
+====== Finding 3rd Party Packages ======
+-- Operating system is Linux
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.5.1") 
+-- Checking for module 'freeimage>=3.9.0'
+--   Package 'freeimage', required by 'virtual:world', not found
+--   freeimage.pc not found, trying freeimage_include_dir and freeimage_library_dir flags.
+--   Found /usr/include/FreeImage.h
+--   Looking for FreeImage.h - found
+--   Looking for libfreeimage - found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Protobuf: /usr/lib/libprotobuf.so;-lpthread (found version "3.5.1") 
+CMake Warning (dev) at /usr/share/cmake-3.11/Modules/FindOpenGL.cmake:270 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+Call Stack (most recent call first):
+  cmake/SearchForStuff.cmake:54 (include)
+  CMakeLists.txt:147 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found OpenGL: /usr/lib/libOpenGL.so   
+-- Found OpenAL: /usr/lib/libopenal.so  
+-- HDF5: Using hdf5 compiler wrapper to determine C configuration
+-- HDF5: Using hdf5 compiler wrapper to determine CXX configuration
+-- Found HDF5: /usr/lib/libhdf5_cpp.so;/usr/lib/libhdf5.so;/usr/lib/libsz.so;/usr/lib/libz.so;/usr/lib/libdl.so;/usr/lib/libm.so (found version "1.10.2") found components:  C CXX 
+-- HDF5 Found
+-- Found CURL: /usr/lib/libcurl.so (found version "7.60.0") 
+-- Checking for module 'libprofiler'
+--   Found libprofiler, version 2.7
+-- Checking for module 'libtcmalloc'
+--   Found libtcmalloc, version 2.7
+CMake Warning at cmake/SearchForStuff.cmake:152 (find_package):
+  By not providing "FindSimbody.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Simbody", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Simbody" with any
+  of the following names:
+
+    SimbodyConfig.cmake
+    simbody-config.cmake
+
+  Add the installation prefix of "Simbody" to CMAKE_PREFIX_PATH or set
+  "Simbody_DIR" to a directory containing one of the above files.  If
+  "Simbody" provides a separate development package or SDK, be sure it has
+  been installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:147 (include)
+
+
+-- Looking for Simbody - not found
+-- 	Simbody not found, for simbody physics engine option, please install libsimbody-dev.
+-- Could NOT find DART (missing: DART_DIR)
+-- Looking for DART - not found
+-- 	DART 6 not found, for dart physics engine option, please install libdart6-dev.
+-- Using system tinyxml.
+-- Checking for module 'tinyxml'
+--   Found tinyxml, version 2.6.2
+-- Using system tinyxml2.
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for libtar.h - found
+-- Looking for libtar.so - found
+-- Checking for module 'tbb'
+--   Package 'tbb', required by 'virtual:world', not found
+-- TBB not found, attempting to detect manually
+-- Checking for module 'OGRE-RTShaderSystem>=1.7.4'
+--   Found OGRE-RTShaderSystem, version 1.11.0
+-- Checking for module 'OGRE>=1.7.4'
+--   Found OGRE, version 1.11.0
+-- Checking for module 'OGRE-Terrain'
+--   Found OGRE-Terrain, version 1.11.0
+-- Checking for module 'OGRE-Overlay'
+--   Found OGRE-Overlay, version 1.11.0
+-- Checking for module 'ccd>=1.4'
+--   Found ccd, version 2.0
+-- Checking for module 'libswscale'
+--   Found libswscale, version 5.1.100
+-- Checking for module 'libavdevice>=56.4.100'
+--   Found libavdevice, version 58.3.100
+-- Checking for module 'libavformat'
+--   Found libavformat, version 58.12.100
+-- Checking for module 'libavcodec'
+--   Found libavcodec, version 58.18.100
+-- Checking for module 'libavutil'
+--   Found libavutil, version 56.14.100
+-- Checking for modules 'playercore>=3.0;playerc++;playerwkb'
+--   Package 'playercore', required by 'virtual:world', not found
+--   Package 'playerc++', required by 'virtual:world', not found
+--   Package 'playerwkb', required by 'virtual:world', not found
+-- 	Player not found, gazebo plugin for player will not be built.
+-- Checking for module 'gts'
+--   Found gts, version 0.7.6
+-- Looking for GTS - found
+-- Checking for module 'bullet>=2.82'
+--   Package 'bullet', required by 'virtual:world', not found
+-- Checking for module 'bullet2.82>=2.82'
+--   Package 'bullet2.82', required by 'virtual:world', not found
+-- 	Bullet > 2.82 not found, for bullet physics engine option, please install libbullet2.82-dev.
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.22
+-- Looking for libusb-1.0 - found. USB peripherals support enabled.
+-- Checking for module 'OculusVR'
+--   Package 'OculusVR', required by 'virtual:world', not found
+-- 	Oculus Rift support will be disabled.
+-- Boost version: 1.67.0
+-- Looking for SDFormat 6 - found
+-- Boost version: 1.67.0
+-- Boost version: 1.67.0
+-- Found the following Boost libraries:
+--   thread
+--   signals
+--   system
+--   filesystem
+--   program_options
+--   regex
+--   iostreams
+--   date_time
+--   chrono
+--   atomic
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found GDAL: /usr/lib/libgdal.so  
+-- Looking for libgdal - found
+-- Looking for ronn to generate manpages - found
+-- Looking for gzip to generate manpages - found
+-- Looking for libspnav and spnav.h - found
+-- Checking for module 'uuid'
+--   Found uuid, version 2.32.0
+-- Looking for uuid - found
+-- Checking for module 'libgvc'
+--   Found libgvc, version 2.40.1
+-- Checking for module 'libcgraph'
+--   Found libcgraph, version 2.40.1
+-- Checking for module 'libcdt'
+--   Found libcdt, version 2.40.1
+-- Found Graphviz_Gvc: /usr/lib/libgvc.so  
+-- Found Graphviz_Cgraph: /usr/lib/libcgraph.so  
+-- Found Graphviz_Cdt: /usr/lib/libcdt.so  
+-- Found Graphviz Headers: /usr/include/graphviz  
+-- Looking for libgraphviz-dev - found
+-- Found Protobuf: /usr/lib/libprotobuf.so;-lpthread;-lpthread (found suitable version "3.5.1", minimum required is "2.3.0") 
+-- Looking for ignition-msgs1-config.cmake - found
+-- Looking for ignition-math4-config.cmake - found
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.2.3
+-- Checking for module 'uuid'
+--   Found uuid, version 2.32.0
+-- Looking for ignition-transport4-config.cmake - found
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.8.4
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.1.7
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- FreeImage.pc not found, we will search for FreeImage_INCLUDE_DIRS and FreeImage_LIBRARIES
+-- Checking for module 'gts'
+--   Found gts, version 0.7.6
+-- Checking for module 'libswscale'
+--   Found libswscale, version 5.1.100
+-- Checking for module 'libavdevice >= 56.4.100'
+--   Found libavdevice , version 58.3.100
+-- Checking for module 'libavformat'
+--   Found libavformat, version 58.12.100
+-- Checking for module 'libavcodec'
+--   Found libavcodec, version 58.18.100
+-- Checking for module 'libavutil'
+--   Found libavutil, version 56.14.100
+-- Looking for libignition-fuel_tools1 - found
+-- Found Ignition Common
+-- Looking for libosvrClientKit and ClientKit.h - not found
+-- 	OpenSource Virtual Reality (OSVR) support will be disabled.
+-- Looking for qwt - found: version 6.1.3
+-- ----------------------------------------
+
+-- Looking for display capabilities
+--  ! valid display not found
+--  ! valid dri display not found (no glxinfo or pyopengl)
+-- Checking gazebo build type
+-- Enable host CFlags
+-- 
+SSE4 disabled.
+
+-- Enable upstream CFlags
+-- Performing Test R-Wall
+-- Performing Test R-Wall - Success
+-- Performing Test R-Wextra
+-- Performing Test R-Wextra - Success
+-- Performing Test R-Wno-long-long
+-- Performing Test R-Wno-long-long - Success
+-- Performing Test R-Wno-unused-value
+-- Performing Test R-Wno-unused-value - Success
+-- Performing Test R-Wfloat-equal
+-- Performing Test R-Wfloat-equal - Success
+-- Performing Test R-Wshadow
+-- Performing Test R-Wshadow - Success
+-- Performing Test R-Wswitch-default
+-- Performing Test R-Wswitch-default - Success
+-- Performing Test R-Wmissing-include-dirs
+-- Performing Test R-Wmissing-include-dirs - Success
+-- Performing Test R-pedantic
+-- Performing Test R-pedantic - Success
+-- Performing Test R-fvisibility=hidden
+-- Performing Test R-fvisibility=hidden - Success
+-- Performing Test R-fvisibility-inlines-hidden
+-- Performing Test R-fvisibility-inlines-hidden - Success
+-- 
+
+====== Configuring 3rd Party Packages ======
+-- Performing Test HAVE_ALLOCA
+-- Performing Test HAVE_ALLOCA - Success
+-- Performing Test HAVE_ATAN2F
+-- Performing Test HAVE_ATAN2F - Success
+-- Performing Test HAVE_COPYSIGN
+-- Performing Test HAVE_COPYSIGN - Success
+-- Performing Test HAVE_COPYSIGNF
+-- Performing Test HAVE_COPYSIGNF - Success
+-- Performing Test HAVE_COSF
+-- Performing Test HAVE_COSF - Success
+-- Performing Test HAVE_FABSF
+-- Performing Test HAVE_FABSF - Success
+-- Performing Test HAVE_FLOOR
+-- Performing Test HAVE_FLOOR - Success
+-- Performing Test HAVE_FMODF
+-- Performing Test HAVE_FMODF - Success
+-- Performing Test HAVE_GETTIMEOFDAY
+-- Performing Test HAVE_GETTIMEOFDAY - Success
+-- Performing Test HAVE_ISNAN
+-- Performing Test HAVE_ISNAN - Success
+-- Performing Test HAVE_ISNANF
+-- Performing Test HAVE_ISNANF - Success
+-- Performing Test HAVE_MALLOC
+-- Performing Test HAVE_MALLOC - Success
+-- Performing Test HAVE_MEMMOVE
+-- Performing Test HAVE_MEMMOVE - Success
+-- Performing Test HAVE_MEMSET
+-- Performing Test HAVE_MEMSET - Success
+-- Performing Test HAVE_REALLOC
+-- Performing Test HAVE_REALLOC - Success
+-- Performing Test HAVE_SELECT
+-- Performing Test HAVE_SELECT - Success
+-- Performing Test HAVE_SINF
+-- Performing Test HAVE_SINF - Success
+-- Performing Test HAVE_SPRINTF
+-- Performing Test HAVE_SPRINTF - Success
+-- Performing Test HAVE_SQRT
+-- Performing Test HAVE_SQRT - Success
+-- Performing Test HAVE_SQRTF
+-- Performing Test HAVE_SQRTF - Success
+-- Performing Test HAVE_VPRINTF
+-- Performing Test HAVE_VPRINTF - Success
+-- Performing Test HAVE_VSNPRINTF
+-- Performing Test HAVE_VSNPRINTF - Success
+-- Performing Test HAVE_SNPRINTF
+-- Performing Test HAVE_SNPRINTF - Success
+-- Performing Test HAVE_LIMITS
+-- Performing Test HAVE_LIMITS - Success
+-- Performing Test HAVE_BOOST_SHARED_ARRAY_HPP
+-- Performing Test HAVE_BOOST_SHARED_ARRAY_HPP - Success
+-- Looking for include file alloca.h
+-- Looking for include file alloca.h - found
+-- Looking for include file dlfcn.h
+-- Looking for include file dlfcn.h - found
+-- Looking for include file float.h
+-- Looking for include file float.h - found
+-- Looking for include file inttypes.h
+-- Looking for include file inttypes.h - found
+-- Looking for include file malloc.h
+-- Looking for include file malloc.h - found
+-- Looking for include file math.h
+-- Looking for include file math.h - found
+-- Looking for include file memory.h
+-- Looking for include file memory.h - found
+-- Looking for include file stdarg.h
+-- Looking for include file stdarg.h - found
+-- Looking for include file stdbool.h
+-- Looking for include file stdbool.h - found
+-- Looking for include file stdint.h
+-- Looking for include file stdint.h - found
+-- Looking for include file stdio.h
+-- Looking for include file stdio.h - found
+-- Looking for include file stdlib.h
+-- Looking for include file stdlib.h - found
+-- Looking for include file strings.h
+-- Looking for include file strings.h - found
+-- Looking for include file string.h
+-- Looking for include file string.h - found
+-- Looking for include file sys/select.h
+-- Looking for include file sys/select.h - found
+-- Looking for include file sys/socket.h
+-- Looking for include file sys/socket.h - found
+-- Looking for include file sys/stat.h
+-- Looking for include file sys/stat.h - found
+-- Looking for include file sys/time.h
+-- Looking for include file sys/time.h - found
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Looking for include file time.h
+-- Looking for include file time.h - found
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - found
+-- Looking for include file obstack.h
+-- Looking for include file obstack.h - found
+-- Looking for cos in m
+-- Looking for cos in m - found
+-- ----------------------------------------
+
+-- BUILD WARNINGS
+-- 	Simbody not found, for simbody physics engine option, please install libsimbody-dev.
+-- 	DART 6 not found, for dart physics engine option, please install libdart6-dev.
+-- 	Player not found, gazebo plugin for player will not be built.
+-- 	Bullet > 2.82 not found, for bullet physics engine option, please install libbullet2.82-dev.
+-- 	Oculus Rift support will be disabled.
+-- 	OpenSource Virtual Reality (OSVR) support will be disabled.
+-- END BUILD WARNINGS
+
+-- Custom CFlags:-march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt     -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -std=c++11
+-- Build Type: Release
+-- Install path: /usr
+-- tinyxml2_VERSION 6.2.0 >= 6.0.0
+-- Configuration successful. Type make to compile gazebo
+-- Configuring done
+CMake Warning:
+  Value of common_headers contained a newline; truncating
+
+
+CMake Warning:
+  Value of gui_headers contained a newline; truncating
+
+
+CMake Warning:
+  Value of message_headers contained a newline; truncating
+
+
+CMake Warning:
+  Value of physics_headers contained a newline; truncating
+
+
+CMake Warning:
+  Value of rendering_headers contained a newline; truncating
+
+
+CMake Warning:
+  Value of sensors_headers contained a newline; truncating
+
+
+CMake Warning:
+  Value of transport_headers contained a newline; truncating
+
+
+CMake Warning:
+  Value of util_headers contained a newline; truncating
+
+
+-- Generating done
+CMake Warning:
+  Value of common_headers contained a newline; truncating
+
+
+CMake Warning:
+  Value of gui_headers contained a newline; truncating
+
+
+CMake Warning:
+  Value of message_headers contained a newline; truncating
+
+
+CMake Warning:
+  Value of physics_headers contained a newline; truncating
+
+
+CMake Warning:
+  Value of rendering_headers contained a newline; truncating
+
+
+CMake Warning:
+  Value of sensors_headers contained a newline; truncating
+
+
+CMake Warning:
+  Value of transport_headers contained a newline; truncating
+
+
+CMake Warning:
+  Value of util_headers contained a newline; truncating
+
+
+-- Build files have been written to: /home/aeon/gazebo-hg/src/gazebo/build
+Scanning dependencies of target gazebo_gimpact
+Scanning dependencies of target gazebo_opende_ou
+[  0%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_tri_tri_overlap.cpp.o
+Scanning dependencies of target gazebo_opcode
+[  0%] Building CXX object deps/opende/ou/CMakeFiles/gazebo_opende_ou.dir/src/atomic.cpp.o
+[  0%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_AABBCollider.cpp.o
+[  0%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_math.cpp.o
+Scanning dependencies of target gazebo_common
+[  0%] Building CXX object deps/opende/ou/CMakeFiles/gazebo_opende_ou.dir/src/customization.cpp.o
+[  0%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_AABBTree.cpp.o
+[  0%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_BaseModel.cpp.o
+[  0%] Building CXX object deps/opende/ou/CMakeFiles/gazebo_opende_ou.dir/src/malloc.cpp.o
+[  0%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Animation.cc.o
+[  1%] Building CXX object deps/opende/ou/CMakeFiles/gazebo_opende_ou.dir/src/threadlocalstorage.cpp.o
+[  1%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_Collider.cpp.o
+[  1%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gimpact.cpp.o
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/ou/src/threadlocalstorage.cpp: In static member function ‘static gazebo_odeou::CTLSStorageArray* gazebo_odeou::CTLSStorageArray::AllocateInstance(gazebo_odeou::tlsindextype)’:
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/ou/src/threadlocalstorage.cpp:378:44: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct gazebo_odeou::CTLSStorageArray’; use assignment or value-initialization instead [-Wclass-memaccess]
+     memset(psaNewInstance, 0, nRequiredSize);
+                                            ^
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/ou/src/threadlocalstorage.cpp:111:8: note: ‘struct gazebo_odeou::CTLSStorageArray’ declared here
+ struct CTLSStorageArray
+        ^~~~~~~~~~~~~~~~
+[  1%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_Common.cpp.o
+[  1%] Linking CXX shared library libgazebo_opende_ou.so
+[  1%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_trimesh_trimesh_collision.cpp.o
+[  1%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Assert.cc.o
+[  1%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_HybridModel.cpp.o
+[  1%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_trimesh_sphere_collision.cpp.o
+[  3%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/AudioDecoder.cc.o
+[  4%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_LSSCollider.cpp.o
+[  6%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_trimesh.cpp.o
+[  6%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_MeshInterface.cpp.o
+[  6%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_trimesh_capsule_collision.cpp.o
+[  6%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_Model.cpp.o
+[  6%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_memory.cpp.o
+[  6%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Battery.cc.o
+[  6%] Built target gazebo_opende_ou
+[  6%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_contact.cpp.o
+Scanning dependencies of target gazebomsgs_out
+[  6%] Building CXX object gazebo/msgs/CMakeFiles/gazebomsgs_out.dir/generator/GazeboGenerator.cc.o
+[  6%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_boxpruning.cpp.o
+[  6%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Base64.cc.o
+[  6%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_trimesh_ray_collision.cpp.o
+[  6%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/BVHLoader.cc.o
+[  6%] Building CXX object gazebo/msgs/CMakeFiles/gazebomsgs_out.dir/generator/gazebo_generator.cc.o
+[  6%] Linking CXX shared library libgazebo_gimpact.so
+In file included from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/CommonIface.hh:22,
+                 from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/BVHLoader.cc:27:
+/usr/include/boost/uuid/sha1.hpp:13:97: note: #pragma message: This header is implementation detail and provided for backwards compatibility.
+ #pragma message("This header is implementation detail and provided for backwards compatibility.")
+                                                                                                 ^
+[  6%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/ColladaExporter.cc.o
+[  7%] Linking CXX executable gazebomsgs_out
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc: In member function ‘void gazebo::common::ColladaExporter::ExportVisualScenes(TiXmlElement*)’:
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:598:54: warning: ‘snprintf’ output may be truncated before the last format character [-Wformat-truncation=]
+     snprintf(attributeValue, sizeof(attributeValue), "#%s", meshId);
+                                                      ^~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:598:13: note: ‘snprintf’ output between 2 and 101 bytes into a destination of size 100
+     snprintf(attributeValue, sizeof(attributeValue), "#%s", meshId);
+     ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:616:56: warning: ‘snprintf’ output may be truncated before the last format character [-Wformat-truncation=]
+       snprintf(attributeValue, sizeof(attributeValue), "#%s", materialId);
+                                                        ^~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:616:15: note: ‘snprintf’ output between 2 and 101 bytes into a destination of size 100
+       snprintf(attributeValue, sizeof(attributeValue), "#%s", materialId);
+       ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc: In member function ‘void gazebo::common::ColladaExporter::ExportGeometrySource(const gazebo::common::SubMesh*, TiXmlElement*, gazebo::common::ColladaExporter::GeometryType, const char*)’:
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:211:50: warning: ‘-array’ directive output may be truncated writing 6 bytes into a region of size between 1 and 100 [-Wformat-truncation=]
+   snprintf(sourceArrayId, sizeof(sourceArrayId), "%s-array", sourceId);
+                                                  ^~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:211:11: note: ‘snprintf’ output between 7 and 106 bytes into a destination of size 100
+   snprintf(sourceArrayId, sizeof(sourceArrayId), "%s-array", sourceId);
+   ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:221:50: warning: ‘-array’ directive output may be truncated writing 6 bytes into a region of size between 0 and 99 [-Wformat-truncation=]
+   snprintf(sourceArrayId, sizeof(sourceArrayId), "#%s-array", sourceId);
+                                                  ^~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:221:11: note: ‘snprintf’ output between 8 and 107 bytes into a destination of size 100
+   snprintf(sourceArrayId, sizeof(sourceArrayId), "#%s-array", sourceId);
+   ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc: In member function ‘void gazebo::common::ColladaExporter::ExportGeometries(TiXmlElement*)’:
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:288:54: warning: ‘-Vertex’ directive output may be truncated writing 7 bytes into a region of size between 1 and 100 [-Wformat-truncation=]
+     snprintf(attributeValue, sizeof(attributeValue), "%s-Vertex", meshId);
+                                                      ^~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:288:13: note: ‘snprintf’ output between 8 and 107 bytes into a destination of size 100
+     snprintf(attributeValue, sizeof(attributeValue), "%s-Vertex", meshId);
+     ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:295:54: warning: ‘-Positions’ directive output may be truncated writing 10 bytes into a region of size between 0 and 99 [-Wformat-truncation=]
+     snprintf(attributeValue, sizeof(attributeValue), "#%s-Positions", meshId);
+                                                      ^~~~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:295:13: note: ‘snprintf’ output between 12 and 111 bytes into a destination of size 100
+     snprintf(attributeValue, sizeof(attributeValue), "#%s-Positions", meshId);
+     ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:312:54: warning: ‘-Vertex’ directive output may be truncated writing 7 bytes into a region of size between 0 and 99 [-Wformat-truncation=]
+     snprintf(attributeValue, sizeof(attributeValue), "#%s-Vertex", meshId);
+                                                      ^~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:312:13: note: ‘snprintf’ output between 9 and 108 bytes into a destination of size 100
+     snprintf(attributeValue, sizeof(attributeValue), "#%s-Vertex", meshId);
+     ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:319:54: warning: ‘-Normals’ directive output may be truncated writing 8 bytes into a region of size between 0 and 99 [-Wformat-truncation=]
+     snprintf(attributeValue, sizeof(attributeValue), "#%s-Normals", meshId);
+                                                      ^~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:319:13: note: ‘snprintf’ output between 10 and 109 bytes into a destination of size 100
+     snprintf(attributeValue, sizeof(attributeValue), "#%s-Normals", meshId);
+     ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:328:56: warning: ‘-UVMap’ directive output may be truncated writing 6 bytes into a region of size between 0 and 99 [-Wformat-truncation=]
+       snprintf(attributeValue, sizeof(attributeValue), "#%s-UVMap", meshId);
+                                                        ^~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/ColladaExporter.cc:328:15: note: ‘snprintf’ output between 8 and 107 bytes into a destination of size 100
+       snprintf(attributeValue, sizeof(attributeValue), "#%s-UVMap", meshId);
+       ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  7%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/ColladaLoader.cc.o
+[  7%] Built target gazebo_gimpact
+[  7%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Color.cc.o
+Scanning dependencies of target gzqtpropertybrowser_autogen
+[  7%] Automatic MOC for target gzqtpropertybrowser
+[  7%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/CommonIface.cc.o
+[  7%] Built target gazebomsgs_out
+In file included from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/CommonIface.hh:22,
+                 from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/CommonIface.cc:41:
+/usr/include/boost/uuid/sha1.hpp:13:97: note: #pragma message: This header is implementation detail and provided for backwards compatibility.
+ #pragma message("This header is implementation detail and provided for backwards compatibility.")
+                                                                                                 ^
+[  7%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_OBBCollider.cpp.o
+[  7%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Opcode.cpp.o
+[  7%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_OptimizedTree.cpp.o
+[  7%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_Picking.cpp.o
+[  7%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_PlanesCollider.cpp.o
+[  7%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Console.cc.o
+[  7%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_RayCollider.cpp.o
+[  7%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Dem.cc.o
+[  7%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_SphereCollider.cpp.o
+[  7%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Event.cc.o
+[  7%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_TreeBuilders.cpp.o
+[  7%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_TreeCollider.cpp.o
+[  7%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_VolumeCollider.cpp.o
+[  7%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Events.cc.o
+[  7%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/StdAfx.cpp.o
+[  7%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceAABB.cpp.o
+[  7%] Built target gzqtpropertybrowser_autogen
+[  7%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceContainer.cpp.o
+[  7%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Exception.cc.o
+[  9%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceHPoint.cpp.o
+[  9%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/HeightmapData.cc.o
+[  9%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceIndexedTriangle.cpp.o
+[  9%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Image.cc.o
+[  9%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceMatrix3x3.cpp.o
+In file included from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/CommonIface.hh:22,
+                 from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/Image.cc:26:
+/usr/include/boost/uuid/sha1.hpp:13:97: note: #pragma message: This header is implementation detail and provided for backwards compatibility.
+ #pragma message("This header is implementation detail and provided for backwards compatibility.")
+                                                                                                 ^
+[  9%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceMatrix4x4.cpp.o
+[  9%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/ImageHeightmap.cc.o
+[  9%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceOBB.cpp.o
+[  9%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IcePlane.cpp.o
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/KeyEvent.cc.o
+[ 10%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IcePoint.cpp.o
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/KeyFrame.cc.o
+[ 10%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceRandom.cpp.o
+[ 10%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceRay.cpp.o
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Material.cc.o
+[ 10%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceRevisitedRadix.cpp.o
+[ 10%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceSegment.cpp.o
+[ 10%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceTriangle.cpp.o
+[ 10%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceUtils.cpp.o
+[ 10%] Generating qrc_qtpropertybrowser.cpp
+[ 10%] Linking CXX shared library libgazebo_opcode.so
+Scanning dependencies of target gzqtpropertybrowser
+[ 10%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qtpropertybrowser.cpp.o
+[ 10%] Built target gazebo_opcode
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/MaterialDensity.cc.o
+[ 10%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qtpropertymanager.cpp.o
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Mesh.cc.o
+[ 10%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qteditorfactory.cpp.o
+In file included from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/CommonIface.hh:22,
+                 from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/Dem.cc:29:
+/usr/include/boost/uuid/sha1.hpp:13:97: note: #pragma message: This header is implementation detail and provided for backwards compatibility.
+ #pragma message("This header is implementation detail and provided for backwards compatibility.")
+                                                                                                 ^
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/Dem.cc: In member function ‘void gazebo::common::Dem::GetGeoReference(double, double, ignition::math::v4::Angle&, ignition::math::v4::Angle&) const’:
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/Dem.cc:215:41: warning: ‘OGRErr OGRSpatialReference::importFromWkt(char**)’ is deprecated [-Wdeprecated-declarations]
+     sourceCs.importFromWkt(&importString);
+                                         ^
+In file included from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/Dem.cc:25:
+/usr/include/ogr_spatialref.h:207:17: note: declared here
+     OGRErr      importFromWkt( char ** )
+                 ^~~~~~~~~~~~~
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/MeshExporter.cc.o
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/MeshLoader.cc.o
+[ 10%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qtvariantproperty.cpp.o
+[ 10%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qttreepropertybrowser.cpp.o
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/ModelDatabase.cc.o
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/MeshManager.cc.o
+[ 10%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qtbuttonpropertybrowser.cpp.o
+[ 10%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qtgroupboxpropertybrowser.cpp.o
+In file included from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/CommonIface.hh:22,
+                 from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/MeshManager.cc:22:
+/usr/include/boost/uuid/sha1.hpp:13:97: note: #pragma message: This header is implementation detail and provided for backwards compatibility.
+ #pragma message("This header is implementation detail and provided for backwards compatibility.")
+                                                                                                 ^
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/MouseEvent.cc.o
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/OBJLoader.cc.o
+[ 10%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qtpropertybrowserutils.cpp.o
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/PID.cc.o
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/SemanticVersion.cc.o
+[ 10%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qrc_qtpropertybrowser.cpp.o
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/SkeletonAnimation.cc.o
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Skeleton.cc.o
+[ 10%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/gzqtpropertybrowser_autogen/mocs_compilation.cpp.o
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/SphericalCoordinates.cc.o
+[ 10%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/STLLoader.cc.o
+[ 10%] Linking CXX static library libgzqtpropertybrowser.a
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/SphericalCoordinates.cc: In member function ‘ignition::math::v4::Vector3d gazebo::common::SphericalCoordinates::PositionTransform(const Vector3d&, const gazebo::common::SphericalCoordinates::CoordinateType&, const gazebo::common::SphericalCoordinates::CoordinateType&) const’:
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/SphericalCoordinates.cc:317:49: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         tmp.Y(-_pos.X() * this->dataPtr->sinHea - _pos.Y() *
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+             this->dataPtr->cosHea);
+             ~~~~~~~~~~~~~~~~~~~~~                
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/SphericalCoordinates.cc:321:5: note: here
+     case GLOBAL:
+     ^~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/SphericalCoordinates.cc: In member function ‘ignition::math::v4::Vector3d gazebo::common::SphericalCoordinates::VelocityTransform(const Vector3d&, const gazebo::common::SphericalCoordinates::CoordinateType&, const gazebo::common::SphericalCoordinates::CoordinateType&) const’:
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/SphericalCoordinates.cc:426:47: warning: this statement may fall through [-Wimplicit-fallthrough=]
+       tmp.Y(-_vel.X() * this->dataPtr->sinHea - _vel.Y() *
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+             this->dataPtr->cosHea);
+             ~~~~~~~~~~~~~~~~~~~~~              
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/SphericalCoordinates.cc:429:5: note: here
+     case GLOBAL:
+     ^~~~
+Scanning dependencies of target gazebo_ode
+[ 12%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/SystemPaths.cc.o
+[ 12%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/SVGLoader.cc.o
+[ 12%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/array.cpp.o
+[ 12%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Time.cc.o
+[ 12%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Timer.cc.o
+[ 12%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/box.cpp.o
+[ 12%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/URI.cc.o
+[ 12%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/capsule.cpp.o
+[ 12%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_cylinder_box.cpp.o
+In file included from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/CommonIface.hh:22,
+                 from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/URI.cc:23:
+/usr/include/boost/uuid/sha1.hpp:13:97: note: #pragma message: This header is implementation detail and provided for backwards compatibility.
+ #pragma message("This header is implementation detail and provided for backwards compatibility.")
+                                                                                                 ^
+[ 12%] Built target gzqtpropertybrowser
+[ 12%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Video.cc.o
+[ 12%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_cylinder_plane.cpp.o
+[ 12%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_cylinder_sphere.cpp.o
+[ 12%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_cylinder_trimesh.cpp.o
+[ 12%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/VideoEncoder.cc.o
+In file included from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/CommonIface.hh:22,
+                 from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/VideoEncoder.cc:50:
+/usr/include/boost/uuid/sha1.hpp:13:97: note: #pragma message: This header is implementation detail and provided for backwards compatibility.
+ #pragma message("This header is implementation detail and provided for backwards compatibility.")
+                                                                                                 ^
+In file included from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/objects.h:34,
+                 from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_kernel.h:35,
+                 from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_util.h:43,
+                 from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_cylinder_trimesh.cpp:34:
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/array.h: In instantiation of ‘void dArray<T>::push(T) [with T = dxTriMesh::BoxTC]’:
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_cylinder_trimesh.cpp:1024:47:   required from here
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/array.h:101:12: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of non-trivially copyable type ‘struct dxTriMesh::BoxTC’; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+     memcpy (&(((T*)_data)[_size-1]), &item, sizeof(T));
+     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_cylinder_trimesh.cpp:35:
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_trimesh_internal.h:361:9: note: ‘struct dxTriMesh::BoxTC’ declared here
+  struct BoxTC : public OBBCache{
+         ^~~~~
+[ 12%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/ffmpeg_inc.cc.o
+[ 12%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_kernel.cpp.o
+[ 12%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_libccd.cpp.o
+[ 12%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/GTSMeshUtils.cc.o
+[ 12%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/MeshCSG.cc.o
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/GTSMeshUtils.cc: In function ‘bool TriangleIsHole(GtsTriangle*, GtsFifo*)’:
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/GTSMeshUtils.cc:116:41: warning: cast between incompatible function types from ‘void (*)(GtsEdge*, void**)’ {aka ‘void (*)(_GtsEdge*, void**)’} to ‘GtsFunc’ {aka ‘int (*)(void*, void*)’} [-Wcast-function-type]
+   gts_fifo_foreach(_edgeList, (GtsFunc) Intersection, data);
+                                         ^~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/GTSMeshUtils.cc: In static member function ‘static GtsSurface* gazebo::common::GTSMeshUtils::DelaunayTriangulation(const std::vector<ignition::math::v4::Vector2<double> >&, const std::vector<ignition::math::v4::Vector2<int> >&)’:
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/GTSMeshUtils.cc:181:40: warning: cast between incompatible function types from ‘void (*)(GtsConstraint*, GtsSurface*)’ {aka ‘void (*)(_GtsConstraint*, _GtsSurface*)’} to ‘GtsFunc’ {aka ‘int (*)(void*, void*)’} [-Wcast-function-type]
+   gts_fifo_foreach(edgeList, (GtsFunc) AddConstraint, surface);
+                                        ^~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/GTSMeshUtils.cc:194:54: warning: cast between incompatible function types from ‘bool (*)(GtsTriangle*, GtsFifo*)’ {aka ‘bool (*)(_GtsTriangle*, _GtsFifo*)’} to ‘GtsFunc’ {aka ‘int (*)(void*, void*)’} [-Wcast-function-type]
+   gts_surface_foreach_face_remove(surface, (GtsFunc) TriangleIsHole,
+                                                      ^~~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/GTSMeshUtils.cc: In static member function ‘static bool gazebo::common::GTSMeshUtils::DelaunayTriangulation(const std::vector<ignition::math::v4::Vector2<double> >&, const std::vector<ignition::math::v4::Vector2<int> >&, gazebo::common::SubMesh*)’:
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/GTSMeshUtils.cc:232:49: warning: cast between incompatible function types from ‘void (*)(GtsPoint*, void**)’ {aka ‘void (*)(_GtsPoint*, void**)’} to ‘GtsFunc’ {aka ‘int (*)(void*, void*)’} [-Wcast-function-type]
+   gts_surface_foreach_vertex(surface, (GtsFunc) FillVertex, data);
+                                                 ^~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/GTSMeshUtils.cc:234:47: warning: cast between incompatible function types from ‘void (*)(GtsTriangle*, void**)’ {aka ‘void (*)(_GtsTriangle*, void**)’} to ‘GtsFunc’ {aka ‘int (*)(void*, void*)’} [-Wcast-function-type]
+   gts_surface_foreach_face(surface, (GtsFunc) FillFace, data);
+                                               ^~~~~~~~
+In file included from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/CommonIface.hh:22,
+                 from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/MeshCSG.cc:22:
+/usr/include/boost/uuid/sha1.hpp:13:97: note: #pragma message: This header is implementation detail and provided for backwards compatibility.
+ #pragma message("This header is implementation detail and provided for backwards compatibility.")
+                                                                                                 ^
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/MeshCSG.cc: In member function ‘gazebo::common::Mesh* gazebo::common::MeshCSG::CreateBoolean(const gazebo::common::Mesh*, const gazebo::common::Mesh*, int, const Pose3d&)’:
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/MeshCSG.cc:229:48: warning: cast between incompatible function types from ‘void (*)(GtsTriangle*)’ {aka ‘void (*)(_GtsTriangle*)’} to ‘GtsFunc’ {aka ‘int (*)(void*, void*)’} [-Wcast-function-type]
+     gts_surface_foreach_face(si->s2, (GtsFunc) gts_triangle_revert, nullptr);
+                                                ^~~~~~~~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/MeshCSG.cc:230:44: warning: cast between incompatible function types from ‘void (*)(GtsTriangle*)’ {aka ‘void (*)(_GtsTriangle*)’} to ‘GtsFunc’ {aka ‘int (*)(void*, void*)’} [-Wcast-function-type]
+     gts_surface_foreach_face(s2, (GtsFunc) gts_triangle_revert, nullptr);
+                                            ^~~~~~~~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/MeshCSG.cc:250:43: warning: cast between incompatible function types from ‘void (*)(GtsPoint*, void**)’ {aka ‘void (*)(_GtsPoint*, void**)’} to ‘GtsFunc’ {aka ‘int (*)(void*, void*)’} [-Wcast-function-type]
+   gts_surface_foreach_vertex(s3, (GtsFunc)FillVertex, data);
+                                           ^~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/MeshCSG.cc:252:41: warning: cast between incompatible function types from ‘void (*)(GtsTriangle*, void**)’ {aka ‘void (*)(_GtsTriangle*, void**)’} to ‘GtsFunc’ {aka ‘int (*)(void*, void*)’} [-Wcast-function-type]
+   gts_surface_foreach_face(s3, (GtsFunc)FillFace, data);
+                                         ^~~~~~~~
+[ 12%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/FuelModelDatabase.cc.o
+[ 12%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_quadtreespace.cpp.o
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_sapspace.cpp.o
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_space.cpp.o
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_transform.cpp.o
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_box.cpp.o
+In file included from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/objects.h:34,
+                 from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_kernel.h:35,
+                 from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_util.h:43,
+                 from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_trimesh_box.cpp:37:
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/array.h: In instantiation of ‘void dArray<T>::push(T) [with T = dxTriMesh::BoxTC]’:
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_trimesh_box.cpp:1200:46:   required from here
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/array.h:101:12: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of non-trivially copyable type ‘struct dxTriMesh::BoxTC’; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+     memcpy (&(((T*)_data)[_size-1]), &item, sizeof(T));
+     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_trimesh_box.cpp:38:
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_trimesh_internal.h:361:9: note: ‘struct dxTriMesh::BoxTC’ declared here
+  struct BoxTC : public OBBCache{
+         ^~~~~
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_disabled.cpp.o
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_ccylinder.cpp.o
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_distance.cpp.o
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_gimpact.cpp.o
+In file included from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/objects.h:34,
+                 from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_kernel.h:35,
+                 from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_util.h:43,
+                 from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_trimesh_ccylinder.cpp:58:
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/array.h: In instantiation of ‘void dArray<T>::push(T) [with T = dxTriMesh::BoxTC]’:
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_trimesh_ccylinder.cpp:1019:47:   required from here
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/array.h:101:12: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of non-trivially copyable type ‘struct dxTriMesh::BoxTC’; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+     memcpy (&(((T*)_data)[_size-1]), &item, sizeof(T));
+     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_trimesh_ccylinder.cpp:59:
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_trimesh_internal.h:361:9: note: ‘struct dxTriMesh::BoxTC’ declared here
+  struct BoxTC : public OBBCache{
+         ^~~~~
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_opcode.cpp.o
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_plane.cpp.o
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_ray.cpp.o
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_sphere.cpp.o
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_trimesh.cpp.o
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_trimesh_new.cpp.o
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_util.cpp.o
+In file included from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/objects.h:34,
+                 from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_kernel.h:35,
+                 from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_util.h:43,
+                 from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_trimesh_sphere.cpp:30:
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/array.h: In instantiation of ‘void dArray<T>::push(T) [with T = dxTriMesh::SphereTC]’:
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_trimesh_sphere.cpp:281:53:   required from here
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/array.h:101:12: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of non-trivially copyable type ‘struct dxTriMesh::SphereTC’; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+     memcpy (&(((T*)_data)[_size-1]), &item, sizeof(T));
+     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_trimesh_sphere.cpp:33:
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/collision_trimesh_internal.h:356:9: note: ‘struct dxTriMesh::SphereTC’ declared here
+  struct SphereTC : public SphereCache{
+         ^~~~~~~~
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/convex.cpp.o
+[ 13%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/error.cpp.o
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/cylinder.cpp.o
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/convex.cpp: In function ‘int TestConvexIntersection(dxConvex&, dxConvex&, int, dContactGeom*, int)’:
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/convex.cpp:1229:21: warning: ‘p’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             d = p[0]*cvx1.planes[(k*4)+0]+
+                 ~~~~^~~~~~~~~~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/convex.cpp:1230:17: warning: ‘*((void*)& p +8)’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             p[1]*cvx1.planes[(k*4)+1]+
+             ~~~~^~~~~~~~~~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/convex.cpp:1231:17: warning: ‘*((void*)& p +16)’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             p[2]*cvx1.planes[(k*4)+2]-
+             ~~~~^~~~~~~~~~~~~~~~~~~~~
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/export-dif.cpp.o
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/heightfield.cpp.o
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/io.cpp.o
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/ioh5.cpp.o
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/mass.cpp.o
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/lcp.cpp.o
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/mat.cpp.o
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/matrix.cpp.o
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/memory.cpp.o
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/misc.cpp.o
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/obstack.cpp.o
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/odeinit.cpp.o
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/ode.cpp.o
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/odemath.cpp.o
+[ 15%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/optimize.cpp.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/odeou.cpp.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/odetls.cpp.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/plane.cpp.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/quickstep.cpp.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/quickstep_cg_lcp.cpp.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/quickstep_pgs_lcp.cpp.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/quickstep_update_bodies.cpp.o
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/quickstep_pgs_lcp.cpp: In function ‘void* ComputeRows(void*)’:
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/quickstep_pgs_lcp.cpp:637:33: warning: ‘lo_act_erp’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+               lambda_erp[index] = lo_act_erp;
+               ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/quickstep_pgs_lcp.cpp:641:33: warning: ‘hi_act_erp’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+               lambda_erp[index] = hi_act_erp;
+               ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/quickstep_pgs_lcp.cpp:624:19: warning: ‘lo_act’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             delta = lo_act-old_lambda;
+             ~~~~~~^~~~~~~~~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/deps/opende/src/quickstep_pgs_lcp.cpp:629:27: warning: ‘hi_act’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             lambda[index] = hi_act;
+             ~~~~~~~~~~~~~~^~~~~~~~
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/quickstep_util.cpp.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/robuststep.cpp.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/ray.cpp.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/rotation.cpp.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/sphere.cpp.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/step.cpp.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/step_bullet_lemke_wrapper.cpp.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/step_bullet_pgs_wrapper.cpp.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/step_dart_pgs_wrapper.cpp.o
+[ 16%] Building C object deps/opende/CMakeFiles/gazebo_ode.dir/src/symm.c.o
+[ 16%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/util.cpp.o
+[ 18%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/timer.cpp.o
+[ 18%] Building C object deps/opende/CMakeFiles/gazebo_ode.dir/src/fastdot.c.o
+[ 18%] Building C object deps/opende/CMakeFiles/gazebo_ode.dir/src/fastldlt.c.o
+[ 18%] Building C object deps/opende/CMakeFiles/gazebo_ode.dir/src/fastlsolve.c.o
+[ 18%] Building C object deps/opende/CMakeFiles/gazebo_ode.dir/src/fastltsolve.c.o
+[ 18%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/amotor.cpp.o
+[ 18%] Building C object deps/opende/CMakeFiles/gazebo_ode.dir/src/nextafterf.c.o
+[ 18%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/ball.cpp.o
+[ 18%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/contact.cpp.o
+[ 18%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/fixed.cpp.o
+[ 18%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/hinge2.cpp.o
+[ 18%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/hinge.cpp.o
+[ 18%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/joint.cpp.o
+[ 18%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/lmotor.cpp.o
+[ 18%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/null.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/piston.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/plane2d.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/pr.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/pu.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/screw.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/dhinge.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/dball.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/gearbox.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/slider.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/universal.cpp.o
+[ 20%] Linking CXX shared library libgazebo_ode.so
+[ 20%] Built target gazebo_ode
+In file included from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/CommonIface.hh:22,
+                 from /home/aeon/gazebo-hg/src/gazebo/gazebo/common/FuelModelDatabase.cc:33:
+/usr/include/boost/uuid/sha1.hpp:13:97: note: #pragma message: This header is implementation detail and provided for backwards compatibility.
+ #pragma message("This header is implementation detail and provided for backwards compatibility.")
+                                                                                                 ^
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/FuelModelDatabase.cc: In constructor ‘gazebo::common::FuelModelDatabase::FuelModelDatabase()’:
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/FuelModelDatabase.cc:74:8: error: ‘class ignition::fuel_tools::ClientConfig’ has no member named ‘SetUserAgent’
+   conf.SetUserAgent(userAgent);
+        ^~~~~~~~~~~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/FuelModelDatabase.cc: In member function ‘std::__cxx11::string gazebo::common::FuelModelDatabase::ModelPath(const string&, bool)’:
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/FuelModelDatabase.cc:208:36: error: ‘URI’ is not a member of ‘ignition::common’
+   auto fuelUri = ignition::common::URI(_uri);
+                                    ^~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/FuelModelDatabase.cc:220:36: error: ‘class ignition::fuel_tools::FuelClient’ has no member named ‘CachedModel’; did you mean ‘UploadModel’?
+     if (this->dataPtr->fuelClient->CachedModel(fuelUri, path))
+                                    ^~~~~~~~~~~
+                                    UploadModel
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/FuelModelDatabase.cc: In member function ‘std::__cxx11::string gazebo::common::FuelModelDatabase::CachedFilePath(const string&)’:
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/FuelModelDatabase.cc:245:36: error: ‘URI’ is not a member of ‘ignition::common’
+   auto fuelUri = ignition::common::URI(_uri);
+                                    ^~~
+/home/aeon/gazebo-hg/src/gazebo/gazebo/common/FuelModelDatabase.cc:253:35: error: ‘class ignition::fuel_tools::FuelClient’ has no member named ‘CachedModelFile’
+   if (!this->dataPtr->fuelClient->CachedModelFile(fuelUri, path))
+                                   ^~~~~~~~~~~~~~~
+make[2]: *** [gazebo/common/CMakeFiles/gazebo_common.dir/build.make:648: gazebo/common/CMakeFiles/gazebo_common.dir/FuelModelDatabase.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1621: gazebo/common/CMakeFiles/gazebo_common.dir/all] Error 2
+make: *** [Makefile:163: all] Error 2
+[1m[31m==> ERROR:[m[1m A failure occurred in build().[m
+[1m    Aborting...[m

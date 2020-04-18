@@ -1,0 +1,48 @@
+diff --git a/deps/opende/src/step.cpp b/deps/opende/src/step.cpp
+index 9e95f70..b2c04fc 100644
+--- a/deps/opende/src/step.cpp
++++ b/deps/opende/src/step.cpp
+@@ -883,8 +883,25 @@ void dInternalStepIsland_x2 (dxWorldProcessContext *context,
+     // (over the given timestep)
+     IFTIMING(dTimerNow ("update position"));
+     dxBody *const *const bodyend = body + nb;
+-    for (dxBody *const *bodycurr = body; bodycurr != bodyend; ++bodycurr) {
++    dReal *cforcecurr = cforce;
++    for (dxBody *const *bodycurr = body; bodycurr != bodyend;
++         cforcecurr+=8, ++bodycurr)
++    {
+       dxBody *b = *bodycurr;
++      {
++        // sum all forces (external and constraint) into facc and tacc
++        // so dBodyGetForce and dBodyGetTorque returns total force and torque
++        // on the body
++        dReal cf[6];
++        cf[0] = cforcecurr[0];
++        cf[1] = cforcecurr[1];
++        cf[2] = cforcecurr[2];
++        for (unsigned int j = 0; j < 3; ++j)
++        {
++          b->facc[j] += cf[j];
++          b->tacc[j] += cf[3+j];
++        }
++      }
+       dxStepBody (b,stepsize);
+     }
+   }
+@@ -896,14 +913,8 @@ void dInternalStepIsland_x2 (dxWorldProcessContext *context,
+     dxBody *const *const bodyend = body + nb;
+     for (dxBody *const *bodycurr = body; bodycurr != bodyend; ++bodycurr) {
+       dxBody *b = *bodycurr;
+-      b->facc[0] = 0;
+-      b->facc[1] = 0;
+-      b->facc[2] = 0;
+-      b->facc[3] = 0;
+-      b->tacc[0] = 0;
+-      b->tacc[1] = 0;
+-      b->tacc[2] = 0;
+-      b->tacc[3] = 0;
++      dSetZero (b->facc,3);
++      dSetZero (b->tacc,3);
+     }
+   }
+ 

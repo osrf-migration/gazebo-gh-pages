@@ -1,0 +1,134 @@
+GNU gdb (Ubuntu/Linaro 7.4-2012.04-0ubuntu2) 7.4-2012.04
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+For bug reporting instructions, please see:
+<http://bugs.launchpad.net/gdb-linaro/>...
+Reading symbols from /opt/ros/groovy/stacks/simulator_gazebo/gazebo/gazebo/bin/gzclient...(no debugging symbols found)...done.
+(gdb) r
+Starting program: /opt/ros/groovy/stacks/simulator_gazebo/gazebo/gazebo/bin/gzclient -g /opt/ros/groovy/stacks/simulator_gazebo/gazebo/lib/libgazebo_ros_paths_plugin.so
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+Gazebo multi-robot simulator, version 1.2.5
+Copyright (C) 2012 Nate Koenig, John Hsu, and contributors.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[New Thread 0x7fffe13a5700 (LWP 5308)]
+Msg Waiting for master
+Msg Connected to gazebo master @ http://localhost:11345
+[New Thread 0x7fffe0ba4700 (LWP 5309)]
+[New Thread 0x7fffd256f700 (LWP 5310)]
+[New Thread 0x7fffd1d6e700 (LWP 5311)]
+[New Thread 0x7fffd156d700 (LWP 5312)]
+[New Thread 0x7fffbdd70700 (LWP 5313)]
+[New Thread 0x7fffbd56f700 (LWP 5314)]
+[New Thread 0x7fffb7fff700 (LWP 5315)]
+Warning [ModelDatabase.cc:69] GAZEBO_MODEL_DATABASE_URI not set
+Warning [ModelDatabase.cc:69] GAZEBO_MODEL_DATABASE_URI not set
+Warning [ModelDatabase.cc:69] GAZEBO_MODEL_DATABASE_URI not set
+Warning [ModelDatabase.cc:113] Unable to connect to model database using [/]. Only locally installed models will be available.[New Thread 0x7fffabfff700 (LWP 5316)]
+[New Thread 0x7fffab7fe700 (LWP 5317)]
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00007fffdaaae307 in ?? () from /usr/lib/fglrx/dri/fglrx_dri.so
+(gdb) bt
+#0  0x00007fffdaaae307 in ?? () from /usr/lib/fglrx/dri/fglrx_dri.so
+#1  0x00007fffdab2410e in ?? () from /usr/lib/fglrx/dri/fglrx_dri.so
+#2  0x00007fffdab24449 in ?? () from /usr/lib/fglrx/dri/fglrx_dri.so
+#3  0x00007fffda037421 in ?? () from /usr/lib/fglrx/dri/fglrx_dri.so
+#4  0x00007fffd9f440b8 in ?? () from /usr/lib/fglrx/dri/fglrx_dri.so
+#5  0x00007fffda0a35b7 in ?? () from /usr/lib/fglrx/dri/fglrx_dri.so
+#6  0x00007fffda3c383d in ?? () from /usr/lib/fglrx/dri/fglrx_dri.so
+#7  0x00007fffd856ee20 in Ogre::GLRenderSystem::bindGpuProgram (
+    this=0x7fffe0057a58, prg=<optimized out>)
+    at /tmp/buildd/ros-groovy-visualization-common-1.8.4/debian/ros-groovy-visualization-common/opt/ros/groovy/stacks/visualization_common/ogre/build/ogre_src_v1-7-3/RenderSystems/GL/src/OgreGLRenderSystem.cpp:3016
+#8  0x00007ffff1d32685 in Ogre::SceneManager::_setPass (this=0x7fffd088e850, 
+    pass=0x7fffd09ee330, evenIfSuppressed=<optimized out>, 
+    shadowDerivation=true)
+    at /tmp/buildd/ros-groovy-visualization-common-1.8.4/debian/ros-groovy-visualization-common/opt/ros/groovy/stacks/visualization_common/ogre/build/ogre_src_v1-7-3/OgreMain/src/OgreSceneManager.cpp:942
+#9  0x00007ffff1d2d309 in visit (rp=0x7fffe00a2858, this=0x7fffd0893228)
+    at /tmp/buildd/ros-groovy-visualization-common-1.8.4/debian/ros-groovy-visualization-common/opt/ros/groovy/stacks/visualization_common/ogre/build/ogre_src_v---Type <return> to continue, or q <return> to quit---
+1-7-3/OgreMain/src/OgreSceneManager.cpp:2872
+#10 Ogre::SceneManager::SceneMgrQueuedRenderableVisitor::visit (
+    this=0x7fffd0893228, rp=0x7fffe00a2858)
+    at /tmp/buildd/ros-groovy-visualization-common-1.8.4/debian/ros-groovy-visualization-common/opt/ros/groovy/stacks/visualization_common/ogre/build/ogre_src_v1-7-3/OgreMain/src/OgreSceneManager.cpp:2860
+#11 0x00007ffff1ce4df9 in Ogre::QueuedRenderableCollection::acceptVisitorDescending (this=<optimized out>, visitor=0x7fffd0893228)
+    at /tmp/buildd/ros-groovy-visualization-common-1.8.4/debian/ros-groovy-visualization-common/opt/ros/groovy/stacks/visualization_common/ogre/build/ogre_src_v1-7-3/OgreMain/src/OgreRenderQueueSortingGrouping.cpp:465
+#12 0x00007ffff1ce4ea1 in Ogre::QueuedRenderableCollection::acceptVisitor (
+    this=<optimized out>, visitor=<optimized out>, om=<optimized out>)
+    at /tmp/buildd/ros-groovy-visualization-common-1.8.4/debian/ros-groovy-visualization-common/opt/ros/groovy/stacks/visualization_common/ogre/build/ogre_src_v1-7-3/OgreMain/src/OgreRenderQueueSortingGrouping.cpp:421
+#13 0x00007ffff1d2d85c in Ogre::SceneManager::renderBasicQueueGroupObjects (
+    this=0x7fffd088e850, pGroup=0x7fffd8f4b348, 
+    om=Ogre::QueuedRenderableCollection::OM_PASS_GROUP)
+    at /tmp/buildd/ros-groovy-visualization-common-1.8.4/debian/ros-groovy-visualization-common/opt/ros/groovy/stacks/visualization_common/ogre/build/ogre_src_v---Type <return> to continue, or q <return> to quit---
+1-7-3/OgreMain/src/OgreSceneManager.cpp:3027
+#14 0x00007ffff1d2ca87 in Ogre::SceneManager::renderVisibleObjectsDefaultSequence (this=0x7fffd088e850)
+    at /tmp/buildd/ros-groovy-visualization-common-1.8.4/debian/ros-groovy-visualization-common/opt/ros/groovy/stacks/visualization_common/ogre/build/ogre_src_v1-7-3/OgreMain/src/OgreSceneManager.cpp:2281
+#15 0x00007ffff1d31224 in Ogre::SceneManager::_renderScene (
+    this=0x7fffd088e850, camera=0x7fffd0899618, vp=0x7fffd90322c8, 
+    includeOverlays=<optimized out>)
+    at /tmp/buildd/ros-groovy-visualization-common-1.8.4/debian/ros-groovy-visualization-common/opt/ros/groovy/stacks/visualization_common/ogre/build/ogre_src_v1-7-3/OgreMain/src/OgreSceneManager.cpp:1505
+
+#16 0x00007ffff1b9870c in Ogre::Camera::_renderScene (this=0x7fffd0899618, 
+    vp=0x7fffd90322c8, includeOverlays=true)
+    at /tmp/buildd/ros-groovy-visualization-common-1.8.4/debian/ros-groovy-visualization-common/opt/ros/groovy/stacks/visualization_common/ogre/build/ogre_src_v1-7-3/OgreMain/src/OgreCamera.cpp:412
+#17 0x00007ffff1cfda78 in Ogre::RenderTarget::_updateViewport (
+    this=0x7fffd08f9360, viewport=0x7fffd90322c8, updateStatistics=true)
+    at /tmp/buildd/ros-groovy-visualization-common-1.8.4/debian/ros-groovy-visualization-common/opt/ros/groovy/stacks/visualization_common/ogre/build/ogre_src_v---Type <return> to continue, or q <return> to quit---
+1-7-3/OgreMain/src/OgreRenderTarget.cpp:146
+#18 0x00007ffff1cfd99b in Ogre::RenderTarget::_updateAutoUpdatedViewports (
+    this=0x7fffd08f9360, updateStatistics=true)
+    at /tmp/buildd/ros-groovy-visualization-common-1.8.4/debian/ros-groovy-visualization-common/opt/ros/groovy/stacks/visualization_common/ogre/build/ogre_src_v1-7-3/OgreMain/src/OgreRenderTarget.cpp:124
+#19 0x00007ffff1cfd43e in Ogre::RenderTarget::updateImpl (this=0x7fffd08f9360)
+    at /tmp/buildd/ros-groovy-visualization-common-1.8.4/debian/ros-groovy-visualization-common/opt/ros/groovy/stacks/visualization_common/ogre/build/ogre_src_v1-7-3/OgreMain/src/OgreRenderTarget.cpp:101
+#20 0x00007ffff1cfd9dc in Ogre::RenderTarget::update (this=0x7fffd08f9360, 
+    swap=false)
+    at /tmp/buildd/ros-groovy-visualization-common-1.8.4/debian/ros-groovy-visualization-common/opt/ros/groovy/stacks/visualization_common/ogre/build/ogre_src_v1-7-3/OgreMain/src/OgreRenderTarget.cpp:541
+#21 0x00007ffff7386858 in gazebo::rendering::Camera::RenderImpl() ()
+   from /opt/ros/groovy/stacks/simulator_gazebo/gazebo/gazebo/lib/libgazebo_rendering.so.1
+#22 0x000000000049d3e3 in gazebo::gui::GLWidget::paintEvent(QPaintEvent*) ()
+#23 0x00007ffff63130f6 in QWidget::event(QEvent*) ()
+   from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+---Type <return> to continue, or q <return> to quit---
+#24 0x00007ffff62c2894 in QApplicationPrivate::notify_helper(QObject*, QEvent*)
+    () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#25 0x00007ffff62c7713 in QApplication::notify(QObject*, QEvent*) ()
+   from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#26 0x00007ffff5d9fe9c in QCoreApplication::notifyInternal(QObject*, QEvent*)
+    () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+#27 0x00007ffff630ed96 in QWidgetPrivate::drawWidget(QPaintDevice*, QRegion const&, QPoint const&, int, QPainter*, QWidgetBackingStore*) ()
+   from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#28 0x00007ffff64da787 in QWidgetPrivate::repaint_sys(QRegion const&) ()
+   from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#29 0x00007ffff6305a64 in QWidgetPrivate::syncBackingStore() ()
+   from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#30 0x00007ffff631360c in QWidget::event(QEvent*) ()
+   from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#31 0x00007ffff62c2894 in QApplicationPrivate::notify_helper(QObject*, QEvent*)
+    () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#32 0x00007ffff62c7713 in QApplication::notify(QObject*, QEvent*) ()
+   from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#33 0x00007ffff5d9fe9c in QCoreApplication::notifyInternal(QObject*, QEvent*)
+    () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+---Type <return> to continue, or q <return> to quit---
+#34 0x00007ffff5da3c6a in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+#35 0x00007ffff5dcef93 in ?? () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+#36 0x00007ffff0599d53 in g_main_context_dispatch ()
+   from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#37 0x00007ffff059a0a0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#38 0x00007ffff059a164 in g_main_context_iteration ()
+   from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#39 0x00007ffff5dcf3bf in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+#40 0x00007ffff636ad5e in ?? () from /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+#41 0x00007ffff5d9ec82 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+#42 0x00007ffff5d9eed7 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+#43 0x00007ffff5da3f67 in QCoreApplication::exec() ()
+   from /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+#44 0x0000000000482dce in gazebo::gui::run(int, char**) ()
+#45 0x000000000047ad09 in main ()
+(gdb) 
+

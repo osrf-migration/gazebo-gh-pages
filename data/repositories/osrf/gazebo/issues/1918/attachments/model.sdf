@@ -1,0 +1,33 @@
+
+    <?xml version="1.0"?>
+<sdf version="1.6">
+<model name="my_ground_plane">
+  <static>false</static>
+    <link name="link">
+
+      <collision name="collision">
+                <geometry>
+                <image>
+                         <uri>model://my_ground_plane/materials/textures/ground_plane.png</uri>
+    <scale>1.0</scale>
+    <threshold>254</threshold>
+    <granularity>1</granularity>
+    <height>2</height>
+    </image>
+          </geometry>
+      </collision>
+      <visual name="visual">
+                <geometry>
+                <image>
+                         <uri>model://my_ground_plane/materials/textures/ground_plane.png</uri>
+    <scale>1.0</scale>
+    <threshold>254</threshold>
+    <granularity>1</granularity>
+    <height>2</height>
+    </image>
+          </geometry>
+
+      </visual>
+    </link>
+  </model>
+</sdf>

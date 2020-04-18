@@ -1,0 +1,115 @@
+mdeleo@mentor2-dev:~/Devel/gazebo$ gdb gzserver
+GNU gdb (Ubuntu 7.7.1-0ubuntu5~14.04.2) 7.7.1
+Copyright (C) 2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from gzserver...done.
+(gdb) r --verbose -s libRestWebPlugin.so test/worlds/rest_web.world
+Starting program: /usr/local/bin/gzserver --verbose -s libRestWebPlugin.so test/worlds/rest_web.world
+
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7fffe4dcc700 (LWP 12491)]
+Gazebo multi-robot simulator, version 6.0.0
+Copyright (C) 2012-2015 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[Msg] REST web Session : 8f0d50b8-fcd3-4447-a77c-ee7b100e4f31
+[New Thread 0x7fffe3cca700 (LWP 12492)]
+[New Thread 0x7fffe34c9700 (LWP 12493)]
+[Msg] Waiting for master.
+[Msg] Connected to gazebo master @ http://127.0.0.1:11345
+[Msg] Publicized address: 10.0.2.15
+[New Thread 0x7fffe2abc700 (LWP 12494)]
+[Err] [Node.cc:98] No namespace found
+[New Thread 0x7fffe1e83700 (LWP 12505)]
+[New Thread 0x7fffe1a82700 (LWP 12506)]
+libGL error: pci id for fd 13: 80ee:beef, driver (null)
+libGL error: core dri or dri2 extension not found
+libGL error: failed to load driver: vboxvideo
+[New Thread 0x7fffc6c7e700 (LWP 12509)]
+[New Thread 0x7fffc627d700 (LWP 12510)]
+[New Thread 0x7fffc5a7c700 (LWP 12511)]
+[New Thread 0x7fffc527b700 (LWP 12512)]
+[New Thread 0x7fffc4a7a700 (LWP 12513)]
+[Msg] InRegionEventSource  model can1  region [start]
+  Min [-3, -3, -3]
+  Max [3, 3, 3]
+  inside: 0
+[Msg] InRegionEventSource  model can1  region [end]
+  Min [7, 7, -3]
+  Max [13, 13, 3]
+  inside: 0
+[Msg] 1 post(s) queued to be sent
+[Msg] login route: /login
+[New Thread 0x7fffb7fff700 (LWP 13096)]
+[Thread 0x7fffb7fff700 (LWP 13096) exited]
+[Msg] login response: Learning Companion version: 0.0.19
+[New Thread 0x7fffb7fff700 (LWP 13097)]
+[Thread 0x7fffb7fff700 (LWP 13097) exited]
+[Err] [RestApi.cc:364] Request to https://localhost:5000 error: Could not verify your access level for that URL.
+You have to login with proper credentials
+[Err] [RestWebPlugin.cc:299] ERROR in REST login request. : There was a problem trying to login the server: Could not verify your access level for that URL.
+You have to login with proper credentials
+[Msg] login route: /login
+[New Thread 0x7fffb7fff700 (LWP 13526)]
+[Thread 0x7fffb7fff700 (LWP 13526) exited]
+[Msg] login response: Learning Companion version: 0.0.19
+[New Thread 0x7fffb7fff700 (LWP 13822)]
+[Err] [RestApi.cc:364[1;[Thread 0x7fffb7fff700 (LWP 13822) exited]
+31m] Request to https://localhost:5000 error: Could not verify your access level for that URL.
+You have to login with proper credentials
+terminate called after throwing an instance of 'gazebo::RestException'
+  what():  Could not verify your access level for that URL.
+You have to login with proper credentials
+
+Program received signal SIGABRT, Aborted.
+[Switching to Thread 0x7fffe2abc700 (LWP 12494)]
+0x00007ffff49a7cc9 in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
+56	../nptl/sysdeps/unix/sysv/linux/raise.c: No such file or directory.
+(gdb) 
+(gdb) where
+#0  0x00007ffff49a7cc9 in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
+#1  0x00007ffff49ab0d8 in __GI_abort () at abort.c:89
+#2  0x00007ffff52b36b5 in __gnu_cxx::__verbose_terminate_handler() () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#3  0x00007ffff52b1836 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#4  0x00007ffff52b1863 in std::terminate() () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#5  0x00007ffff52b1aa2 in __cxa_throw () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#6  0x00007fffe3cd5855 in gazebo::RestApi::Request (this=this@entry=0x6b4e00, _reqUrl=..., _postJsonStr=...)
+    at /home/mdeleo/Devel/gazebo/plugins/rest_web/RestApi.cc:365
+#7  0x00007fffe3cd5a8d in gazebo::RestApi::SendUnpostedPosts (this=this@entry=0x6b4e00)
+    at /home/mdeleo/Devel/gazebo/plugins/rest_web/RestApi.cc:250
+#8  0x00007fffe3cd5eff in gazebo::RestApi::PostJsonData (this=this@entry=0x6b4e00, _route=<optimized out>, _json=<optimized out>)
+    at /home/mdeleo/Devel/gazebo/plugins/rest_web/RestApi.cc:206
+#9  0x00007fffe3cda14e in gazebo::RestWebPlugin::OnSimEvent (this=0x6b4d70, _msg=...)
+    at /home/mdeleo/Devel/gazebo/plugins/rest_web/RestWebPlugin.cc:191
+#10 0x00007fffe3cdd25b in operator() (a0=..., this=0x6bd430) at /usr/include/boost/function/function_template.hpp:767
+#11 gazebo::transport::CallbackHelperT<gazebo::msgs::SimEvent>::HandleMessage (this=0x6bd420, _newMsg=...)
+    at /home/mdeleo/Devel/gazebo/gazebo/transport/CallbackHelper.hh:153
+#12 0x00007ffff76a670a in gazebo::transport::Node::ProcessIncoming (this=0x6b4ec0)
+    at /home/mdeleo/Devel/gazebo/gazebo/transport/Node.cc:253
+#13 0x00007ffff76afa6b in gazebo::transport::TopicManager::ProcessNodes (
+    this=0x63c1c0 <SingletonT<gazebo::transport::TopicManager>::GetInstance()::t>, _onlyOut=_onlyOut@entry=false)
+    at /home/mdeleo/Devel/gazebo/gazebo/transport/TopicManager.cc:190
+#14 0x00007ffff769f856 in gazebo::transport::ConnectionManager::RunUpdate (
+---Type <return> to continue, or q <return> to quit--- 
+    this=this@entry=0x63bfc0 <SingletonT<gazebo::transport::ConnectionManager>::GetInstance()::t>)
+    at /home/mdeleo/Devel/gazebo/gazebo/transport/ConnectionManager.cc:276
+#15 0x00007ffff769f9f5 in gazebo::transport::ConnectionManager::Run (
+    this=0x63bfc0 <SingletonT<gazebo::transport::ConnectionManager>::GetInstance()::t>)
+    at /home/mdeleo/Devel/gazebo/gazebo/transport/ConnectionManager.cc:307
+#16 0x00007ffff5beaa4a in ?? () from /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.54.0
+#17 0x00007ffff6a41182 in start_thread (arg=0x7fffe2abc700) at pthread_create.c:312
+#18 0x00007ffff4a6c00d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:111
+(gdb) 

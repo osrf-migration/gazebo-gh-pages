@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+<!-- WORLD SETTINGS -->
+	<world name="debug_collapse">
+		<physics type="ode">
+			<gravity> 0.0 0.0 0.0</gravity>
+		</physics>
+		<include>
+			<uri>model://sun</uri>
+		</include>
+
+		<model name="this_is_my_name">
+			<pose>0 0 0 0 0 0 </pose>
+			<static>false</static>
+			<self_collide>false</self_collide>
+			<link name="base">
+				<pose>-0.5 -0.5 -2 0 0 0</pose>
+				<gravity>true</gravity>
+				<visual name="base_vis">
+					<pose>0 0 0 0 0 0</pose>
+					<geometry>
+						<box>
+							<size>2 2 4</size>
+						</box>
+					</geometry>
+					<material>
+						<script>
+							<uri>file://media/materials/scripts/gazebo.material</uri>
+							<name>Gazebo/Blue</name>
+						</script>
+					</material>
+				</visual>
+			</link>
+			<link name="intermediate">
+				<pose>0 -0.1 1.5 0 0 0 </pose>
+				<gravity>true</gravity>
+				<inertial>
+					<mass>5</mass>
+					<inertia>
+						<ixx>0.1</ixx>
+						<ixy>0</ixy>
+						<ixz>0.0</ixz>
+						<iyy>0.1</iyy>
+						<iyz>0</iyz>
+						<izz>0.1</izz>
+					</inertia>
+				</inertial>
+				<visual name="intermediate_vis">
+					<pose>0 0 0 0 0 0</pose>
+					<geometry>
+						<box>
+							<size>0.5 0.25 0.25</size>
+						</box>
+					</geometry>
+					<material>
+						<script>
+							<uri>file://media/materials/scripts/gazebo.material</uri>
+							<name>Gazebo/Red</name>
+						</script>
+					</material>
+				</visual>
+			</link>
+			<joint name ="base_joint" type="revolute">
+				<pose> 0 0 0 0 0 0 </pose>
+				<parent>base</parent>
+				<child>intermediate</child>
+				<axis>
+					<xyz>0 0 1</xyz>
+					<dynamics>
+						<damping>500</damping>
+					</dynamics>
+				</axis>
+			</joint>
+
+			<link name="out_there">
+				<pose>0 0 0 0 -0.453785605518556 0</pose>
+				<inertial>
+					<mass>0.001</mass>
+					<inertia>
+						<ixx>.0166667</ixx>
+						<ixy>0</ixy>
+						<ixz>0</ixz>
+						<iyy>.0166667</iyy>
+						<iyz>0</iyz>
+						<izz>.0166667</izz>
+					</inertia>
+				</inertial>
+				<visual name="ot_visual">
+					<geometry>
+						<sphere>
+							<radius>0.2</radius>
+						</sphere>
+					</geometry>
+					<material>
+						<script>
+							<uri>file://media/materials/scripts/gazebo.material</uri>
+							<name>Gazebo/Indigo</name>
+						</script>
+					</material>
+				</visual>
+			</link>
+
+			<joint type="fixed" name="fused_frameii">
+				<pose>0.0 0.0 0.0 0 0 0</pose>
+				<child>out_there</child>
+				<parent>intermediate</parent>
+			</joint>
+		</model>
+	</world>
+</sdf>

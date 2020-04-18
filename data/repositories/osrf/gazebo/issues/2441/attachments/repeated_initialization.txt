@@ -1,0 +1,197 @@
+Gazebo multi-robot simulator, version 7.11.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[ INFO] [1521186330.949791548]: Finished loading Gazebo ROS API Plugin.
+[ INFO] [1521186330.949934593]: waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...
+[Msg] Waiting for master.
+[Msg] Connected to gazebo master @ http://127.0.0.1:11345
+[Msg] Publicized address: 192.168.6.21
+[Msg] 
+Log playback:
+  Log Version: 1.0
+  Gazebo Version: 7.11.0
+  Random Seed: 1222307367
+  Log Start Time: 0 147000000
+  Log End Time: 5 827000000
+[ INFO] [1521186332.077374354]: Laser Plugin: Using the 'robotNamespace' param: '/'
+[ INFO] [1521186332.077414638]: Starting Laser Plugin (ns = /)
+[ INFO] [1521186332.078808398]: Laser Plugin (ns = /)  <tf_prefix_>, set to ""
+[Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+[ INFO] [1521186332.301416344]: Camera Plugin: Using the 'robotNamespace' param: '/'
+[ INFO] [1521186332.304953808]: Camera Plugin (ns = /)  <tf_prefix_>, set to ""
+[ WARN] [1521186333.064758897]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[ INFO] [1521186333.067429550]: Started arm_controller/gravity_compensation
+[ INFO] [1521186333.090275670]: Started base_controller
+[ WARN] [1521186333.109468991]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[ INFO] [1521186333.144092027]: Started bellows_controller
+[ INFO] [1521186333.152486588]: Finished initializing FetchGazeboPlugin
+[Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+[Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+[Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+[ INFO] [1521186333.784768765, 0.157000000]: Laser Plugin: Using the 'robotNamespace' param: '/'
+[ INFO] [1521186333.784853362, 0.157000000]: Starting Laser Plugin (ns = /)
+[ INFO] [1521186333.785845045, 0.157000000]: Laser Plugin (ns = /)  <tf_prefix_>, set to ""
+[ INFO] [1521186333.786439885, 0.157000000]: Camera Plugin: Using the 'robotNamespace' param: '/'
+[ERROR] [1521186333.786552283, 0.157000000]: Tried to advertise a service that is already advertised in this node [/head_camera/set_camera_info]
+[ INFO] [1521186333.788634789, 0.157000000]: Camera Plugin (ns = /)  <tf_prefix_>, set to ""
+[ERROR] [1521186333.788709721, 0.157000000]: Tried to advertise a service that is already advertised in this node [/head_camera/set_parameters]
+[ERROR] [1521186333.790938957, 0.157000000]: Tried to advertise a service that is already advertised in this node [/head_camera/rgb/image_raw/compressedDepth/set_parameters]
+[ERROR] [1521186333.794941317, 0.157000000]: Tried to advertise a service that is already advertised in this node [/head_camera/rgb/image_raw/compressed/set_parameters]
+[ERROR] [1521186333.799143417, 0.157000000]: Tried to advertise a service that is already advertised in this node [/head_camera/rgb/image_raw/theora/set_parameters]
+[ERROR] [1521186333.874361855, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/l_wheel_joint/position/set_parameters]
+[ERROR] [1521186333.892031100, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/l_wheel_joint/velocity/set_parameters]
+[ERROR] [1521186333.910653353, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/r_wheel_joint/position/set_parameters]
+[ERROR] [1521186333.926541345, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/r_wheel_joint/velocity/set_parameters]
+[ERROR] [1521186333.943633741, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/torso_lift_joint/position/set_parameters]
+[ERROR] [1521186333.960377412, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/torso_lift_joint/velocity/set_parameters]
+[ERROR] [1521186333.977549625, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/bellows_joint/position/set_parameters]
+[ERROR] [1521186333.994530018, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/bellows_joint/velocity/set_parameters]
+[ERROR] [1521186334.011353320, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/head_pan_joint/position/set_parameters]
+[ERROR] [1521186334.028388783, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/head_pan_joint/velocity/set_parameters]
+[ERROR] [1521186334.045173870, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/head_tilt_joint/position/set_parameters]
+[ERROR] [1521186334.062428250, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/head_tilt_joint/velocity/set_parameters]
+[ERROR] [1521186334.080052039, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/shoulder_pan_joint/position/set_parameters]
+[ERROR] [1521186334.097149073, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/shoulder_pan_joint/velocity/set_parameters]
+[ERROR] [1521186334.114198157, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/shoulder_lift_joint/position/set_parameters]
+[ERROR] [1521186334.130903279, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/shoulder_lift_joint/velocity/set_parameters]
+[ERROR] [1521186334.147357287, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/upperarm_roll_joint/position/set_parameters]
+[ERROR] [1521186334.164059094, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/upperarm_roll_joint/velocity/set_parameters]
+[ERROR] [1521186334.181474275, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/elbow_flex_joint/position/set_parameters]
+[ERROR] [1521186334.198465876, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/elbow_flex_joint/velocity/set_parameters]
+[ERROR] [1521186334.216484354, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/forearm_roll_joint/position/set_parameters]
+[ERROR] [1521186334.235178466, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/forearm_roll_joint/velocity/set_parameters]
+[ERROR] [1521186334.252208735, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/wrist_flex_joint/position/set_parameters]
+[ERROR] [1521186334.269317929, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/wrist_flex_joint/velocity/set_parameters]
+[ERROR] [1521186334.286428962, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/wrist_roll_joint/position/set_parameters]
+[ERROR] [1521186334.304415448, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/wrist_roll_joint/velocity/set_parameters]
+[ERROR] [1521186334.323923736, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/l_gripper_finger_joint/position/set_parameters]
+[ERROR] [1521186334.343456366, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/l_gripper_finger_joint/velocity/set_parameters]
+[ERROR] [1521186334.362328917, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/r_gripper_finger_joint/position/set_parameters]
+[ERROR] [1521186334.382437154, 0.157000000]: Tried to advertise a service that is already advertised in this node [/gazebo/r_gripper_finger_joint/velocity/set_parameters]
+[ WARN] [1521186334.407533314, 0.157000000]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[ INFO] [1521186334.409846263, 0.157000000]: Started arm_controller/gravity_compensation
+[ INFO] [1521186334.427232728, 0.157000000]: Started base_controller
+[ WARN] [1521186334.442231171, 0.157000000]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[ INFO] [1521186334.470343984, 0.157000000]: Started bellows_controller
+[ INFO] [1521186334.475726408, 0.157000000]: Finished initializing FetchGazeboPlugin
+[Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+[Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+[ INFO] [1521186334.477804747, 0.167000000]: waitForService: Service [/gazebo/set_physics_properties] is now available.
+[ INFO] [1521186334.502833959, 0.177000000]: Physics dynamic reconfigure ready.
+[ INFO] [1521186334.696441570, 0.177000000]: Laser Plugin: Using the 'robotNamespace' param: '/'
+[ INFO] [1521186334.696514150, 0.177000000]: Starting Laser Plugin (ns = /)
+[ INFO] [1521186334.697454020, 0.177000000]: Laser Plugin (ns = /)  <tf_prefix_>, set to ""
+[ INFO] [1521186334.704807131, 0.177000000]: Camera Plugin: Using the 'robotNamespace' param: '/'
+[ERROR] [1521186334.705057494, 0.177000000]: Tried to advertise a service that is already advertised in this node [/head_camera/set_camera_info]
+[Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+[ INFO] [1521186334.708799140, 0.177000000]: Camera Plugin (ns = /)  <tf_prefix_>, set to ""
+[ERROR] [1521186334.708879315, 0.177000000]: Tried to advertise a service that is already advertised in this node [/head_camera/set_parameters]
+[ERROR] [1521186334.711338079, 0.177000000]: Tried to advertise a service that is already advertised in this node [/head_camera/rgb/image_raw/compressedDepth/set_parameters]
+[ERROR] [1521186334.715633842, 0.177000000]: Tried to advertise a service that is already advertised in this node [/head_camera/rgb/image_raw/compressed/set_parameters]
+[ERROR] [1521186334.720016998, 0.177000000]: Tried to advertise a service that is already advertised in this node [/head_camera/rgb/image_raw/theora/set_parameters]
+[ERROR] [1521186334.746733449, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/l_wheel_joint/position/set_parameters]
+[ERROR] [1521186334.764396713, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/l_wheel_joint/velocity/set_parameters]
+[ERROR] [1521186334.782151053, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/r_wheel_joint/position/set_parameters]
+[ERROR] [1521186334.799730864, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/r_wheel_joint/velocity/set_parameters]
+[ERROR] [1521186334.817026686, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/torso_lift_joint/position/set_parameters]
+[ERROR] [1521186334.834638835, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/torso_lift_joint/velocity/set_parameters]
+[ERROR] [1521186334.852047744, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/bellows_joint/position/set_parameters]
+[ERROR] [1521186334.869499891, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/bellows_joint/velocity/set_parameters]
+[ERROR] [1521186334.887648802, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/head_pan_joint/position/set_parameters]
+[ERROR] [1521186334.906329364, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/head_pan_joint/velocity/set_parameters]
+[ERROR] [1521186334.923521372, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/head_tilt_joint/position/set_parameters]
+[ERROR] [1521186334.939614945, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/head_tilt_joint/velocity/set_parameters]
+[ERROR] [1521186334.958845684, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/shoulder_pan_joint/position/set_parameters]
+[ERROR] [1521186334.976047278, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/shoulder_pan_joint/velocity/set_parameters]
+[ERROR] [1521186334.996108293, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/shoulder_lift_joint/position/set_parameters]
+[ERROR] [1521186335.014473497, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/shoulder_lift_joint/velocity/set_parameters]
+[ERROR] [1521186335.033300061, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/upperarm_roll_joint/position/set_parameters]
+[ERROR] [1521186335.051217143, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/upperarm_roll_joint/velocity/set_parameters]
+[ERROR] [1521186335.068859901, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/elbow_flex_joint/position/set_parameters]
+[ERROR] [1521186335.086611927, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/elbow_flex_joint/velocity/set_parameters]
+[ERROR] [1521186335.104630381, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/forearm_roll_joint/position/set_parameters]
+[ERROR] [1521186335.122795313, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/forearm_roll_joint/velocity/set_parameters]
+[ERROR] [1521186335.140221697, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/wrist_flex_joint/position/set_parameters]
+[ERROR] [1521186335.162480769, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/wrist_flex_joint/velocity/set_parameters]
+[ERROR] [1521186335.180225213, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/wrist_roll_joint/position/set_parameters]
+[ERROR] [1521186335.197662409, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/wrist_roll_joint/velocity/set_parameters]
+[ERROR] [1521186335.218213451, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/l_gripper_finger_joint/position/set_parameters]
+[ERROR] [1521186335.236970974, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/l_gripper_finger_joint/velocity/set_parameters]
+[ERROR] [1521186335.255114946, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/r_gripper_finger_joint/position/set_parameters]
+[ERROR] [1521186335.272634426, 0.177000000]: Tried to advertise a service that is already advertised in this node [/gazebo/r_gripper_finger_joint/velocity/set_parameters]
+[ WARN] [1521186335.295620930, 0.177000000]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[ INFO] [1521186335.297844218, 0.177000000]: Started arm_controller/gravity_compensation
+[ INFO] [1521186335.316198575, 0.177000000]: Started base_controller
+[ WARN] [1521186335.331258470, 0.177000000]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[ INFO] [1521186335.358853547, 0.177000000]: Started bellows_controller
+[ INFO] [1521186335.363928708, 0.177000000]: Finished initializing FetchGazeboPlugin
+[ INFO] [1521186335.580152966, 0.197000000]: Laser Plugin: Using the 'robotNamespace' param: '/'
+[ INFO] [1521186335.580224479, 0.197000000]: Starting Laser Plugin (ns = /)
+[ INFO] [1521186335.581381701, 0.197000000]: Laser Plugin (ns = /)  <tf_prefix_>, set to ""
+[ INFO] [1521186335.589166516, 0.197000000]: Camera Plugin: Using the 'robotNamespace' param: '/'
+[ERROR] [1521186335.589373941, 0.197000000]: Tried to advertise a service that is already advertised in this node [/head_camera/set_camera_info]
+[Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+[ INFO] [1521186335.592270883, 0.197000000]: Camera Plugin (ns = /)  <tf_prefix_>, set to ""
+[ERROR] [1521186335.592344139, 0.197000000]: Tried to advertise a service that is already advertised in this node [/head_camera/set_parameters]
+[ERROR] [1521186335.594638785, 0.197000000]: Tried to advertise a service that is already advertised in this node [/head_camera/rgb/image_raw/compressedDepth/set_parameters]
+[ERROR] [1521186335.599416044, 0.197000000]: Tried to advertise a service that is already advertised in this node [/head_camera/rgb/image_raw/compressed/set_parameters]
+[ERROR] [1521186335.604224524, 0.197000000]: Tried to advertise a service that is already advertised in this node [/head_camera/rgb/image_raw/theora/set_parameters]
+[ERROR] [1521186335.634460067, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/l_wheel_joint/position/set_parameters]
+[ERROR] [1521186335.652139942, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/l_wheel_joint/velocity/set_parameters]
+[ERROR] [1521186335.670330048, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/r_wheel_joint/position/set_parameters]
+[ERROR] [1521186335.688814668, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/r_wheel_joint/velocity/set_parameters]
+[ERROR] [1521186335.705768558, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/torso_lift_joint/position/set_parameters]
+[ERROR] [1521186335.723244772, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/torso_lift_joint/velocity/set_parameters]
+[ERROR] [1521186335.740795907, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/bellows_joint/position/set_parameters]
+[ERROR] [1521186335.758358129, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/bellows_joint/velocity/set_parameters]
+[ERROR] [1521186335.776181199, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/head_pan_joint/position/set_parameters]
+[ERROR] [1521186335.794337522, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/head_pan_joint/velocity/set_parameters]
+[ERROR] [1521186335.812419385, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/head_tilt_joint/position/set_parameters]
+[ERROR] [1521186335.830616685, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/head_tilt_joint/velocity/set_parameters]
+[ERROR] [1521186335.848684006, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/shoulder_pan_joint/position/set_parameters]
+[ERROR] [1521186335.866867591, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/shoulder_pan_joint/velocity/set_parameters]
+[ERROR] [1521186335.884964192, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/shoulder_lift_joint/position/set_parameters]
+[ERROR] [1521186335.902949167, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/shoulder_lift_joint/velocity/set_parameters]
+[ERROR] [1521186335.921052973, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/upperarm_roll_joint/position/set_parameters]
+[ERROR] [1521186335.939367871, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/upperarm_roll_joint/velocity/set_parameters]
+[ERROR] [1521186335.956789237, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/elbow_flex_joint/position/set_parameters]
+[ERROR] [1521186335.973908683, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/elbow_flex_joint/velocity/set_parameters]
+[ERROR] [1521186335.991443434, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/forearm_roll_joint/position/set_parameters]
+[ERROR] [1521186336.008766412, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/forearm_roll_joint/velocity/set_parameters]
+[ERROR] [1521186336.025779427, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/wrist_flex_joint/position/set_parameters]
+[ERROR] [1521186336.043666577, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/wrist_flex_joint/velocity/set_parameters]
+[ERROR] [1521186336.061842493, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/wrist_roll_joint/position/set_parameters]
+[ERROR] [1521186336.079080395, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/wrist_roll_joint/velocity/set_parameters]
+[ERROR] [1521186336.096794318, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/l_gripper_finger_joint/position/set_parameters]
+[ERROR] [1521186336.114739877, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/l_gripper_finger_joint/velocity/set_parameters]
+[ERROR] [1521186336.131633558, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/r_gripper_finger_joint/position/set_parameters]
+[ERROR] [1521186336.148798402, 0.197000000]: Tried to advertise a service that is already advertised in this node [/gazebo/r_gripper_finger_joint/velocity/set_parameters]
+[ WARN] [1521186336.172072121, 0.197000000]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[ INFO] [1521186336.174448008, 0.197000000]: Started arm_controller/gravity_compensation
+[ INFO] [1521186336.192069747, 0.197000000]: Started base_controller
+[ WARN] [1521186336.206503430, 0.197000000]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[ INFO] [1521186336.237108896, 0.197000000]: Started bellows_controller
+[ INFO] [1521186336.242515031, 0.197000000]: Finished initializing FetchGazeboPlugin
+[ INFO] [1521186336.459886015, 0.217000000]: Laser Plugin: Using the 'robotNamespace' param: '/'
+[ INFO] [1521186336.459942224, 0.217000000]: Starting Laser Plugin (ns = /)
+[ INFO] [1521186336.460934549, 0.217000000]: Laser Plugin (ns = /)  <tf_prefix_>, set to ""
+[Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+[ INFO] [1521186336.473044658, 0.217000000]: Camera Plugin: Using the 'robotNamespace' param: '/'
+[ERROR] [1521186336.473300056, 0.217000000]: Tried to advertise a service that is already advertised in this node [/head_camera/set_camera_info]
+[ INFO] [1521186336.475472730, 0.217000000]: Camera Plugin (ns = /)  <tf_prefix_>, set to ""
+[ERROR] [1521186336.475558782, 0.217000000]: Tried to advertise a service that is already advertised in this node [/head_camera/set_parameters]
+[ERROR] [1521186336.477728552, 0.217000000]: Tried to advertise a service that is already advertised in this node [/head_camera/rgb/image_raw/compressedDepth/set_parameters]
+[ERROR] [1521186336.481891263, 0.217000000]: Tried to advertise a service that is already advertised in this node [/head_camera/rgb/image_raw/compressed/set_parameters]
+[ERROR] [1521186336.486387577, 0.217000000]: Tried to advertise a service that is already advertised in this node [/head_camera/rgb/image_raw/theora/set_parameters]
+[ERROR] [1521186336.508064114, 0.217000000]: Tried to advertise a service that is already advertised in this node [/gazebo/l_wheel_joint/position/set_parameters]
+[ERROR] [1521186336.525048595, 0.217000000]: Tried to advertise a service that is already advertised in this node [/gazebo/l_wheel_joint/velocity/set_parameters]
+[ERROR] [1521186336.541899290, 0.217000000]: Tried to advertise a service that is already advertised in this node [/gazebo/r_wheel_joint/position/set_parameters]
+[ERROR] [1521186336.559540839, 0.217000000]: Tried to advertise a service that is already advertised in this node [/gazebo/r_wheel_joint/velocity/set_parameters]
+[ERROR] [1521186336.577242784, 0.217000000]: Tried to advertise a service that is already advertised in this node [/gazebo/torso_lift_joint/position/set_parameters]
+[ERROR] [1521186336.594404003, 0.217000000]: Tried to advertise a service that is already advertised in this node [/gazebo/torso_lift_joint/velocity/set_parameters]
+[ERROR] [1521186336.612090809, 0.217000000]: Tried to advertise a service that is already advertised in this node [/gazebo/bellows_joint/position/set_parameters]
+[ERROR] [1521186336.630041240, 0.217000000]: Tried to advertise a service that is already advertised in this node [/gazebo/bellows_joint/velocity/set_parameters]
+[ERROR] [1521186336.647560959, 0.217000000]: Tried to advertise a service that is already advertised in this node [/gazebo/head_pan_joint/position/set_parameters]
+[ERROR] [1521186336.665374157, 0.217000000]: Tried to advertise a service that is already advertised in this node [/gazebo/head_pan_joint/velocity/set_parameters]

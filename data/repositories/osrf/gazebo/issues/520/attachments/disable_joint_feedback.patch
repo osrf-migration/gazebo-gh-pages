@@ -1,0 +1,84 @@
+From 441d1b2ab67ab83677bb09cf71d8a19ca492fa80 Mon Sep 17 00:00:00 2001
+From: eacousineau <eacousineau@gmail.com>
+Date: Thu, 21 Feb 2013 17:47:11 -0600
+Subject: [PATCH] Added in option for disabling joint feedback
+
+---
+ gazebo/physics/ode/ODEPhysics.cc |   12 ++++++++----
+ gazebo/physics/ode/ODEPhysics.hh |    3 +++
+ gazebo/sdf/1.3/physics.sdf       |    3 +++
+ 6 files changed, 27 insertions(+), 4 deletions(-)
+ create mode 100644 .gitignore
+
+diff --git a/gazebo/physics/ode/ODEPhysics.cc b/gazebo/physics/ode/ODEPhysics.cc
+index ae74f4a..d8cda9e 100644
+--- a/gazebo/physics/ode/ODEPhysics.cc
++++ b/gazebo/physics/ode/ODEPhysics.cc
+@@ -168,6 +168,7 @@ void ODEPhysics::Load(sdf::ElementPtr _sdf)
+ 
+   this->stepTimeDouble = solverElem->GetValueDouble("dt");
+   this->stepType = solverElem->GetValueString("type");
++  this->disableJointFeedback = solverElem->GetValueBool("disable_joint_feedback");
+ 
+   dWorldSetDamping(this->worldId, 0.0001, 0.0001);
+ 
+@@ -898,8 +899,9 @@ void ODEPhysics::Collide(ODECollision *_collision1, ODECollision *_collision2,
+ 
+     // Create the contact joint. This introduces the contact constraint to
+     // ODE
+-    dJointID contactJoint =
+-      dJointCreateContact(this->worldId, this->contactGroup, &contact);
++    dJointID contactJoint = NULL;
++    if (!this->disableJointFeedback)
++      contactJoint = dJointCreateContact(this->worldId, this->contactGroup, &contact);
+ 
+     // Store contact information.
+     if (contactFeedback && jointFeedback)
+@@ -920,7 +922,8 @@ void ODEPhysics::Collide(ODECollision *_collision1, ODECollision *_collision2,
+           _contactCollisions[this->indices[j]].normal[2]);
+ 
+       // Set the joint feedback.
+-      dJointSetFeedback(contactJoint, &(jointFeedback->feedbacks[j]));
++      if (!this->disableJointFeedback)
++    	  dJointSetFeedback(contactJoint, &(jointFeedback->feedbacks[j]));
+ 
+       // Increase the counters
+       contactFeedback->count++;
+@@ -928,7 +931,8 @@ void ODEPhysics::Collide(ODECollision *_collision1, ODECollision *_collision2,
+     }
+ 
+     // Attach the contact joint.
+-    dJointAttach(contactJoint, b1, b2);
++    if (!this->disableJointFeedback) // When does this joint get detached?
++    	dJointAttach(contactJoint, b1, b2);
+   }
+ }
+ 
+diff --git a/gazebo/physics/ode/ODEPhysics.hh b/gazebo/physics/ode/ODEPhysics.hh
+index 7101687..6797937 100644
+--- a/gazebo/physics/ode/ODEPhysics.hh
++++ b/gazebo/physics/ode/ODEPhysics.hh
+@@ -274,6 +274,9 @@ namespace gazebo
+ 
+       /// \brief Indices used during creation of contact joints.
+       private: int indices[MAX_CONTACT_JOINTS];
++
++      // \brief Add in ability to disable joint feedback
++      private: bool disableJointFeedback;
+     };
+   }
+ }
+diff --git a/gazebo/sdf/1.3/physics.sdf b/gazebo/sdf/1.3/physics.sdf
+index 5db00e7..d8d7bca 100644
+--- a/gazebo/sdf/1.3/physics.sdf
++++ b/gazebo/sdf/1.3/physics.sdf
+@@ -44,6 +44,9 @@
+       <element name="sor" type="double" default="1.3" required="1">
+         <description>Set the successive over-relaxation parameter.</description>
+       </element>
++      <element name="disable_joint_feedback" type="bool" default="false" required="0">
++      	<description>Option to disable joint feedback for contacts</description> 
++      </element>
+     </element> <!-- End Solver -->
+ 
+     <element name="constraints" required="1">

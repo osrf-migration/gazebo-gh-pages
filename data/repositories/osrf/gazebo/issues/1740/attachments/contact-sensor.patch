@@ -1,0 +1,49 @@
+diff -r 3db1559ca38b gazebo/sensors/ContactSensor.cc
+--- a/gazebo/sensors/ContactSensor.cc	Mon Sep 14 17:52:25 2015 +0200
++++ b/gazebo/sensors/ContactSensor.cc	Tue Sep 15 15:17:09 2015 +0200
+@@ -98,7 +98,7 @@
+ 
+   std::string entityName =
+       this->world->GetEntity(this->parentName)->GetScopedName();
+-  std::string filterName = entityName + "::" + this->GetName();
++  this->filterName = entityName + "::" + this->GetName();
+ 
+   // Get all the collision elements
+   while (collisionElem)
+@@ -119,7 +119,7 @@
+     // this sensor
+     physics::ContactManager *mgr =
+         this->world->GetPhysicsEngine()->GetContactManager();
+-    std::string topic = mgr->CreateFilter(filterName, this->collisions);
++    std::string topic = mgr->CreateFilter(this->filterName, this->collisions);
+     if (!this->contactSub)
+     {
+       this->contactSub = this->node->Subscribe(topic,
+@@ -212,13 +212,9 @@
+ {
+   if (this->world && this->world->GetRunning())
+   {
+-    std::string entityName =
+-        this->world->GetEntity(this->parentName)->GetScopedName();
+-    std::string filterName = entityName + "::" + this->GetName();
+-
+     physics::ContactManager *mgr =
+         this->world->GetPhysicsEngine()->GetContactManager();
+-    mgr->RemoveFilter(filterName);
++    mgr->RemoveFilter(this->filterName);
+   }
+ 
+   this->contactSub.reset();
+diff -r 3db1559ca38b gazebo/sensors/ContactSensor.hh
+--- a/gazebo/sensors/ContactSensor.hh	Mon Sep 14 17:52:25 2015 +0200
++++ b/gazebo/sensors/ContactSensor.hh	Tue Sep 15 15:17:09 2015 +0200
+@@ -149,6 +149,9 @@
+       /// \brief Contacts message used to output sensor data.
+       private: msgs::Contacts contactsMsg;
+ 
++      /// \brief Name of the collision filter
++      private: std::string filterName;
++
+       typedef std::list<boost::shared_ptr<msgs::Contacts const> > ContactMsgs_L;
+       private: ContactMsgs_L incomingContacts;
+     };

@@ -1,0 +1,14 @@
+Gazebo multi-robot simulator, version 1.2
+Copyright (C) 2011 Nate Koenig, John Hsu, and contributors.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+Gazebo multi-robot simulator, version 1.2
+Copyright (C) 2011 Nate Koenig, John Hsu, and contributors.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+  what():  resolve: Host not found (authoritative)
+  what():  resolve: Host not found (authoritative)

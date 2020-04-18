@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <gui>
+
+      <plugin name="GUIBugPlugin" filename="./libGUIBugPlugin.so"/>
+
+      <camera name="user_camera">
+        <pose>-16 0 4 0 0 0</pose>
+      </camera>
+    </gui>
+  </world>
+</sdf>

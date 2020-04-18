@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+	<world name="gps_test">
+		
+		<include>
+			<uri>model://sun</uri>
+		</include>
+
+		<include>
+			<uri>model://ground_plane</uri>
+		</include>
+
+		<model name="pioneer2dx">
+			<include>
+				<uri>model://pioneer2dx</uri>
+			</include>
+			<link name="gps_link">
+				<sensor name="gps_sensor" type="gps"/>
+			</link>
+		</model>
+	
+	</world>
+</sdf>

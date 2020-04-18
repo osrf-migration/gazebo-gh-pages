@@ -1,0 +1,11 @@
+--- gazebo-rb805cd6558fe/gazebo/sensors/ContactSensor.cc	2012-09-05 14:17:40.000000000 -0400
++++ /home/thomas/gazebo-rb805cd6558fe/gazebo/sensors/ContactSensor.cc	2012-09-08 01:31:16.292409404 -0400
+@@ -174,7 +174,7 @@ std::string ContactSensor::GetCollisionN
+   std::string result;
+ 
+   if (_index < this->collisions.size())
+-    result = this->collisions[_index]->GetName();
++    result = this->collisions[_index]->GetScopedName();
+ 
+   return result;
+ }

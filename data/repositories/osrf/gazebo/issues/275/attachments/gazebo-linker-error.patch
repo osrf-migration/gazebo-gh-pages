@@ -1,0 +1,14 @@
+diff -r ad9812ffde0e gazebo/sdf/interface/CMakeLists.txt
+--- a/gazebo/sdf/interface/CMakeLists.txt	Wed Nov 28 23:37:33 2012 -0800
++++ b/gazebo/sdf/interface/CMakeLists.txt	Wed Dec 05 17:15:16 2012 +0100
+@@ -38,9 +38,7 @@
+     gazebo_ode
+     ${urdfdom_headers_LIBRARIES}
+     ${urdfdom_LIBRARIES}
+-    ${console_bridge_LIBRARIES}
+-    ${urdfdom_LDFLAGS}
+-    ${console_bridge_LDFLAGS})
++    ${console_bridge_LIBRARIES})
+ else(HAVE_URDFDOM AND HAVE_URDFDOM_HEADERS)
+   target_link_libraries(gazebo_sdf_interface
+     gazebo_common ${tinyxml_libraries} ${XML_LIBRARIES} ${Boost_LIBRARIES})

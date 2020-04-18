@@ -1,0 +1,1 @@
+{"pagelen": 100, "values": [{"type": "issue_attachment", "name": "segbot_v2.sdf", "links": {"self": {"href": ["data/repositories/osrf/gazebo/issues/2103/attachments/segbot_v2.sdf"]}}}, {"type": "issue_attachment", "name": "segbot_v2.urdf", "links": {"self": {"href": ["data/repositories/osrf/gazebo/issues/2103/attachments/segbot_v2.urdf"]}}}], "page": 1, "size": 2}

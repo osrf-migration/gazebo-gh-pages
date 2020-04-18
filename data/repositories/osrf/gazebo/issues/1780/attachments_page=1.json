@@ -1,0 +1,1 @@
+{"pagelen": 100, "values": [{"type": "issue_attachment", "name": "spaces.patch", "links": {"self": {"href": ["data/repositories/osrf/gazebo/issues/1780/attachments/spaces.patch"]}}}, {"type": "issue_attachment", "name": "self_collide.patch", "links": {"self": {"href": ["data/repositories/osrf/gazebo/issues/1780/attachments/self_collide.patch"]}}}], "page": 1, "size": 2}

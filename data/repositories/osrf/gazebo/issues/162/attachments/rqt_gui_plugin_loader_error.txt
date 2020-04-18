@@ -1,0 +1,50 @@
+kohlbrecher@opstation:~$ rosrun rqt_gui rqt_gui 
+Deprecation warning: the "python_qt_binding.QtBindingHelper" module is deprecated and will be removed in the near future.
+Replace your usage of QtBindingHelper with import statements like:
+  from python_qt_binding.QtCore import QObject
+  from python_qt_binding import QtGui, loadUi
+CompositePluginProvider.discover() could not discover plugins from provider "<class 'qt_gui.recursive_plugin_provider.RecursivePluginProvider'>":
+Traceback (most recent call last):
+  File "/opt/ros/fuerte/stacks/qt_gui_core/qt_gui/src/qt_gui/composite_plugin_provider.py", line 59, in discover
+    plugin_descriptors = plugin_provider.discover()
+  File "/opt/ros/fuerte/stacks/qt_gui_core/qt_gui/src/qt_gui/recursive_plugin_provider.py", line 51, in discover
+    plugin_descriptors = self._plugin_provider.discover()
+  File "/opt/ros/fuerte/stacks/rqt/rqt_gui/src/rqt_gui/ros_plugin_provider.py", line 66, in discover
+    plugin_file_list = self._get_plugins(self._export_tag)
+  File "/opt/ros/fuerte/stacks/rqt/rqt_gui/src/rqt_gui/ros_plugin_provider.py", line 100, in _get_plugins
+    RosPluginProvider._cached_plugins[export_tag] = self._find_plugins(export_tag)
+  File "/opt/ros/fuerte/stacks/rqt/rqt_gui/src/rqt_gui/rospkg_plugin_provider.py", line 47, in _find_plugins
+    manifest = r.get_manifest(package_name)
+  File "/usr/lib/pymodules/python2.7/rospkg/rospack.py", line 132, in get_manifest
+    return self._load_manifest(name)
+  File "/usr/lib/pymodules/python2.7/rospkg/rospack.py", line 171, in _load_manifest
+    retval = self._manifests[name] = parse_manifest_file(self.get_path(name), self._manifest_name)
+  File "/usr/lib/pymodules/python2.7/rospkg/manifest.py", line 355, in parse_manifest_file
+    return parse_manifest(manifest_name, f.read(), filename)
+  File "/usr/lib/pymodules/python2.7/rospkg/manifest.py", line 379, in parse_manifest
+    raise InvalidManifest("manifest [%s] must have a single '%s' element"%(filename, type_))
+InvalidManifest: manifest [/usr/share/drcsim-1.0/models/drc_terrain/manifest.xml] must have a single 'package' element
+
+CompositePluginProvider.discover() could not discover plugins from provider "<class 'qt_gui.recursive_plugin_provider.RecursivePluginProvider'>":
+Traceback (most recent call last):
+  File "/opt/ros/fuerte/stacks/qt_gui_core/qt_gui/src/qt_gui/composite_plugin_provider.py", line 59, in discover
+    plugin_descriptors = plugin_provider.discover()
+  File "/opt/ros/fuerte/stacks/qt_gui_core/qt_gui/src/qt_gui/recursive_plugin_provider.py", line 51, in discover
+    plugin_descriptors = self._plugin_provider.discover()
+  File "/opt/ros/fuerte/stacks/rqt/rqt_gui/src/rqt_gui/ros_plugin_provider.py", line 66, in discover
+    plugin_file_list = self._get_plugins(self._export_tag)
+  File "/opt/ros/fuerte/stacks/rqt/rqt_gui/src/rqt_gui/ros_plugin_provider.py", line 100, in _get_plugins
+    RosPluginProvider._cached_plugins[export_tag] = self._find_plugins(export_tag)
+  File "/opt/ros/fuerte/stacks/rqt/rqt_gui/src/rqt_gui/rospkg_plugin_provider.py", line 47, in _find_plugins
+    manifest = r.get_manifest(package_name)
+  File "/usr/lib/pymodules/python2.7/rospkg/rospack.py", line 132, in get_manifest
+    return self._load_manifest(name)
+  File "/usr/lib/pymodules/python2.7/rospkg/rospack.py", line 171, in _load_manifest
+    retval = self._manifests[name] = parse_manifest_file(self.get_path(name), self._manifest_name)
+  File "/usr/lib/pymodules/python2.7/rospkg/manifest.py", line 355, in parse_manifest_file
+    return parse_manifest(manifest_name, f.read(), filename)
+  File "/usr/lib/pymodules/python2.7/rospkg/manifest.py", line 379, in parse_manifest
+    raise InvalidManifest("manifest [%s] must have a single '%s' element"%(filename, type_))
+InvalidManifest: manifest [/usr/share/drcsim-1.0/models/drc_terrain/manifest.xml] must have a single 'package' element
+
+

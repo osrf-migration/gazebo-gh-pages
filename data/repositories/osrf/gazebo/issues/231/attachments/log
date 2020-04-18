@@ -1,0 +1,112 @@
+... logging to /home/amh/.ros/log/098066ce-2dbc-11e2-96b0-00166f6382d6/roslaunch-amh-Latitude-D610-684.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+started roslaunch server http://localhost:56736/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro
+ * /rosversion
+ * /use_sim_time
+
+NODES
+  /
+    gazebo (gazebo/debug)
+    gazebo_gui (gazebo/gui)
+
+auto-starting new master
+Exception AttributeError: AttributeError("'_DummyThread' object has no attribute '_Thread__block'",) in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+process[master]: started with pid [701]
+ROS_MASTER_URI=http://localhost:11311
+
+setting /run_id to 098066ce-2dbc-11e2-96b0-00166f6382d6
+Exception AttributeError: AttributeError("'_DummyThread' object has no attribute '_Thread__block'",) in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+process[rosout-1]: started with pid [716]
+started core service [/rosout]
+Exception AttributeError: AttributeError("'_DummyThread' object has no attribute '_Thread__block'",) in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+process[gazebo-2]: started with pid [734]
+Exception AttributeError: AttributeError("'_DummyThread' object has no attribute '_Thread__block'",) in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+process[gazebo_gui-3]: started with pid [745]
+GNU gdb (Ubuntu/Linaro 7.4-2012.04-0ubuntu2) 7.4-2012.04
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i686-linux-gnu".
+For bug reporting instructions, please see:
+<http://bugs.launchpad.net/gdb-linaro/>...
+Reading symbols from /opt/ros/fuerte/stacks/simulator_gazebo/gazebo/gazebo/bin/gzserver...Gazebo multi-robot simulator, version 1.0.2
+Copyright (C) 2011 Nate Koenig, John Hsu, Andrew Howard, and contributors.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+(no debugging symbols found)...done.
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/i386-linux-gnu/libthread_db.so.1".
+Msg Waiting for master....................................[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+Gazebo multi-robot simulator, version 1.0.2
+Copyright (C) 2011 Nate Koenig, John Hsu, Andrew Howard, and contributors.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+.[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+.[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+.[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+....[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+.[New Thread 0xb4195b40 (LWP 805)]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[New Thread 0xb37ffb40 (LWP 806)]
+[New Thread 0xb2dffb40 (LWP 810)]
+[New Thread 0xb25feb40 (LWP 812)]
+[New Thread 0xb1dfdb40 (LWP 813)]
+[New Thread 0xb15fcb40 (LWP 820)]
+[New Thread 0xb0dfbb40 (LWP 821)]
+[New Thread 0xb05fab40 (LWP 822)]
+[ INFO] [1352829694.466031083]: waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...
+Msg Waiting for master
+Msg Connected to gazebo master @ http://localhost:11345
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+Msg Connected to gazebo master @ http://localhost:11345
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[New Thread 0xac9fdb40 (LWP 825)]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[tcsetpgrp failed in terminal_inferior: Inappropriate ioctl for device]
+[ INFO] [1352829709.445112224]: joint trajectory plugin missing <updateRate>, defaults to 0.0 (as fast as possible)
+[New Thread 0xac1d6b40 (LWP 829)]
+[New Thread 0xab9d5b40 (LWP 861)]
+[New Thread 0xab1d4b40 (LWP 862)]
+[New Thread 0xaa8d3b40 (LWP 864)]
+
+Program received signal SIGILL, Illegal instruction.
+[Switching to Thread 0xaa8d3b40 (LWP 864)]
+0xb70d5363 in dxPlane::computeAABB() ()
+   from /opt/ros/fuerte/stacks/simulator_gazebo/gazebo/gazebo/lib/libgazebo_ode.so.1
+(gdb) /opt/ros/fuerte/stacks/simulator_gazebo/gazebo/scripts/gui: line 2:   748 Illegal instruction     (core dumped) `rospack find gazebo`/gazebo/bin/gzclient -g `rospack find gazebo`/lib/libgazebo_ros_paths_plugin.so
+[gazebo_gui-3] process has died [pid 745, exit code 132, cmd /opt/ros/fuerte/stacks/simulator_gazebo/gazebo/scripts/gui __name:=gazebo_gui __log:=/home/amh/.ros/log/098066ce-2dbc-11e2-96b0-00166f6382d6/gazebo_gui-3.log].
+log file: /home/amh/.ros/log/098066ce-2dbc-11e2-96b0-00166f6382d6/gazebo_gui-3*.log
+
+

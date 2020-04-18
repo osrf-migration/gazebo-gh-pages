@@ -1,0 +1,22 @@
+diff -r dbae83d18e02 gazebo/msgs/test/CMakeLists.txt
+--- a/gazebo/msgs/test/CMakeLists.txt	Fri Jan 11 18:07:32 2013 -0800
++++ b/gazebo/msgs/test/CMakeLists.txt	Tue Jan 22 17:18:27 2013 +0100
+@@ -2,6 +2,7 @@
+ include_directories (
+   ${PROJECT_SOURCE_DIR}/gazebo 
+   ${PROJECT_BINARY_DIR}/gazebo
++  ${PROJECT_SOURCE_DIR}/test/gtest/include
+   ${PROTOBUF_INCLUDE_DIR}
+ )
+ 
+diff -r dbae83d18e02 tools/test/CMakeLists.txt
+--- a/tools/test/CMakeLists.txt	Fri Jan 11 18:07:32 2013 -0800
++++ b/tools/test/CMakeLists.txt	Tue Jan 22 17:18:27 2013 +0100
+@@ -1,6 +1,7 @@
+ include_directories (
+   ${PROJECT_SOURCE_DIR}/gazebo 
+   ${PROJECT_BINARY_DIR}/gazebo
++  ${PROJECT_SOURCE_DIR}/test/gtest/include
+   ${PROTOBUF_INCLUDE_DIR}
+ )
+ 

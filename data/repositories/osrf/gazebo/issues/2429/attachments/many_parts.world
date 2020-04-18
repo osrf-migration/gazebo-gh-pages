@@ -1,0 +1,1133 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="ariac">
+    <!-- Populate the bins -->
+    <include>
+      <name>bin3|part3_198</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.696428571429 1.00785714286 0.968869036231 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_199</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.696428571429 1.03428571429 0.968869036231 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_70</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.889285714286 1.19285714286 1.01811354961 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_71</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.889285714286 1.21928571429 1.01811354961 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_72</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.889285714286 1.24571428571 1.01811354961 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_73</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.889285714286 1.27214285714 1.01811354961 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_74</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.889285714286 1.29857142857 1.01811354961 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_75</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.889285714286 1.325 1.01811354961 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_76</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.867857142857 0.955 1.01264193701 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_77</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.867857142857 0.981428571429 1.01264193701 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_78</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.867857142857 1.00785714286 1.01264193701 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_79</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.867857142857 1.03428571429 1.01264193701 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_154</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.760714285714 1.03428571429 0.985283874024 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_155</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.760714285714 1.06071428571 0.985283874024 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_156</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.760714285714 1.08714285714 0.985283874024 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_157</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.760714285714 1.11357142857 0.985283874024 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_150</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.782142857143 1.325 0.990755486622 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_151</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.760714285714 0.955 0.985283874024 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_152</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.760714285714 0.981428571429 0.985283874024 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_153</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.760714285714 1.00785714286 0.985283874024 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_158</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.760714285714 1.14 0.985283874024 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_159</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.760714285714 1.16642857143 0.985283874024 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_66</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.889285714286 1.08714285714 1.01811354961 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_192</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.717857142857 1.24571428571 0.974340648829 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_193</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.717857142857 1.27214285714 0.974340648829 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_149</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.782142857143 1.29857142857 0.990755486622 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_148</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.782142857143 1.27214285714 0.990755486622 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_8</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.975 1.14 1.04 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_9</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.975 1.16642857143 1.04 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_4</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.975 1.03428571429 1.04 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_5</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.975 1.06071428571 1.04 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_141</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.782142857143 1.08714285714 0.990755486622 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_7</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.975 1.11357142857 1.04 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_147</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.782142857143 1.24571428571 0.990755486622 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_1</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.975 0.955 1.04 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_2</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.975 0.981428571429 1.04 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_3</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.975 1.00785714286 1.04 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_143</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.782142857143 1.14 0.990755486622 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_89</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.867857142857 1.29857142857 1.01264193701 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_88</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.867857142857 1.27214285714 1.01264193701 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_142</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.782142857143 1.11357142857 0.990755486622 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_85</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.867857142857 1.19285714286 1.01264193701 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_84</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.867857142857 1.16642857143 1.01264193701 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_220</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.675 1.19285714286 0.963397423634 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_86</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.867857142857 1.21928571429 1.01264193701 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_81</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.867857142857 1.08714285714 1.01264193701 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_6</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.975 1.08714285714 1.04 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_224</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.675 1.29857142857 0.963397423634 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_225</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.675 1.325 0.963397423634 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_140</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.782142857143 1.06071428571 0.990755486622 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_146</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.782142857143 1.21928571429 0.990755486622 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_16</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.953571428571 0.955 1.0345283874 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_17</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.953571428571 0.981428571429 1.0345283874 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_14</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.975 1.29857142857 1.04 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_15</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.975 1.325 1.04 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_12</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.975 1.24571428571 1.04 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_13</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.975 1.27214285714 1.04 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_10</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.975 1.19285714286 1.04 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_11</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.975 1.21928571429 1.04 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_144</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.782142857143 1.16642857143 0.990755486622 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_145</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.782142857143 1.19285714286 0.990755486622 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_18</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.953571428571 1.00785714286 1.0345283874 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_19</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.953571428571 1.03428571429 1.0345283874 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_138</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.782142857143 1.00785714286 0.990755486622 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_139</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.782142857143 1.03428571429 0.990755486622 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_136</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.782142857143 0.955 0.990755486622 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_137</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.782142857143 0.981428571429 0.990755486622 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_134</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.803571428571 1.29857142857 0.996227099219 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_135</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.803571428571 1.325 0.996227099219 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_132</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.803571428571 1.24571428571 0.996227099219 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_133</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.803571428571 1.27214285714 0.996227099219 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_130</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.803571428571 1.19285714286 0.996227099219 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_131</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.803571428571 1.21928571429 0.996227099219 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_98</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.846428571429 1.14 1.00717032441 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_99</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.846428571429 1.16642857143 1.00717032441 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_96</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.846428571429 1.08714285714 1.00717032441 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_97</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.846428571429 1.11357142857 1.00717032441 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_94</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.846428571429 1.03428571429 1.00717032441 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_95</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.846428571429 1.06071428571 1.00717032441 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_92</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.846428571429 0.981428571429 1.00717032441 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_93</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.846428571429 1.00785714286 1.00717032441 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_90</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.867857142857 1.325 1.01264193701 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_91</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.846428571429 0.955 1.00717032441 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_222</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.675 1.24571428571 0.963397423634 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_29</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.953571428571 1.29857142857 1.0345283874 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_28</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.953571428571 1.27214285714 1.0345283874 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_223</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.675 1.27214285714 0.963397423634 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_23</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.953571428571 1.14 1.0345283874 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_22</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.953571428571 1.11357142857 1.0345283874 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_21</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.953571428571 1.08714285714 1.0345283874 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_20</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.953571428571 1.06071428571 1.0345283874 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_27</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.953571428571 1.24571428571 1.0345283874 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_87</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.867857142857 1.24571428571 1.01264193701 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_25</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.953571428571 1.19285714286 1.0345283874 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_24</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.953571428571 1.16642857143 1.0345283874 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_221</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.675 1.21928571429 0.963397423634 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_129</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.803571428571 1.16642857143 0.996227099219 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_128</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.803571428571 1.14 0.996227099219 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_60</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.910714285714 1.325 1.02358516221 0.0 0.25 0.0</pose>
+    </include>
+    <!--
+    <include>
+      <name>bin3|part3_125</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.803571428571 1.06071428571 0.996227099219 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_124</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.803571428571 1.03428571429 0.996227099219 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_127</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.803571428571 1.11357142857 0.996227099219 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_126</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.803571428571 1.08714285714 0.996227099219 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_121</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.803571428571 0.955 0.996227099219 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_120</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.825 1.325 1.00169871182 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_123</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.803571428571 1.00785714286 0.996227099219 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_80</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.867857142857 1.06071428571 1.01264193701 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_208</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.696428571429 1.27214285714 0.968869036231 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_83</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.867857142857 1.14 1.01264193701 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_204</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.696428571429 1.16642857143 0.968869036231 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_205</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.696428571429 1.19285714286 0.968869036231 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_206</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.696428571429 1.21928571429 0.968869036231 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_82</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.867857142857 1.11357142857 1.01264193701 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_200</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.696428571429 1.06071428571 0.968869036231 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_201</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.696428571429 1.08714285714 0.968869036231 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_202</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.696428571429 1.11357142857 0.968869036231 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_203</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.696428571429 1.14 0.968869036231 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_213</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.675 1.00785714286 0.963397423634 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_212</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.675 0.981428571429 0.963397423634 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_211</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.675 0.955 0.963397423634 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_210</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.696428571429 1.325 0.968869036231 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_217</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.675 1.11357142857 0.963397423634 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_216</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.675 1.08714285714 0.963397423634 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_215</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.675 1.06071428571 0.963397423634 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_214</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.675 1.03428571429 0.963397423634 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_190</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.717857142857 1.19285714286 0.974340648829 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_191</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.717857142857 1.21928571429 0.974340648829 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_219</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.675 1.16642857143 0.963397423634 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_218</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.675 1.14 0.963397423634 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_194</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.717857142857 1.29857142857 0.974340648829 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_195</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.717857142857 1.325 0.974340648829 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_196</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.696428571429 0.955 0.968869036231 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_197</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.696428571429 0.981428571429 0.968869036231 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_38</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.932142857143 1.14 1.0290567748 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_39</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.932142857143 1.16642857143 1.0290567748 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_34</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.932142857143 1.03428571429 1.0290567748 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_35</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.932142857143 1.06071428571 1.0290567748 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_36</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.932142857143 1.08714285714 1.0290567748 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_37</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.932142857143 1.11357142857 1.0290567748 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_30</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.953571428571 1.325 1.0345283874 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_31</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.932142857143 0.955 1.0290567748 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_32</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.932142857143 0.981428571429 1.0290567748 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_33</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.932142857143 1.00785714286 1.0290567748 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_26</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.953571428571 1.21928571429 1.0345283874 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_110</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.825 1.06071428571 1.00169871182 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_111</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.825 1.08714285714 1.00169871182 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_112</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.825 1.11357142857 1.00169871182 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_113</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.825 1.14 1.00169871182 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_114</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.825 1.16642857143 1.00169871182 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_115</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.825 1.19285714286 1.00169871182 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_116</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.825 1.21928571429 1.00169871182 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_117</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.825 1.24571428571 1.00169871182 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_118</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.825 1.27214285714 1.00169871182 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_119</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.825 1.29857142857 1.00169871182 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_49</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.910714285714 1.03428571429 1.02358516221 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_48</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.910714285714 1.00785714286 1.02358516221 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_189</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.717857142857 1.16642857143 0.974340648829 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_188</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.717857142857 1.14 0.974340648829 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_41</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.932142857143 1.21928571429 1.0290567748 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_40</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.932142857143 1.19285714286 1.0290567748 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_43</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.932142857143 1.27214285714 1.0290567748 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_42</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.932142857143 1.24571428571 1.0290567748 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_45</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.932142857143 1.325 1.0290567748 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_44</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.932142857143 1.29857142857 1.0290567748 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_47</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.910714285714 0.981428571429 1.02358516221 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_46</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.910714285714 0.955 1.02358516221 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_162</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.760714285714 1.24571428571 0.985283874024 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_107</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.825 0.981428571429 1.00169871182 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_106</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.825 0.955 1.00169871182 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_105</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.846428571429 1.325 1.00717032441 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_104</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.846428571429 1.29857142857 1.00717032441 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_103</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.846428571429 1.27214285714 1.00717032441 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_102</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.846428571429 1.24571428571 1.00717032441 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_101</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.846428571429 1.21928571429 1.00717032441 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_100</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.846428571429 1.19285714286 1.00717032441 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_109</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.825 1.03428571429 1.00169871182 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_108</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.825 1.00785714286 1.00169871182 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_58</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.910714285714 1.27214285714 1.02358516221 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_59</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.910714285714 1.29857142857 1.02358516221 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_52</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.910714285714 1.11357142857 1.02358516221 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_53</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.910714285714 1.14 1.02358516221 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_50</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.910714285714 1.06071428571 1.02358516221 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_51</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.910714285714 1.08714285714 1.02358516221 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_56</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.910714285714 1.21928571429 1.02358516221 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_57</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.910714285714 1.24571428571 1.02358516221 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_54</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.910714285714 1.16642857143 1.02358516221 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_55</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.910714285714 1.19285714286 1.02358516221 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_122</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.803571428571 0.981428571429 0.996227099219 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_172</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.739285714286 1.11357142857 0.979812261426 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_173</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.739285714286 1.14 0.979812261426 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_170</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.739285714286 1.06071428571 0.979812261426 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_171</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.739285714286 1.08714285714 0.979812261426 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_176</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.739285714286 1.21928571429 0.979812261426 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_177</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.739285714286 1.24571428571 0.979812261426 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_174</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.739285714286 1.16642857143 0.979812261426 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_175</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.739285714286 1.19285714286 0.979812261426 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_178</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.739285714286 1.27214285714 0.979812261426 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_179</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.739285714286 1.29857142857 0.979812261426 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_187</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.717857142857 1.11357142857 0.974340648829 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_186</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.717857142857 1.08714285714 0.974340648829 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_185</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.717857142857 1.06071428571 0.974340648829 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_209</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.696428571429 1.29857142857 0.968869036231 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_184</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.717857142857 1.03428571429 0.974340648829 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_69</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.889285714286 1.16642857143 1.01811354961 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_68</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.889285714286 1.14 1.01811354961 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_67</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.889285714286 1.11357142857 1.01811354961 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_183</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.717857142857 1.00785714286 0.974340648829 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_65</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.889285714286 1.06071428571 1.01811354961 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_64</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.889285714286 1.03428571429 1.01811354961 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_63</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.889285714286 1.00785714286 1.01811354961 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_62</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.889285714286 0.981428571429 1.01811354961 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_61</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.889285714286 0.955 1.01811354961 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_182</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.717857142857 0.981428571429 0.974340648829 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_181</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.717857142857 0.955 0.974340648829 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_180</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.739285714286 1.325 0.979812261426 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_161</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.760714285714 1.21928571429 0.985283874024 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_160</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.760714285714 1.19285714286 0.985283874024 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_163</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.760714285714 1.27214285714 0.985283874024 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_207</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.696428571429 1.24571428571 0.968869036231 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_165</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.760714285714 1.325 0.985283874024 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_164</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.760714285714 1.29857142857 0.985283874024 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_167</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.739285714286 0.981428571429 0.979812261426 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_166</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.739285714286 0.955 0.979812261426 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_169</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.739285714286 1.03428571429 0.979812261426 0.0 0.25 0.0</pose>
+    </include>
+    <include>
+      <name>bin3|part3_168</name>
+      <uri>model://part3_ariac</uri>
+      <pose>-0.739285714286 1.00785714286 0.979812261426 0.0 0.25 0.0</pose>
+    </include>
+
+  </world>
+</sdf>

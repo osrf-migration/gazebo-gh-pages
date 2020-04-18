@@ -1,0 +1,595 @@
+[     5.738] 
+X.Org X Server 1.15.1
+Release Date: 2014-04-13
+[     5.738] X Protocol Version 11, Revision 0
+[     5.738] Build Operating System: Linux 3.2.0-76-generic x86_64 Ubuntu
+[     5.738] Current Operating System: Linux nium 3.13.0-54-generic #91-Ubuntu SMP Tue May 26 19:15:08 UTC 2015 x86_64
+[     5.738] Kernel command line: BOOT_IMAGE=/vmlinuz-3.13.0-54-generic.efi.signed root=UUID=df97e0d9-68ef-4979-b94d-22e3f79c40f2 ro quiet splash vt.handoff=7
+[     5.738] Build Date: 12 February 2015  02:49:29PM
+[     5.738] xorg-server 2:1.15.1-0ubuntu2.7 (For technical support please see http://www.ubuntu.com/support) 
+[     5.738] Current version of pixman: 0.30.2
+[     5.738] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[     5.738] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[     5.738] (==) Log file: "/var/log/Xorg.0.log", Time: Wed Jun 17 00:06:54 2015
+[     5.738] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[     5.739] (==) No Layout section.  Using the first Screen section.
+[     5.739] (==) No screen section available. Using defaults.
+[     5.739] (**) |-->Screen "Default Screen Section" (0)
+[     5.739] (**) |   |-->Monitor "<default monitor>"
+[     5.739] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[     5.739] (==) Automatically adding devices
+[     5.739] (==) Automatically enabling devices
+[     5.739] (==) Automatically adding GPU devices
+[     5.739] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[     5.739] 	Entry deleted from font path.
+[     5.739] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[     5.739] 	Entry deleted from font path.
+[     5.739] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[     5.739] 	Entry deleted from font path.
+[     5.739] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[     5.739] 	Entry deleted from font path.
+[     5.739] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[     5.739] 	Entry deleted from font path.
+[     5.739] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[     5.739] (==) ModulePath set to "/usr/lib/x86_64-linux-gnu/xorg/extra-modules,/usr/lib/xorg/extra-modules,/usr/lib/xorg/modules"
+[     5.739] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[     5.739] (II) Loader magic: 0x7f0273763d40
+[     5.739] (II) Module ABI versions:
+[     5.739] 	X.Org ANSI C Emulation: 0.4
+[     5.739] 	X.Org Video Driver: 15.0
+[     5.739] 	X.Org XInput driver : 20.0
+[     5.739] 	X.Org Server Extension : 8.0
+[     5.739] (II) xfree86: Adding drm device (/dev/dri/card0)
+[     5.741] (--) PCI:*(0:0:2:0) 8086:0166:1043:15a7 rev 9, Mem @ 0xf7400000/4194304, 0xd0000000/268435456, I/O @ 0x0000f000/64
+[     5.741] (--) PCI: (0:1:0:0) 10de:0fd1:1043:15a7 rev 161, Mem @ 0xf6000000/16777216, 0xe0000000/268435456, 0xf0000000/33554432, I/O @ 0x0000e000/128, BIOS @ 0x????????/524288
+[     5.741] Initializing built-in extension Generic Event Extension
+[     5.741] Initializing built-in extension SHAPE
+[     5.741] Initializing built-in extension MIT-SHM
+[     5.741] Initializing built-in extension XInputExtension
+[     5.741] Initializing built-in extension XTEST
+[     5.741] Initializing built-in extension BIG-REQUESTS
+[     5.741] Initializing built-in extension SYNC
+[     5.741] Initializing built-in extension XKEYBOARD
+[     5.741] Initializing built-in extension XC-MISC
+[     5.741] Initializing built-in extension SECURITY
+[     5.741] Initializing built-in extension XINERAMA
+[     5.741] Initializing built-in extension XFIXES
+[     5.741] Initializing built-in extension RENDER
+[     5.741] Initializing built-in extension RANDR
+[     5.741] Initializing built-in extension COMPOSITE
+[     5.741] Initializing built-in extension DAMAGE
+[     5.741] Initializing built-in extension MIT-SCREEN-SAVER
+[     5.741] Initializing built-in extension DOUBLE-BUFFER
+[     5.741] Initializing built-in extension RECORD
+[     5.741] Initializing built-in extension DPMS
+[     5.741] Initializing built-in extension Present
+[     5.741] Initializing built-in extension DRI3
+[     5.741] Initializing built-in extension X-Resource
+[     5.741] Initializing built-in extension XVideo
+[     5.741] Initializing built-in extension XVideo-MotionCompensation
+[     5.741] Initializing built-in extension SELinux
+[     5.741] Initializing built-in extension XFree86-VidModeExtension
+[     5.741] Initializing built-in extension XFree86-DGA
+[     5.741] Initializing built-in extension XFree86-DRI
+[     5.741] Initializing built-in extension DRI2
+[     5.741] (WW) "glamoregl" will not be loaded unless you've specified it to be loaded elsewhere.
+[     5.741] (II) "glx" will be loaded by default.
+[     5.741] (WW) "xmir" is not to be loaded by default. Skipping.
+[     5.741] (II) LoadModule: "glx"
+[     5.742] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[     5.752] (II) Module glx: vendor="X.Org Foundation"
+[     5.752] 	compiled for 1.15.1, module version = 1.0.0
+[     5.752] 	ABI class: X.Org Server Extension, version 8.0
+[     5.752] (==) AIGLX enabled
+[     5.752] Loading extension GLX
+[     5.752] (==) Matched intel as autoconfigured driver 0
+[     5.752] (==) Matched intel as autoconfigured driver 1
+[     5.752] (==) Matched modesetting as autoconfigured driver 2
+[     5.752] (==) Matched fbdev as autoconfigured driver 3
+[     5.752] (==) Matched vesa as autoconfigured driver 4
+[     5.752] (==) Assigned the driver to the xf86ConfigLayout
+[     5.752] (II) LoadModule: "intel"
+[     5.752] (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+[     5.753] (II) Module intel: vendor="X.Org Foundation"
+[     5.753] 	compiled for 1.15.1, module version = 2.99.910
+[     5.753] 	Module class: X.Org Video Driver
+[     5.753] 	ABI class: X.Org Video Driver, version 15.0
+[     5.753] (II) LoadModule: "modesetting"
+[     5.753] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[     5.753] (II) Module modesetting: vendor="X.Org Foundation"
+[     5.753] 	compiled for 1.15.0, module version = 0.8.1
+[     5.753] 	Module class: X.Org Video Driver
+[     5.753] 	ABI class: X.Org Video Driver, version 15.0
+[     5.753] (II) LoadModule: "fbdev"
+[     5.753] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[     5.753] (II) Module fbdev: vendor="X.Org Foundation"
+[     5.753] 	compiled for 1.15.0, module version = 0.4.4
+[     5.753] 	Module class: X.Org Video Driver
+[     5.753] 	ABI class: X.Org Video Driver, version 15.0
+[     5.753] (II) LoadModule: "vesa"
+[     5.753] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[     5.754] (II) Module vesa: vendor="X.Org Foundation"
+[     5.754] 	compiled for 1.15.0, module version = 2.3.3
+[     5.754] 	Module class: X.Org Video Driver
+[     5.754] 	ABI class: X.Org Video Driver, version 15.0
+[     5.754] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
+	i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G,
+	915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM,
+	Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33,
+	GM45, 4 Series, G45/G43, Q45/Q43, G41, B43
+[     5.754] (II) intel: Driver for Intel(R) HD Graphics: 2000-6000
+[     5.754] (II) intel: Driver for Intel(R) Iris(TM) Graphics: 5100, 6100
+[     5.754] (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics: 5200, 6200, P6300
+[     5.754] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[     5.754] (II) FBDEV: driver for framebuffer: fbdev
+[     5.754] (II) VESA: driver for VESA chipsets: vesa
+[     5.754] (++) using VT number 7
+
+[     5.754] (II) intel(0): SNA compiled: xserver-xorg-video-intel 2:2.99.910-0ubuntu1.6 (Timo Aaltonen <tjaalton@debian.org>)
+[     5.754] (WW) Falling back to old probe method for modesetting
+[     5.754] (WW) Falling back to old probe method for fbdev
+[     5.754] (II) Loading sub module "fbdevhw"
+[     5.754] (II) LoadModule: "fbdevhw"
+[     5.754] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[     5.754] (II) Module fbdevhw: vendor="X.Org Foundation"
+[     5.754] 	compiled for 1.15.1, module version = 0.0.2
+[     5.754] 	ABI class: X.Org Video Driver, version 15.0
+[     5.754] (WW) Falling back to old probe method for vesa
+[     5.755] (--) intel(0): Integrated Graphics Chipset: Intel(R) HD Graphics 4000
+[     5.755] (--) intel(0): CPU: x86-64, sse2, sse3, ssse3, sse4.1, sse4.2, avx
+[     5.755] (II) intel(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[     5.755] (==) intel(0): Depth 24, (--) framebuffer bpp 32
+[     5.755] (==) intel(0): RGB weight 888
+[     5.755] (==) intel(0): Default visual is TrueColor
+[     5.755] (**) intel(0): Framebuffer tiled
+[     5.755] (**) intel(0): Pixmaps tiled
+[     5.755] (**) intel(0): "Tear free" disabled
+[     5.755] (**) intel(0): Forcing per-crtc-pixmaps? no
+[     5.755] (II) intel(0): Output eDP1 has no monitor section
+[     5.755] (--) intel(0): found backlight control interface acpi_video1 (type 'firmware')
+[     5.755] (II) intel(0): Output VGA1 has no monitor section
+[     5.755] (II) intel(0): Output VIRTUAL1 has no monitor section
+[     5.755] (--) intel(0): Output eDP1 using initial mode 1920x1080 on pipe 0
+[     5.755] (==) intel(0): DPI set to (96, 96)
+[     5.755] (II) Loading sub module "dri2"
+[     5.755] (II) LoadModule: "dri2"
+[     5.755] (II) Module "dri2" already built-in
+[     5.755] (II) UnloadModule: "modesetting"
+[     5.755] (II) Unloading modesetting
+[     5.755] (II) UnloadModule: "fbdev"
+[     5.755] (II) Unloading fbdev
+[     5.755] (II) UnloadSubModule: "fbdevhw"
+[     5.755] (II) Unloading fbdevhw
+[     5.755] (II) UnloadModule: "vesa"
+[     5.755] (II) Unloading vesa
+[     5.755] (==) Depth 24 pixmap format is 32 bpp
+[     5.755] (II) intel(0): SNA initialized with Ivybridge (gen7, gt2) backend
+[     5.755] (==) intel(0): Backing store enabled
+[     5.755] (==) intel(0): Silken mouse enabled
+[     5.755] (II) intel(0): HW Cursor enabled
+[     5.755] (II) intel(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[     5.756] (==) intel(0): DPMS enabled
+[     5.756] (II) intel(0): [DRI2] Setup complete
+[     5.756] (II) intel(0): [DRI2]   DRI driver: i965
+[     5.756] (II) intel(0): [DRI2]   VDPAU driver: i965
+[     5.756] (II) intel(0): direct rendering: DRI2 Enabled
+[     5.756] (==) intel(0): hotplug detection: "enabled"
+[     5.756] (--) RandR disabled
+[     5.760] (II) SELinux: Disabled on system
+[     5.766] (II) AIGLX: enabled GLX_MESA_copy_sub_buffer
+[     5.766] (II) AIGLX: enabled GLX_ARB_create_context
+[     5.766] (II) AIGLX: enabled GLX_ARB_create_context_profile
+[     5.766] (II) AIGLX: enabled GLX_EXT_create_context_es2_profile
+[     5.766] (II) AIGLX: enabled GLX_INTEL_swap_event
+[     5.766] (II) AIGLX: enabled GLX_SGI_swap_control and GLX_MESA_swap_control
+[     5.766] (II) AIGLX: enabled GLX_EXT_framebuffer_sRGB
+[     5.766] (II) AIGLX: enabled GLX_ARB_fbconfig_float
+[     5.766] (II) AIGLX: GLX_EXT_texture_from_pixmap backed by buffer objects
+[     5.766] (II) AIGLX: enabled GLX_ARB_create_context_robustness
+[     5.766] (II) AIGLX: Loaded and initialized i965
+[     5.766] (II) GLX: Initialized DRI2 GL provider for screen 0
+[     5.768] (II) intel(0): switch to mode 1920x1080@60.0 on eDP1 using pipe 0, position (0, 0), rotation normal, reflection none
+[     5.780] (II) intel(0): Setting screen physical size to 508 x 285
+[     5.787] (II) XKB: reuse xkmfile /var/lib/xkb/server-B20D7FC79C7F597315E3E501AEF10E0D866E8E92.xkm
+[     5.789] (II) config/udev: Adding input device Video Bus (/dev/input/event6)
+[     5.789] (**) Video Bus: Applying InputClass "evdev keyboard catchall"
+[     5.789] (II) LoadModule: "evdev"
+[     5.789] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[     5.790] (II) Module evdev: vendor="X.Org Foundation"
+[     5.790] 	compiled for 1.15.0, module version = 2.8.2
+[     5.790] 	Module class: X.Org XInput Driver
+[     5.790] 	ABI class: X.Org XInput driver, version 20.0
+[     5.790] (II) Using input driver 'evdev' for 'Video Bus'
+[     5.790] (**) Video Bus: always reports core events
+[     5.790] (**) evdev: Video Bus: Device: "/dev/input/event6"
+[     5.790] (--) evdev: Video Bus: Vendor 0 Product 0x6
+[     5.790] (--) evdev: Video Bus: Found keys
+[     5.790] (II) evdev: Video Bus: Configuring as keyboard
+[     5.790] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/device:00/PNP0A08:00/LNXVIDEO:01/input/input13/event6"
+[     5.790] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 6)
+[     5.790] (**) Option "xkb_rules" "evdev"
+[     5.790] (**) Option "xkb_model" "pc105"
+[     5.790] (**) Option "xkb_layout" "es"
+[     5.792] (II) XKB: reuse xkmfile /var/lib/xkb/server-FFBD4FDC8093CCB415CD73029FDA64F4B077A3E7.xkm
+[     5.793] (II) config/udev: Adding input device Video Bus (/dev/input/event5)
+[     5.793] (**) Video Bus: Applying InputClass "evdev keyboard catchall"
+[     5.793] (II) Using input driver 'evdev' for 'Video Bus'
+[     5.793] (**) Video Bus: always reports core events
+[     5.793] (**) evdev: Video Bus: Device: "/dev/input/event5"
+[     5.793] (--) evdev: Video Bus: Vendor 0 Product 0x6
+[     5.793] (--) evdev: Video Bus: Found keys
+[     5.793] (II) evdev: Video Bus: Configuring as keyboard
+[     5.793] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/device:00/PNP0A08:00/device:03/LNXVIDEO:00/input/input12/event5"
+[     5.793] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[     5.793] (**) Option "xkb_rules" "evdev"
+[     5.793] (**) Option "xkb_model" "pc105"
+[     5.793] (**) Option "xkb_layout" "es"
+[     5.793] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[     5.793] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[     5.793] (II) Using input driver 'evdev' for 'Power Button'
+[     5.793] (**) Power Button: always reports core events
+[     5.793] (**) evdev: Power Button: Device: "/dev/input/event1"
+[     5.793] (--) evdev: Power Button: Vendor 0 Product 0x1
+[     5.793] (--) evdev: Power Button: Found keys
+[     5.793] (II) evdev: Power Button: Configuring as keyboard
+[     5.793] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/device:00/PNP0C0C:00/input/input1/event1"
+[     5.793] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[     5.793] (**) Option "xkb_rules" "evdev"
+[     5.793] (**) Option "xkb_model" "pc105"
+[     5.793] (**) Option "xkb_layout" "es"
+[     5.793] (II) config/udev: Adding input device Lid Switch (/dev/input/event0)
+[     5.793] (II) No input driver specified, ignoring this device.
+[     5.793] (II) This device may have been added with another device file.
+[     5.794] (II) config/udev: Adding input device Sleep Button (/dev/input/event2)
+[     5.794] (**) Sleep Button: Applying InputClass "evdev keyboard catchall"
+[     5.794] (II) Using input driver 'evdev' for 'Sleep Button'
+[     5.794] (**) Sleep Button: always reports core events
+[     5.794] (**) evdev: Sleep Button: Device: "/dev/input/event2"
+[     5.794] (--) evdev: Sleep Button: Vendor 0 Product 0x3
+[     5.794] (--) evdev: Sleep Button: Found keys
+[     5.794] (II) evdev: Sleep Button: Configuring as keyboard
+[     5.794] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/device:00/PNP0C0E:00/input/input2/event2"
+[     5.794] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 9)
+[     5.794] (**) Option "xkb_rules" "evdev"
+[     5.794] (**) Option "xkb_model" "pc105"
+[     5.794] (**) Option "xkb_layout" "es"
+[     5.794] (II) config/udev: Adding drm device (/dev/dri/card0) card0 /sys/devices/pci0000:00/0000:00:02.0/drm/card0
+[     5.794] (II) config/udev: Ignoring already known drm device (/dev/dri/card0)
+[     5.794] (II) config/udev: Adding input device USB2.0 HD UVC WebCam (/dev/input/event9)
+[     5.794] (**) USB2.0 HD UVC WebCam: Applying InputClass "evdev keyboard catchall"
+[     5.794] (II) Using input driver 'evdev' for 'USB2.0 HD UVC WebCam'
+[     5.794] (**) USB2.0 HD UVC WebCam: always reports core events
+[     5.794] (**) evdev: USB2.0 HD UVC WebCam: Device: "/dev/input/event9"
+[     5.794] (--) evdev: USB2.0 HD UVC WebCam: Vendor 0x4f2 Product 0xb36e
+[     5.794] (--) evdev: USB2.0 HD UVC WebCam: Found keys
+[     5.794] (II) evdev: USB2.0 HD UVC WebCam: Configuring as keyboard
+[     5.794] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.3/1-1.3:1.0/input/input16/event9"
+[     5.794] (II) XINPUT: Adding extended input device "USB2.0 HD UVC WebCam" (type: KEYBOARD, id 10)
+[     5.794] (**) Option "xkb_rules" "evdev"
+[     5.794] (**) Option "xkb_model" "pc105"
+[     5.794] (**) Option "xkb_layout" "es"
+[     5.794] (II) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event8)
+[     5.795] (II) No input driver specified, ignoring this device.
+[     5.795] (II) This device may have been added with another device file.
+[     5.795] (II) config/udev: Adding input device Asus WMI hotkeys (/dev/input/event7)
+[     5.795] (**) Asus WMI hotkeys: Applying InputClass "evdev keyboard catchall"
+[     5.795] (II) Using input driver 'evdev' for 'Asus WMI hotkeys'
+[     5.795] (**) Asus WMI hotkeys: always reports core events
+[     5.795] (**) evdev: Asus WMI hotkeys: Device: "/dev/input/event7"
+[     5.795] (--) evdev: Asus WMI hotkeys: Vendor 0 Product 0
+[     5.795] (--) evdev: Asus WMI hotkeys: Found keys
+[     5.795] (II) evdev: Asus WMI hotkeys: Configuring as keyboard
+[     5.795] (**) Option "config_info" "udev:/sys/devices/platform/asus-nb-wmi/input/input14/event7"
+[     5.795] (II) XINPUT: Adding extended input device "Asus WMI hotkeys" (type: KEYBOARD, id 11)
+[     5.795] (**) Option "xkb_rules" "evdev"
+[     5.795] (**) Option "xkb_model" "pc105"
+[     5.795] (**) Option "xkb_layout" "es"
+[     5.795] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event3)
+[     5.795] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[     5.795] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[     5.795] (**) AT Translated Set 2 keyboard: always reports core events
+[     5.795] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event3"
+[     5.795] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[     5.795] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[     5.795] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[     5.795] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input3/event3"
+[     5.795] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 12)
+[     5.795] (**) Option "xkb_rules" "evdev"
+[     5.795] (**) Option "xkb_model" "pc105"
+[     5.795] (**) Option "xkb_layout" "es"
+[     5.795] (II) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/event4)
+[     5.796] (**) ETPS/2 Elantech Touchpad: Applying InputClass "evdev touchpad catchall"
+[     5.796] (**) ETPS/2 Elantech Touchpad: Applying InputClass "touchpad catchall"
+[     5.796] (**) ETPS/2 Elantech Touchpad: Applying InputClass "Default clickpad buttons"
+[     5.796] (II) LoadModule: "synaptics"
+[     5.796] (II) Loading /usr/lib/xorg/modules/input/synaptics_drv.so
+[     5.796] (II) Module synaptics: vendor="X.Org Foundation"
+[     5.796] 	compiled for 1.15.0, module version = 1.7.4
+[     5.796] 	Module class: X.Org XInput Driver
+[     5.796] 	ABI class: X.Org XInput driver, version 20.0
+[     5.796] (II) Using input driver 'synaptics' for 'ETPS/2 Elantech Touchpad'
+[     5.796] (**) ETPS/2 Elantech Touchpad: always reports core events
+[     5.796] (**) Option "Device" "/dev/input/event4"
+[     5.892] (II) synaptics: ETPS/2 Elantech Touchpad: found clickpad property
+[     5.892] (--) synaptics: ETPS/2 Elantech Touchpad: x-axis range 0 - 3260 (res 32)
+[     5.892] (--) synaptics: ETPS/2 Elantech Touchpad: y-axis range 0 - 2119 (res 32)
+[     5.892] (--) synaptics: ETPS/2 Elantech Touchpad: pressure range 0 - 255
+[     5.892] (--) synaptics: ETPS/2 Elantech Touchpad: finger width range 0 - 15
+[     5.892] (--) synaptics: ETPS/2 Elantech Touchpad: buttons: left double triple
+[     5.892] (--) synaptics: ETPS/2 Elantech Touchpad: Vendor 0x2 Product 0xe
+[     5.892] (**) Option "SoftButtonAreas" "50% 0 82% 0 0 0 0 0"
+[     5.892] (--) synaptics: ETPS/2 Elantech Touchpad: touchpad found
+[     5.892] (**) ETPS/2 Elantech Touchpad: always reports core events
+[     5.920] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio4/input/input11/event4"
+[     5.920] (II) XINPUT: Adding extended input device "ETPS/2 Elantech Touchpad" (type: TOUCHPAD, id 13)
+[     5.920] (**) synaptics: ETPS/2 Elantech Touchpad: (accel) MinSpeed is now constant deceleration 2.5
+[     5.920] (**) synaptics: ETPS/2 Elantech Touchpad: (accel) MaxSpeed is now 1.75
+[     5.920] (**) synaptics: ETPS/2 Elantech Touchpad: (accel) AccelFactor is now 0.051
+[     5.920] (**) ETPS/2 Elantech Touchpad: (accel) keeping acceleration scheme 1
+[     5.920] (**) ETPS/2 Elantech Touchpad: (accel) acceleration profile 1
+[     5.920] (**) ETPS/2 Elantech Touchpad: (accel) acceleration factor: 2.000
+[     5.920] (**) ETPS/2 Elantech Touchpad: (accel) acceleration threshold: 4
+[     5.920] (--) synaptics: ETPS/2 Elantech Touchpad: touchpad found
+[     5.920] (II) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/mouse0)
+[     5.920] (**) ETPS/2 Elantech Touchpad: Ignoring device from InputClass "touchpad ignore duplicates"
+[     6.259] (II) intel(0): EDID vendor "LGD", prod id 803
+[     6.259] (II) intel(0): Printing DDC gathered Modelines:
+[     6.259] (II) intel(0): Modeline "1920x1080"x0.0  138.00  1920 1952 1988 2088  1080 1085 1090 1102 -hsync -vsync (66.1 kHz eP)
+[   667.877] (II) intel(0): switch to mode 1920x1080@60.0 on eDP1 using pipe 0, position (0, 0), rotation normal, reflection none
+[   675.623] (II) intel(0): switch to mode 1920x1080@60.0 on eDP1 using pipe 0, position (0, 0), rotation normal, reflection none
+[   678.016] (II) config/udev: Adding input device Logitech Unifying Device. Wireless PID:200a (/dev/input/event10)
+[   678.017] (**) Logitech Unifying Device. Wireless PID:200a: Applying InputClass "evdev keyboard catchall"
+[   678.017] (II) Using input driver 'evdev' for 'Logitech Unifying Device. Wireless PID:200a'
+[   678.017] (**) Logitech Unifying Device. Wireless PID:200a: always reports core events
+[   678.017] (**) evdev: Logitech Unifying Device. Wireless PID:200a: Device: "/dev/input/event10"
+[   678.017] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Vendor 0x46d Product 0xc52b
+[   678.017] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found 1 mouse buttons
+[   678.017] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found scroll wheel(s)
+[   678.017] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found relative axes
+[   678.017] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Forcing relative x/y axes to exist.
+[   678.017] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found absolute axes
+[   678.017] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Forcing absolute x/y axes to exist.
+[   678.017] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found keys
+[   678.017] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Configuring as mouse
+[   678.017] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Configuring as keyboard
+[   678.017] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Adding scrollwheel support
+[   678.017] (**) evdev: Logitech Unifying Device. Wireless PID:200a: YAxisMapping: buttons 4 and 5
+[   678.017] (**) evdev: Logitech Unifying Device. Wireless PID:200a: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[   678.017] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-2/3-2:1.2/0003:046D:C52B.0003/input/input17/event10"
+[   678.017] (II) XINPUT: Adding extended input device "Logitech Unifying Device. Wireless PID:200a" (type: KEYBOARD, id 14)
+[   678.017] (**) Option "xkb_rules" "evdev"
+[   678.017] (**) Option "xkb_model" "pc105"
+[   678.017] (**) Option "xkb_layout" "es"
+[   678.018] (II) evdev: Logitech Unifying Device. Wireless PID:200a: initialized for relative axes.
+[   678.018] (WW) evdev: Logitech Unifying Device. Wireless PID:200a: ignoring absolute axes.
+[   678.018] (**) Logitech Unifying Device. Wireless PID:200a: (accel) keeping acceleration scheme 1
+[   678.018] (**) Logitech Unifying Device. Wireless PID:200a: (accel) acceleration profile 0
+[   678.018] (**) Logitech Unifying Device. Wireless PID:200a: (accel) acceleration factor: 2.000
+[   678.018] (**) Logitech Unifying Device. Wireless PID:200a: (accel) acceleration threshold: 4
+[   690.371] (II) intel(0): resizing framebuffer to 3600x1080
+[   690.371] (II) intel(0): switch to mode 1920x1080@60.0 on eDP1 using pipe 0, position (0, 0), rotation normal, reflection none
+[   690.392] (II) intel(0): switch to mode 1680x1050@60.0 on VGA1 using pipe 1, position (1920, 0), rotation normal, reflection none
+[   693.311] (II) config/udev: Adding input device  USB OPTICAL MOUSE (/dev/input/mouse1)
+[   693.311] (II) No input driver specified, ignoring this device.
+[   693.311] (II) This device may have been added with another device file.
+[   693.311] (II) config/udev: Adding input device  USB OPTICAL MOUSE (/dev/input/event11)
+[   693.311] (**)  USB OPTICAL MOUSE: Applying InputClass "evdev pointer catchall"
+[   693.311] (II) Using input driver 'evdev' for ' USB OPTICAL MOUSE'
+[   693.311] (**)  USB OPTICAL MOUSE: always reports core events
+[   693.311] (**) evdev:  USB OPTICAL MOUSE: Device: "/dev/input/event11"
+[   693.311] (--) evdev:  USB OPTICAL MOUSE: Vendor 0x15d9 Product 0xa4d
+[   693.311] (--) evdev:  USB OPTICAL MOUSE: Found 3 mouse buttons
+[   693.311] (--) evdev:  USB OPTICAL MOUSE: Found scroll wheel(s)
+[   693.311] (--) evdev:  USB OPTICAL MOUSE: Found relative axes
+[   693.311] (--) evdev:  USB OPTICAL MOUSE: Found x and y relative axes
+[   693.311] (II) evdev:  USB OPTICAL MOUSE: Configuring as mouse
+[   693.311] (II) evdev:  USB OPTICAL MOUSE: Adding scrollwheel support
+[   693.311] (**) evdev:  USB OPTICAL MOUSE: YAxisMapping: buttons 4 and 5
+[   693.311] (**) evdev:  USB OPTICAL MOUSE: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[   693.311] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.0/input/input18/event11"
+[   693.311] (II) XINPUT: Adding extended input device " USB OPTICAL MOUSE" (type: MOUSE, id 15)
+[   693.311] (II) evdev:  USB OPTICAL MOUSE: initialized for relative axes.
+[   693.311] (**)  USB OPTICAL MOUSE: (accel) keeping acceleration scheme 1
+[   693.311] (**)  USB OPTICAL MOUSE: (accel) acceleration profile 0
+[   693.311] (**)  USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
+[   693.311] (**)  USB OPTICAL MOUSE: (accel) acceleration threshold: 4
+[   696.573] (II) intel(0): resizing framebuffer to 3040x1050
+[   696.573] (II) intel(0): switch to mode 1360x768@59.8 on eDP1 using pipe 0, position (0, 0), rotation normal, reflection none
+[   697.545] (II) intel(0): switch to mode 1680x1050@60.0 on VGA1 using pipe 1, position (1360, 0), rotation normal, reflection none
+[   697.749] (II) XKB: reuse xkmfile /var/lib/xkb/server-B20D7FC79C7F597315E3E501AEF10E0D866E8E92.xkm
+[   697.904] (II) XKB: reuse xkmfile /var/lib/xkb/server-E9EAE3F058EDAC2B794B0BAAB37A671E02945366.xkm
+[   697.918] (II) XKB: reuse xkmfile /var/lib/xkb/server-E9EAE3F058EDAC2B794B0BAAB37A671E02945366.xkm
+[   698.020] (II) XKB: reuse xkmfile /var/lib/xkb/server-4FD52B51AFE6709DED5AD52EDA784C00B079ECF7.xkm
+[   698.032] (II) intel(0): resizing framebuffer to 3600x1080
+[   698.032] (II) intel(0): switch to mode 1360x768@59.8 on eDP1 using pipe 0, position (0, 0), rotation normal, reflection none
+[   698.048] (II) intel(0): switch to mode 1680x1050@60.0 on VGA1 using pipe 1, position (1360, 0), rotation normal, reflection none
+[   698.056] (II) intel(0): switch to mode 1680x1050@60.0 on VGA1 using pipe 1, position (1920, 0), rotation normal, reflection none
+[   698.059] (II) intel(0): switch to mode 1920x1080@60.0 on eDP1 using pipe 0, position (0, 0), rotation normal, reflection none
+[   700.411] (II) XKB: reuse xkmfile /var/lib/xkb/server-4FD52B51AFE6709DED5AD52EDA784C00B079ECF7.xkm
+[   700.419] (II) XKB: reuse xkmfile /var/lib/xkb/server-4FD52B51AFE6709DED5AD52EDA784C00B079ECF7.xkm
+[   736.265] (II) intel(0): resizing framebuffer to 3040x1050
+[   736.266] (II) intel(0): switch to mode 1360x768@59.8 on eDP1 using pipe 1, position (0, 0), rotation normal, reflection none
+[   737.229] (II) intel(0): switch to mode 1680x1050@60.0 on VGA1 using pipe 0, position (1360, 0), rotation normal, reflection none
+[  9093.156] (II) config/udev: removing device  USB OPTICAL MOUSE
+[  9093.180] (II) evdev:  USB OPTICAL MOUSE: Close
+[  9093.180] (II) UnloadModule: "evdev"
+[  9128.184] (II) config/udev: removing device Logitech Unifying Device. Wireless PID:200a
+[  9128.224] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Close
+[  9128.224] (II) UnloadModule: "evdev"
+[  9361.820] (II) XKB: reuse xkmfile /var/lib/xkb/server-4FD52B51AFE6709DED5AD52EDA784C00B079ECF7.xkm
+[  9505.986] (II) config/udev: Adding input device  USB OPTICAL MOUSE (/dev/input/event10)
+[  9505.986] (**)  USB OPTICAL MOUSE: Applying InputClass "evdev pointer catchall"
+[  9505.986] (II) Using input driver 'evdev' for ' USB OPTICAL MOUSE'
+[  9505.987] (**)  USB OPTICAL MOUSE: always reports core events
+[  9505.987] (**) evdev:  USB OPTICAL MOUSE: Device: "/dev/input/event10"
+[  9506.012] (--) evdev:  USB OPTICAL MOUSE: Vendor 0x15d9 Product 0xa4d
+[  9506.012] (--) evdev:  USB OPTICAL MOUSE: Found 3 mouse buttons
+[  9506.012] (--) evdev:  USB OPTICAL MOUSE: Found scroll wheel(s)
+[  9506.012] (--) evdev:  USB OPTICAL MOUSE: Found relative axes
+[  9506.012] (--) evdev:  USB OPTICAL MOUSE: Found x and y relative axes
+[  9506.012] (II) evdev:  USB OPTICAL MOUSE: Configuring as mouse
+[  9506.012] (II) evdev:  USB OPTICAL MOUSE: Adding scrollwheel support
+[  9506.012] (**) evdev:  USB OPTICAL MOUSE: YAxisMapping: buttons 4 and 5
+[  9506.012] (**) evdev:  USB OPTICAL MOUSE: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[  9506.012] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.0/input/input19/event10"
+[  9506.012] (II) XINPUT: Adding extended input device " USB OPTICAL MOUSE" (type: MOUSE, id 14)
+[  9506.012] (II) evdev:  USB OPTICAL MOUSE: initialized for relative axes.
+[  9506.012] (**)  USB OPTICAL MOUSE: (accel) keeping acceleration scheme 1
+[  9506.012] (**)  USB OPTICAL MOUSE: (accel) acceleration profile 0
+[  9506.012] (**)  USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
+[  9506.012] (**)  USB OPTICAL MOUSE: (accel) acceleration threshold: 4
+[  9506.013] (II) config/udev: Adding input device  USB OPTICAL MOUSE (/dev/input/mouse1)
+[  9506.013] (II) No input driver specified, ignoring this device.
+[  9506.013] (II) This device may have been added with another device file.
+[  9516.000] (II) config/udev: Adding input device Logitech Unifying Device. Wireless PID:200a (/dev/input/event11)
+[  9516.000] (**) Logitech Unifying Device. Wireless PID:200a: Applying InputClass "evdev keyboard catchall"
+[  9516.000] (II) Using input driver 'evdev' for 'Logitech Unifying Device. Wireless PID:200a'
+[  9516.000] (**) Logitech Unifying Device. Wireless PID:200a: always reports core events
+[  9516.000] (**) evdev: Logitech Unifying Device. Wireless PID:200a: Device: "/dev/input/event11"
+[  9516.000] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Vendor 0x46d Product 0xc52b
+[  9516.000] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found 1 mouse buttons
+[  9516.000] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found scroll wheel(s)
+[  9516.000] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found relative axes
+[  9516.000] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Forcing relative x/y axes to exist.
+[  9516.000] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found absolute axes
+[  9516.000] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Forcing absolute x/y axes to exist.
+[  9516.000] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found keys
+[  9516.000] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Configuring as mouse
+[  9516.000] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Configuring as keyboard
+[  9516.000] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Adding scrollwheel support
+[  9516.000] (**) evdev: Logitech Unifying Device. Wireless PID:200a: YAxisMapping: buttons 4 and 5
+[  9516.000] (**) evdev: Logitech Unifying Device. Wireless PID:200a: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[  9516.000] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-1/3-1:1.2/0003:046D:C52B.0008/input/input20/event11"
+[  9516.000] (II) XINPUT: Adding extended input device "Logitech Unifying Device. Wireless PID:200a" (type: KEYBOARD, id 15)
+[  9516.000] (**) Option "xkb_rules" "evdev"
+[  9516.000] (**) Option "xkb_model" "pc105"
+[  9516.000] (**) Option "xkb_layout" "es"
+[  9516.001] (II) evdev: Logitech Unifying Device. Wireless PID:200a: initialized for relative axes.
+[  9516.001] (WW) evdev: Logitech Unifying Device. Wireless PID:200a: ignoring absolute axes.
+[  9516.001] (**) Logitech Unifying Device. Wireless PID:200a: (accel) keeping acceleration scheme 1
+[  9516.001] (**) Logitech Unifying Device. Wireless PID:200a: (accel) acceleration profile 0
+[  9516.001] (**) Logitech Unifying Device. Wireless PID:200a: (accel) acceleration factor: 2.000
+[  9516.001] (**) Logitech Unifying Device. Wireless PID:200a: (accel) acceleration threshold: 4
+[  9555.728] (II) config/udev: removing device  USB OPTICAL MOUSE
+[  9555.760] (II) evdev:  USB OPTICAL MOUSE: Close
+[  9555.760] (II) UnloadModule: "evdev"
+[  9582.921] (II) config/udev: removing device Logitech Unifying Device. Wireless PID:200a
+[  9582.936] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Close
+[  9582.937] (II) UnloadModule: "evdev"
+[  9673.364] (II) XKB: reuse xkmfile /var/lib/xkb/server-4FD52B51AFE6709DED5AD52EDA784C00B079ECF7.xkm
+[  9693.967] (II) config/udev: Adding input device  USB OPTICAL MOUSE (/dev/input/mouse1)
+[  9693.967] (II) No input driver specified, ignoring this device.
+[  9693.967] (II) This device may have been added with another device file.
+[  9693.967] (II) config/udev: Adding input device  USB OPTICAL MOUSE (/dev/input/event10)
+[  9693.967] (**)  USB OPTICAL MOUSE: Applying InputClass "evdev pointer catchall"
+[  9693.967] (II) Using input driver 'evdev' for ' USB OPTICAL MOUSE'
+[  9693.968] (**)  USB OPTICAL MOUSE: always reports core events
+[  9693.968] (**) evdev:  USB OPTICAL MOUSE: Device: "/dev/input/event10"
+[  9693.968] (--) evdev:  USB OPTICAL MOUSE: Vendor 0x15d9 Product 0xa4d
+[  9693.968] (--) evdev:  USB OPTICAL MOUSE: Found 3 mouse buttons
+[  9693.968] (--) evdev:  USB OPTICAL MOUSE: Found scroll wheel(s)
+[  9693.968] (--) evdev:  USB OPTICAL MOUSE: Found relative axes
+[  9693.968] (--) evdev:  USB OPTICAL MOUSE: Found x and y relative axes
+[  9693.968] (II) evdev:  USB OPTICAL MOUSE: Configuring as mouse
+[  9693.968] (II) evdev:  USB OPTICAL MOUSE: Adding scrollwheel support
+[  9693.968] (**) evdev:  USB OPTICAL MOUSE: YAxisMapping: buttons 4 and 5
+[  9693.968] (**) evdev:  USB OPTICAL MOUSE: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[  9693.968] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.0/input/input21/event10"
+[  9693.968] (II) XINPUT: Adding extended input device " USB OPTICAL MOUSE" (type: MOUSE, id 14)
+[  9693.968] (II) evdev:  USB OPTICAL MOUSE: initialized for relative axes.
+[  9693.969] (**)  USB OPTICAL MOUSE: (accel) keeping acceleration scheme 1
+[  9693.969] (**)  USB OPTICAL MOUSE: (accel) acceleration profile 0
+[  9693.969] (**)  USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
+[  9693.969] (**)  USB OPTICAL MOUSE: (accel) acceleration threshold: 4
+[  9709.868] (II) config/udev: Adding input device Logitech Unifying Device. Wireless PID:200a (/dev/input/event11)
+[  9709.868] (**) Logitech Unifying Device. Wireless PID:200a: Applying InputClass "evdev keyboard catchall"
+[  9709.868] (II) Using input driver 'evdev' for 'Logitech Unifying Device. Wireless PID:200a'
+[  9709.868] (**) Logitech Unifying Device. Wireless PID:200a: always reports core events
+[  9709.868] (**) evdev: Logitech Unifying Device. Wireless PID:200a: Device: "/dev/input/event11"
+[  9709.868] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Vendor 0x46d Product 0xc52b
+[  9709.868] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found 1 mouse buttons
+[  9709.868] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found scroll wheel(s)
+[  9709.868] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found relative axes
+[  9709.868] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Forcing relative x/y axes to exist.
+[  9709.868] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found absolute axes
+[  9709.868] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Forcing absolute x/y axes to exist.
+[  9709.868] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found keys
+[  9709.868] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Configuring as mouse
+[  9709.868] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Configuring as keyboard
+[  9709.868] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Adding scrollwheel support
+[  9709.868] (**) evdev: Logitech Unifying Device. Wireless PID:200a: YAxisMapping: buttons 4 and 5
+[  9709.868] (**) evdev: Logitech Unifying Device. Wireless PID:200a: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[  9709.868] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-1/3-1:1.2/0003:046D:C52B.000E/input/input22/event11"
+[  9709.868] (II) XINPUT: Adding extended input device "Logitech Unifying Device. Wireless PID:200a" (type: KEYBOARD, id 15)
+[  9709.868] (**) Option "xkb_rules" "evdev"
+[  9709.868] (**) Option "xkb_model" "pc105"
+[  9709.868] (**) Option "xkb_layout" "es"
+[  9709.869] (II) evdev: Logitech Unifying Device. Wireless PID:200a: initialized for relative axes.
+[  9709.869] (WW) evdev: Logitech Unifying Device. Wireless PID:200a: ignoring absolute axes.
+[  9709.869] (**) Logitech Unifying Device. Wireless PID:200a: (accel) keeping acceleration scheme 1
+[  9709.869] (**) Logitech Unifying Device. Wireless PID:200a: (accel) acceleration profile 0
+[  9709.869] (**) Logitech Unifying Device. Wireless PID:200a: (accel) acceleration factor: 2.000
+[  9709.869] (**) Logitech Unifying Device. Wireless PID:200a: (accel) acceleration threshold: 4
+[ 11951.291] (II) XKB: reuse xkmfile /var/lib/xkb/server-4FD52B51AFE6709DED5AD52EDA784C00B079ECF7.xkm
+[ 48148.113] (II) XKB: reuse xkmfile /var/lib/xkb/server-4FD52B51AFE6709DED5AD52EDA784C00B079ECF7.xkm
+[ 64068.290] (II) intel(0): switch to mode 1680x1050@60.0 on VGA1 using pipe 0, position (1360, 0), rotation normal, reflection none
+[ 64068.444] (II) intel(0): switch to mode 1360x768@59.8 on eDP1 using pipe 1, position (0, 0), rotation normal, reflection none
+[ 64074.907] (II) XKB: reuse xkmfile /var/lib/xkb/server-4FD52B51AFE6709DED5AD52EDA784C00B079ECF7.xkm
+[ 67483.524] (II) intel(0): switch to mode 1680x1050@60.0 on VGA1 using pipe 0, position (1360, 0), rotation normal, reflection none
+[ 67483.676] (II) intel(0): switch to mode 1360x768@59.8 on eDP1 using pipe 1, position (0, 0), rotation normal, reflection none
+[ 67490.080] (II) XKB: reuse xkmfile /var/lib/xkb/server-4FD52B51AFE6709DED5AD52EDA784C00B079ECF7.xkm
+[ 73010.128] (II) intel(0): switch to mode 1680x1050@60.0 on VGA1 using pipe 0, position (1360, 0), rotation normal, reflection none
+[ 73010.280] (II) intel(0): switch to mode 1360x768@59.8 on eDP1 using pipe 1, position (0, 0), rotation normal, reflection none
+[ 73016.480] (II) XKB: reuse xkmfile /var/lib/xkb/server-4FD52B51AFE6709DED5AD52EDA784C00B079ECF7.xkm
+[ 82339.004] (II) intel(0): switch to mode 1680x1050@60.0 on VGA1 using pipe 0, position (1360, 0), rotation normal, reflection none
+[ 82339.156] (II) intel(0): switch to mode 1360x768@59.8 on eDP1 using pipe 1, position (0, 0), rotation normal, reflection none
+[ 82345.367] (II) XKB: reuse xkmfile /var/lib/xkb/server-4FD52B51AFE6709DED5AD52EDA784C00B079ECF7.xkm
+[ 85803.691] (II) intel(0): switch to mode 1680x1050@60.0 on VGA1 using pipe 0, position (1360, 0), rotation normal, reflection none
+[ 85803.844] (II) intel(0): switch to mode 1360x768@59.8 on eDP1 using pipe 1, position (0, 0), rotation normal, reflection none
+[ 85810.018] (II) XKB: reuse xkmfile /var/lib/xkb/server-4FD52B51AFE6709DED5AD52EDA784C00B079ECF7.xkm
+[104601.387] (II) intel(0): switch to mode 1680x1050@60.0 on VGA1 using pipe 0, position (1360, 0), rotation normal, reflection none
+[104601.540] (II) intel(0): switch to mode 1360x768@59.8 on eDP1 using pipe 1, position (0, 0), rotation normal, reflection none
+[104607.943] (II) XKB: reuse xkmfile /var/lib/xkb/server-4FD52B51AFE6709DED5AD52EDA784C00B079ECF7.xkm
+[104793.740] (II) XKB: reuse xkmfile /var/lib/xkb/server-4FD52B51AFE6709DED5AD52EDA784C00B079ECF7.xkm
+[105291.649] (II) config/udev: removing device Logitech Unifying Device. Wireless PID:200a
+[105291.671] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Close
+[105291.672] (II) UnloadModule: "evdev"
+[105294.684] (II) config/udev: Adding input device Logitech Unifying Device. Wireless PID:200a (/dev/input/event11)
+[105294.686] (**) Logitech Unifying Device. Wireless PID:200a: Applying InputClass "evdev keyboard catchall"
+[105294.686] (II) Using input driver 'evdev' for 'Logitech Unifying Device. Wireless PID:200a'
+[105294.686] (**) Logitech Unifying Device. Wireless PID:200a: always reports core events
+[105294.686] (**) evdev: Logitech Unifying Device. Wireless PID:200a: Device: "/dev/input/event11"
+[105294.686] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Vendor 0x46d Product 0xc52b
+[105294.686] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found 1 mouse buttons
+[105294.686] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found scroll wheel(s)
+[105294.686] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found relative axes
+[105294.686] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Forcing relative x/y axes to exist.
+[105294.686] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found absolute axes
+[105294.686] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Forcing absolute x/y axes to exist.
+[105294.686] (--) evdev: Logitech Unifying Device. Wireless PID:200a: Found keys
+[105294.686] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Configuring as mouse
+[105294.686] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Configuring as keyboard
+[105294.686] (II) evdev: Logitech Unifying Device. Wireless PID:200a: Adding scrollwheel support
+[105294.686] (**) evdev: Logitech Unifying Device. Wireless PID:200a: YAxisMapping: buttons 4 and 5
+[105294.686] (**) evdev: Logitech Unifying Device. Wireless PID:200a: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[105294.687] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-1/3-1:1.2/0003:046D:C52B.0012/input/input59/event11"
+[105294.687] (II) XINPUT: Adding extended input device "Logitech Unifying Device. Wireless PID:200a" (type: KEYBOARD, id 15)
+[105294.687] (**) Option "xkb_rules" "evdev"
+[105294.687] (**) Option "xkb_model" "pc105"
+[105294.687] (**) Option "xkb_layout" "es"
+[105294.688] (II) evdev: Logitech Unifying Device. Wireless PID:200a: initialized for relative axes.
+[105294.688] (WW) evdev: Logitech Unifying Device. Wireless PID:200a: ignoring absolute axes.
+[105294.689] (**) Logitech Unifying Device. Wireless PID:200a: (accel) keeping acceleration scheme 1
+[105294.689] (**) Logitech Unifying Device. Wireless PID:200a: (accel) acceleration profile 0
+[105294.689] (**) Logitech Unifying Device. Wireless PID:200a: (accel) acceleration factor: 2.000
+[105294.689] (**) Logitech Unifying Device. Wireless PID:200a: (accel) acceleration threshold: 4
+[114343.094] (II) XKB: reuse xkmfile /var/lib/xkb/server-4FD52B51AFE6709DED5AD52EDA784C00B079ECF7.xkm

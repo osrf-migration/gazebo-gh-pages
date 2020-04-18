@@ -1,0 +1,44 @@
+diff -r dce3030d8730 gazebo/transport/Connection.cc
+--- a/gazebo/transport/Connection.cc	Wed Dec 13 18:20:46 2017 +0000
++++ b/gazebo/transport/Connection.cc	Thu Dec 14 17:39:56 2017 +0900
+@@ -89,7 +89,6 @@
+ {
+   this->isOpen = false;
+   this->dropMsgLogged = false;
+-  this->headerBuffer = new char[HEADER_LENGTH+1];
+ 
+   if (iomanager == NULL)
+     iomanager = new IOManager();
+@@ -125,9 +124,6 @@
+ //////////////////////////////////////////////////
+ Connection::~Connection()
+ {
+-  delete [] this->headerBuffer;
+-  this->headerBuffer = NULL;
+-
+   this->Shutdown();
+ 
+   if (iomanager)
+@@ -306,7 +302,8 @@
+     return;
+   }
+ 
+-  snprintf(this->headerBuffer, HEADER_LENGTH + 1, "%08x",
++  char headerBuffer[HEADER_LENGTH+1];
++  snprintf(headerBuffer, HEADER_LENGTH + 1, "%08x",
+       static_cast<unsigned int>(_buffer.size()));
+ 
+   {
+diff -r dce3030d8730 gazebo/transport/Connection.hh
+--- a/gazebo/transport/Connection.hh	Wed Dec 13 18:20:46 2017 +0000
++++ b/gazebo/transport/Connection.hh	Thu Dec 14 17:39:56 2017 +0900
+@@ -459,9 +459,6 @@
+       /// \brief Comma separated list of valid IP addresses.
+       private: std::string ipWhiteList;
+ 
+-      /// \brief Buffer for header information.
+-      private: char *headerBuffer;
+-
+       /// \brief Used to prevent too many log messages.
+       private: bool dropMsgLogged;
+ 

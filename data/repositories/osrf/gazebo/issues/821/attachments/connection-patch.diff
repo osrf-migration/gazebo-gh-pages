@@ -1,0 +1,27 @@
+diff -r d1bd62c124e3 gazebo/transport/Connection.cc
+--- a/gazebo/transport/Connection.cc	Sun May 17 00:30:40 2015 -0700
++++ b/gazebo/transport/Connection.cc	Sat Aug 29 11:39:52 2015 +0200
+@@ -301,18 +301,18 @@
+     return;
+   }
+ 
+-  snprintf(this->headerBuffer, HEADER_LENGTH + 1, "%08x",
+-      static_cast<unsigned int>(_buffer.size()));
+-
+   {
+     boost::recursive_mutex::scoped_lock lock(this->writeMutex);
+ 
++    snprintf(this->headerBuffer, HEADER_LENGTH + 1, "%08x",
++        static_cast<unsigned int>(_buffer.size()));
++
+     if (this->writeQueue.empty() ||
+         (this->writeCount > 0 && this->writeQueue.size() == 1) ||
+         (this->writeQueue.back().size()+_buffer.size() > 4096))
+-      this->writeQueue.push_back(std::string(headerBuffer) + _buffer);
++      this->writeQueue.push_back(std::string(this->headerBuffer) + _buffer);
+     else
+-      this->writeQueue.back() += std::string(headerBuffer) + _buffer;
++      this->writeQueue.back() += std::string(this->headerBuffer) + _buffer;
+     this->callbacks.push_back(std::make_pair(_cb, _id));
+   }
+ 

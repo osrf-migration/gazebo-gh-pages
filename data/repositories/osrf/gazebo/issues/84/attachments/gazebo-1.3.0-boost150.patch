@@ -1,0 +1,105 @@
+diff -up ./gazebo/common/Material.cc.boost150 ./gazebo/common/Material.cc
+--- ./gazebo/common/Material.cc.boost150	2012-12-03 12:47:03.000000000 -0500
++++ ./gazebo/common/Material.cc	2012-12-03 18:18:04.945796757 -0500
+@@ -14,7 +14,7 @@
+  * limitations under the License.
+  *
+  */
+-#define BOOST_FILESYSTEM_VERSION 2
++#define BOOST_FILESYSTEM_VERSION 3
+ 
+ #include <boost/filesystem.hpp>
+ #include <algorithm>
+diff -up ./gazebo/common/ModelDatabase.cc.boost150 ./gazebo/common/ModelDatabase.cc
+--- ./gazebo/common/ModelDatabase.cc.boost150	2012-12-03 12:47:03.000000000 -0500
++++ ./gazebo/common/ModelDatabase.cc	2012-12-03 18:18:04.945796757 -0500
+@@ -15,7 +15,7 @@
+  *
+ */
+ 
+-#define BOOST_FILESYSTEM_VERSION 2
++#define BOOST_FILESYSTEM_VERSION 3
+ 
+ #include <tinyxml.h>
+ #include <libtar.h>
+diff -up ./gazebo/common/SystemPaths.cc.boost150 ./gazebo/common/SystemPaths.cc
+--- ./gazebo/common/SystemPaths.cc.boost150	2012-12-03 12:47:03.000000000 -0500
++++ ./gazebo/common/SystemPaths.cc	2012-12-03 18:18:04.946796797 -0500
+@@ -18,7 +18,7 @@
+  * Author: Nate Koenig, Jordi Polo
+  * Date: 3 May 2008
+  */
+-#define BOOST_FILESYSTEM_VERSION 2
++#define BOOST_FILESYSTEM_VERSION 3
+ 
+ #include <assert.h>
+ #include <dirent.h>
+diff -up ./gazebo/gui/InsertModelWidget.cc.boost150 ./gazebo/gui/InsertModelWidget.cc
+--- ./gazebo/gui/InsertModelWidget.cc.boost150	2012-12-03 12:47:03.000000000 -0500
++++ ./gazebo/gui/InsertModelWidget.cc	2012-12-03 18:18:04.946796797 -0500
+@@ -14,7 +14,7 @@
+  * limitations under the License.
+  *
+  */
+-#define BOOST_FILESYSTEM_VERSION 2
++#define BOOST_FILESYSTEM_VERSION 3
+ 
+ #include <boost/filesystem.hpp>
+ #include <boost/lexical_cast.hpp>
+@@ -99,7 +99,7 @@ InsertModelWidget::InsertModelWidget(QWi
+       {
+         // This is for boost::filesystem version 3+
+         std::string modelName;
+-        std::string fullPath = path + "/" + dIter->filename();
++        std::string fullPath = path + "/" + dIter->filename().string();
+         std::string manifest = fullPath + "/manifest.xml";
+ 
+         TiXmlDocument xmlDoc;
+diff -up ./gazebo/rendering/RenderEngine.cc.boost150 ./gazebo/rendering/RenderEngine.cc
+--- ./gazebo/rendering/RenderEngine.cc.boost150	2012-12-03 12:47:03.000000000 -0500
++++ ./gazebo/rendering/RenderEngine.cc	2012-12-03 18:18:04.946796797 -0500
+@@ -18,7 +18,7 @@
+  * Author: Nate Koenig
+  * Date: 13 Feb 2006
+  */
+-#define BOOST_FILESYSTEM_VERSION 2
++#define BOOST_FILESYSTEM_VERSION 3
+ 
+ #include <X11/Xlib.h>
+ #include <X11/Xutil.h>
+@@ -436,9 +436,9 @@ void RenderEngine::AddResourcePath(const
+         for (std::vector<boost::filesystem::path>::iterator dIter =
+             paths.begin(); dIter != paths.end(); ++dIter)
+         {
+-          if (dIter->filename().find(".material") != std::string::npos)
++          if (dIter->filename().string().find(".material") != std::string::npos)
+           {
+-            std::string fullPath = path + "/" + dIter->filename();
++            std::string fullPath = path + "/" + dIter->filename().string();
+ 
+             Ogre::DataStreamPtr stream =
+               Ogre::ResourceGroupManager::getSingleton().openResource(
+diff -up ./gazebo/sdf/interface/parser.cc.boost150 ./gazebo/sdf/interface/parser.cc
+--- ./gazebo/sdf/interface/parser.cc.boost150	2012-12-03 12:47:03.000000000 -0500
++++ ./gazebo/sdf/interface/parser.cc	2012-12-03 18:18:04.946796797 -0500
+@@ -14,7 +14,7 @@
+  * limitations under the License.
+  *
+ */
+-#define BOOST_FILESYSTEM_VERSION 2
++#define BOOST_FILESYSTEM_VERSION 3
+ #include <stdlib.h>
+ #include <stdio.h>
+ 
+diff -up ./test/ServerFixture.hh.boost150 ./test/ServerFixture.hh
+--- ./test/ServerFixture.hh.boost150	2012-12-03 18:18:09.662984769 -0500
++++ ./test/ServerFixture.hh	2012-12-03 18:18:19.631382059 -0500
+@@ -18,7 +18,7 @@
+ #pragma GCC diagnostic ignored "-Wswitch-default"
+ #pragma GCC diagnostic ignored "-Wfloat-equal"
+ #pragma GCC diagnostic ignored "-Wshadow"
+-#define BOOST_FILESYSTEM_VERSION 2
++#define BOOST_FILESYSTEM_VERSION 3
+ 
+ #include <gtest/gtest.h>
+ #include <boost/thread.hpp>

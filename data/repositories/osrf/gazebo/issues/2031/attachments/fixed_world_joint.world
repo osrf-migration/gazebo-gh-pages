@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
+
+    <!-- Ground Plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <model name="box">
+      <pose>0 0 1 0 0 0</pose>
+      <link name="box_link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.5 0.5 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.5 0.5 0.5</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+
+      <joint name="fixed_joint" type="fixed">
+        <parent>box_link</parent>
+        <child>world</child>
+      </joint>
+
+      <plugin name="fixed_world_joint" filename="libfixed_world_joint.so"/>
+    </model>
+
+  </world>
+</sdf>

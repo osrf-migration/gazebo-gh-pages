@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="block">
+    <pose>0 0 1 0 0 0</pose>
+    <link name="link">
+      <gravity>0</gravity>
+      <kinematic>1</kinematic>
+      <visual name="visual">
+	<geometry>
+	  <box>
+	    <size>.4 .2 .1</size>
+	  </box>
+	</geometry>
+      </geometry>
+    </visual>
+    <collision name="collision">
+      <geometry>
+	<box>
+	  <size>.4 .2 .1</size>
+	</box>
+      </geometry>
+    </collision>
+  </link>
+</model>

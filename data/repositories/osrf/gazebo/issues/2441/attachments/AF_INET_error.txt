@@ -1,0 +1,11 @@
+[ INFO] [1521186190.168403495]: Laser Plugin: Using the 'robotNamespace' param: '/'
+[FATAL] [1521186190.168452681]: A ROS node for Gazebo has not been initialized, unable to load plugin. Load the Gazebo system plugin 'libgazebo_ros_api_plugin.so' in the gazebo_ros package)
+[ INFO] [1521186190.362818044]: Camera Plugin: Using the 'robotNamespace' param: '/'
+[FATAL] [1521186190.434691634]: You must call ros::init() before creating the first NodeHandle
+Couldn't find an AF_INET address for []
+Couldn't find an AF_INET address for []
+[ERROR] [1521186190.435936296]: [registerPublisher] Failed to contact master at [:0].  Retrying...
+Couldn't find an AF_INET address for []
+Couldn't find an AF_INET address for []
+Couldn't find an AF_INET address for []
+Couldn't find an AF_INET address for []

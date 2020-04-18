@@ -1,0 +1,61 @@
+<sdf version='1.6'>
+  <world name='default'>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <model name='camera_l8'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.02 0.05 0.05</size>
+            </box>
+          </geometry>
+        </visual>
+        <sensor name='cam_l8' type='camera'>
+          <always_on>1</always_on>
+          <update_rate>50</update_rate>
+          <visualize>1</visualize>
+          <camera>
+            <image>
+              <width>64</width>
+              <height>64</height>
+              <format>L8</format>
+            </image>
+          </camera>
+        </sensor>
+      </link>
+      <pose frame=''>0 0 1 0 1.570796 0</pose>
+    </model>
+
+    <model name='camera_rgb'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.02 0.05 0.05</size>
+            </box>
+          </geometry>
+        </visual>
+        <sensor name='cam_rgb' type='camera'>
+          <always_on>1</always_on>
+          <update_rate>50</update_rate>
+          <visualize>1</visualize>
+          <camera>
+            <image>
+              <width>64</width>
+              <height>64</height>
+            </image>
+          </camera>
+        </sensor>
+      </link>
+      <pose frame=''>0 1 1 0 1.570796 0</pose>
+    </model>
+  </world>
+</sdf>

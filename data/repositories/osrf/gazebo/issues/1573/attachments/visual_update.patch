@@ -1,0 +1,171 @@
+diff -r 2254502f28fb gazebo/physics/Link.cc
+--- a/gazebo/physics/Link.cc	Tue May 19 20:03:10 2015 -0700
++++ b/gazebo/physics/Link.cc	Wed May 20 15:06:59 2015 +0200
+@@ -32,6 +32,7 @@
+ #include "gazebo/util/OpenAL.hh"
+ #include "gazebo/common/Events.hh"
+ #include "gazebo/math/Quaternion.hh"
++#include "gazebo/math/Helpers.hh"
+ #include "gazebo/common/Console.hh"
+ #include "gazebo/common/Exception.hh"
+ #include "gazebo/common/Assert.hh"
+@@ -112,6 +113,8 @@
+   this->wrenchSub.reset();
+   this->connections.clear();
+ 
++  this->visualUpdateSub.reset();
++
+   delete this->publishDataMutex;
+   this->publishDataMutex = NULL;
+ 
+@@ -887,6 +890,19 @@
+   }
+   if (_msg.collision_size()>0)
+     this->UpdateSurface();
++
++  // Process visuals
++  if (_msg.visual_size() > 0)
++  {
++      for (unsigned int k = 0; k < _msg.visual_size(); k++)
++      {
++         const msgs::Visual& vis_msg = _msg.visual(k);
++         if (this->visuals.find(vis_msg.id()) != this->visuals.end())
++         {
++           this->visPub->Publish(vis_msg);
++         }
++      }
++  }
+ }
+ 
+ //////////////////////////////////////////////////
+@@ -1204,6 +1220,10 @@
+         msg.set_parent_id(this->GetId());
+         msg.set_is_static(this->IsStatic());
+ 
++	// Subscribe to visual updates for each visual associated with this link.
++        std::string updateTopicName("/gazebo/" + visName + "/visual_updates");
++        this->visualUpdateSub = this->node->Subscribe(updateTopicName, &Link::OnVisualUpdateMsg, this);
++
+         auto iter = this->visuals.find(msg.id());
+         if (iter != this->visuals.end())
+           gzthrow(std::string("Duplicate visual name[")+msg.name()+"]\n");
+@@ -1216,6 +1236,32 @@
+ }
+ 
+ /////////////////////////////////////////////////
++void Link::OnVisualUpdateMsg(ConstVisualPtr &_msg)
++{
++    const msgs::Visual& vis_msg = *(_msg.get());
++ 
++    bool visualFound = false;
++    uint32_t visual_id = GZ_UINT32_MAX;
++
++    for (Visuals_M::const_iterator it = this->visuals.begin(); it != this->visuals.end(); it++)
++    {
++        if (it->second.name().compare(vis_msg.name()) == 0)
++        {
++            visualFound = true;
++            visual_id = it->first;
++            break;
++        }
++    }
++
++    if (visualFound)
++    {
++        msgs::Visual& old_vis_msg = this->visuals.find(visual_id)->second;
++        old_vis_msg.CopyFrom(vis_msg);
++        old_vis_msg.set_id(visual_id);
++    }
++}
++
++/////////////////////////////////////////////////
+ double Link::GetWorldEnergyPotential() const
+ {
+   // compute gravitational potential energy for link CG location
+diff -r 2254502f28fb gazebo/physics/Link.hh
+--- a/gazebo/physics/Link.hh	Tue May 19 20:03:10 2015 -0700
++++ b/gazebo/physics/Link.hh	Wed May 20 15:06:59 2015 +0200
+@@ -584,6 +584,12 @@
+ 
+       /// \brief Update visual msgs.
+       private: void UpdateVisualMsg();
++               
++      /// \brief Handler for visual update messages.
++      private: void OnVisualUpdateMsg(ConstVisualPtr &_msg);
++               
++      /// \brief Subscriber for visual update messages received from visuals associated with this link.
++      private: transport::SubscriberPtr visualUpdateSub;
+ 
+       /// \brief Called when a new wrench message arrives. The wrench's force,
+       /// torque and force offset are described in the link frame,
+diff -r 2254502f28fb gazebo/rendering/Visual.cc
+--- a/gazebo/rendering/Visual.cc	Tue May 19 20:03:10 2015 -0700
++++ b/gazebo/rendering/Visual.cc	Wed May 20 15:06:59 2015 +0200
+@@ -197,6 +197,9 @@
+   this->dataPtr->parent.reset();
+   this->dataPtr->children.clear();
+ 
++  this->dataPtr->visPub.reset();
++  this->dataPtr->node.reset();
++
+   delete this->dataPtr;
+   this->dataPtr = 0;
+ }
+@@ -238,6 +241,9 @@
+ 
+   RTShaderSystem::Instance()->DetachEntity(this);
+   this->dataPtr->scene.reset();
++
++  if (this->dataPtr->node.get() != NULL)
++    this->dataPtr->node->Fini();
+ }
+ 
+ /////////////////////////////////////////////////
+@@ -490,6 +496,12 @@
+       rendering::Events::newLayer(this->dataPtr->layer);
+     }
+   }
++  
++  this->dataPtr->node = transport::NodePtr(new transport::Node());
++
++  this->dataPtr->node->Init(this->GetName());
++
++  this->dataPtr->visPub = this->dataPtr->node->Advertise<msgs::Visual>("~/visual_updates");
+ }
+ 
+ //////////////////////////////////////////////////
+@@ -2390,6 +2402,9 @@
+       if (_msg->material().has_normal_map())
+         this->SetNormalMap(_msg->material().normal_map());
+     }
++
++    // Re-publish update message with possibly changed visual properties
++    this->dataPtr->visPub->Publish(*_msg, true);
+   }
+ 
+   if (_msg->has_transparency())
+diff -r 2254502f28fb gazebo/rendering/VisualPrivate.hh
+--- a/gazebo/rendering/VisualPrivate.hh	Tue May 19 20:03:10 2015 -0700
++++ b/gazebo/rendering/VisualPrivate.hh	Wed May 20 15:06:59 2015 +0200
+@@ -36,6 +36,8 @@
+ #include "gazebo/rendering/RenderTypes.hh"
+ #include "gazebo/common/CommonTypes.hh"
+ 
++#include "gazebo/transport/TransportTypes.hh"
++
+ namespace Ogre
+ {
+   class MovableObject;
+@@ -167,6 +169,12 @@
+       /// \brief Index of the layer to which this visual belongs. Layers
+       /// act similar to layers in photoshop.
+       public: int32_t layer;
++      
++      /// \brief Publisher for visual update messages.
++      public: transport::PublisherPtr visPub;
++      
++      /// \brief Node for visual update messages.
++      public: transport::NodePtr node;
+     };
+     /// \}
+   }

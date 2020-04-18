@@ -1,0 +1,1111 @@
+/usr/bin/cmake -H/tmp/ws/src -B/tmp/ws/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -H/tmp/ws/src -B/tmp/ws/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /tmp/ws/build/CMakeFiles /tmp/ws/build/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory `/tmp/ws/build'
+make -f drcsim/drcsim_gazebo_plugins/CMakeFiles/DRCBuildingPlugin.dir/build.make drcsim/drcsim_gazebo_plugins/CMakeFiles/DRCBuildingPlugin.dir/depend
+make -f drcsim/drcsim_gazebo_plugins/CMakeFiles/DRCVehiclePlugin.dir/build.make drcsim/drcsim_gazebo_plugins/CMakeFiles/DRCVehiclePlugin.dir/depend
+make -f drcsim/drcsim_model_resources/CMakeFiles/AtlasSimInterface2.dir/build.make drcsim/drcsim_model_resources/CMakeFiles/AtlasSimInterface2.dir/depend
+make -f drcsim/irobot_hand_description/CMakeFiles/irobot_hand_description.urdf_gen.dir/build.make drcsim/irobot_hand_description/CMakeFiles/irobot_hand_description.urdf_gen.dir/depend
+make -f drcsim/irobot_hand_description/CMakeFiles/irobot_hand_on_box.urdf_gen.dir/build.make drcsim/irobot_hand_description/CMakeFiles/irobot_hand_on_box.urdf_gen.dir/depend
+make -f drcsim/multisense_sl_description/CMakeFiles/multisense_sl_cpu_description.urdf_gen.dir/build.make drcsim/multisense_sl_description/CMakeFiles/multisense_sl_cpu_description.urdf_gen.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/drcsim_gazebo_plugins /tmp/ws/build /tmp/ws/build/drcsim/drcsim_gazebo_plugins /tmp/ws/build/drcsim/drcsim_gazebo_plugins/CMakeFiles/DRCBuildingPlugin.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/irobot_hand_description /tmp/ws/build /tmp/ws/build/drcsim/irobot_hand_description /tmp/ws/build/drcsim/irobot_hand_description/CMakeFiles/irobot_hand_description.urdf_gen.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/irobot_hand_description /tmp/ws/build /tmp/ws/build/drcsim/irobot_hand_description /tmp/ws/build/drcsim/irobot_hand_description/CMakeFiles/irobot_hand_on_box.urdf_gen.dir/DependInfo.cmake --color=
+make -f drcsim/multisense_sl_description/CMakeFiles/multisense_sl_description.urdf_gen.dir/build.make drcsim/multisense_sl_description/CMakeFiles/multisense_sl_description.urdf_gen.dir/depend
+make -f drcsim/multisense_sl_description/CMakeFiles/multisense_sl_on_box.urdf_gen.dir/build.make drcsim/multisense_sl_description/CMakeFiles/multisense_sl_on_box.urdf_gen.dir/depend
+make -f drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/drcsim_model_resources /tmp/ws/build /tmp/ws/build/drcsim/drcsim_model_resources /tmp/ws/build/drcsim/drcsim_model_resources/CMakeFiles/AtlasSimInterface2.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/multisense_sl_description /tmp/ws/build /tmp/ws/build/drcsim/multisense_sl_description /tmp/ws/build/drcsim/multisense_sl_description/CMakeFiles/multisense_sl_cpu_description.urdf_gen.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/multisense_sl_description /tmp/ws/build /tmp/ws/build/drcsim/multisense_sl_description /tmp/ws/build/drcsim/multisense_sl_description/CMakeFiles/multisense_sl_description.urdf_gen.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/multisense_sl_description /tmp/ws/build /tmp/ws/build/drcsim/multisense_sl_description /tmp/ws/build/drcsim/multisense_sl_description/CMakeFiles/multisense_sl_on_box.urdf_gen.dir/DependInfo.cmake --color=
+make -f drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+make -f drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+make -f drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/handle_msgs /tmp/ws/build /tmp/ws/build/drcsim/handle_msgs /tmp/ws/build/drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make -f drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/drcsim_gazebo_plugins /tmp/ws/build /tmp/ws/build/drcsim/drcsim_gazebo_plugins /tmp/ws/build/drcsim/drcsim_gazebo_plugins/CMakeFiles/DRCVehiclePlugin.dir/DependInfo.cmake --color=
+make -f drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/handle_msgs /tmp/ws/build /tmp/ws/build/drcsim/handle_msgs /tmp/ws/build/drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/handle_msgs /tmp/ws/build /tmp/ws/build/drcsim/handle_msgs /tmp/ws/build/drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/handle_msgs /tmp/ws/build /tmp/ws/build/drcsim/handle_msgs /tmp/ws/build/drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+make -f drcsim/atlas_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make drcsim/atlas_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/depend
+make -f drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_py.dir/depend
+make -f drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_py.dir/build.make drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_py.dir/depend
+make -f drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make -f drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/handle_msgs /tmp/ws/build /tmp/ws/build/drcsim/handle_msgs /tmp/ws/build/drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/handle_msgs /tmp/ws/build /tmp/ws/build/drcsim/handle_msgs /tmp/ws/build/drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+make -f drcsim/drcsim_model_resources/CMakeFiles/AtlasSimInterface2.dir/build.make drcsim/drcsim_model_resources/CMakeFiles/AtlasSimInterface2.dir/build
+make -f drcsim/multisense_sl_description/CMakeFiles/multisense_sl_cpu_description.urdf_gen.dir/build.make drcsim/multisense_sl_description/CMakeFiles/multisense_sl_cpu_description.urdf_gen.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make -f drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_cpp.dir/build.make drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_cpp.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make -f drcsim/atlas_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make drcsim/atlas_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend
+make[2]: Leaving directory `/tmp/ws/build'
+
+make[2]: Nothing to be done for `drcsim/multisense_sl_description/CMakeFiles/multisense_sl_cpu_description.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make -f drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+make -f drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  76
+make -f drcsim/drcsim_gazebo_plugins/CMakeFiles/DRCVehiclePlugin.dir/build.make drcsim/drcsim_gazebo_plugins/CMakeFiles/DRCVehiclePlugin.dir/build
+make -f drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make[2]: Nothing to be done for `drcsim/drcsim_model_resources/CMakeFiles/AtlasSimInterface2.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make -f drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/depend
+make -f drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_lisp.dir/build.make drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_lisp.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make -f drcsim/atlas_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make drcsim/atlas_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/depend
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand.dir/depend
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_maintenance.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_maintenance.dir/depend
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/sandia-hand/ros/sandia_hand_driver /tmp/ws/build /tmp/ws/build/sandia-hand/ros/sandia_hand_driver /tmp/ws/build/sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/drcsim_gazebo_plugins/CMakeFiles/DRCBuildingPlugin.dir/build.make drcsim/drcsim_gazebo_plugins/CMakeFiles/DRCBuildingPlugin.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+[  0%] make -f drcsim/irobot_hand_description/CMakeFiles/irobot_hand_description.urdf_gen.dir/build.make drcsim/irobot_hand_description/CMakeFiles/irobot_hand_description.urdf_gen.dir/build
+make -f drcsim/irobot_hand_description/CMakeFiles/irobot_hand_on_box.urdf_gen.dir/build.make drcsim/irobot_hand_description/CMakeFiles/irobot_hand_on_box.urdf_gen.dir/build
+make -f drcsim/multisense_sl_description/CMakeFiles/multisense_sl_description.urdf_gen.dir/build.make drcsim/multisense_sl_description/CMakeFiles/multisense_sl_description.urdf_gen.dir/build
+make -f drcsim/multisense_sl_description/CMakeFiles/multisense_sl_on_box.urdf_gen.dir/build.make drcsim/multisense_sl_description/CMakeFiles/multisense_sl_on_box.urdf_gen.dir/build
+make -f drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+[  0%] make -f drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+[  0%] make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/irobot_hand_description/CMakeFiles/irobot_hand_description.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/irobot_hand_description/CMakeFiles/irobot_hand_on_box.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/multisense_sl_description/CMakeFiles/multisense_sl_on_box.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/handle_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+[  1%] make -f drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/multisense_sl_description/CMakeFiles/multisense_sl_description.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/atlas_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make drcsim/atlas_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+make -f drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+make -f drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+make -f drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/handle_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_py.dir/build.make drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_py.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+Built target multisense_sl_cpu_description.urdf_gen
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/atlas_msgs/CMakeFiles/actionlmake[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+Built target AtlasSimInterface2
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  75
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+Built target geometry_msgs_generate_messages_cpp
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_cpp.dir/build.make drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_cpp.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make -f drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_lisp.dir/build.make drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_lisp.dir/build
+make -f drcsim/atlas_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make drcsim/atlas_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/sandia-hand/ros/sandia_hand_driver /tmp/ws/build /tmp/ws/build/sandia-hand/ros/sandia_hand_driver /tmp/ws/build/sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_maintenance.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/drcsim_gazebo_plugins/CMakeFiles/DRCVehiclePlugin.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/control_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/drcsim_gazebo_plugins/CMakeFiles/DRCBuildingPlugin.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make -f drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make -f drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand.dir/build
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+[  2%] /usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+[  2%] make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+[  2%] make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+[  2%] [  2%] [  2%] Built target irobot_hand_description.urdf_gen
+Built target irobot_hand_on_box.urdf_gen
+[  2%] Built target multisense_sl_description.urdf_gen
+Built target multisense_sl_on_box.urdf_gen
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+[  2%] Built target geometry_msgs_generate_messages_lisp
+[  2%] [  2%] Built target std_msgs_generate_messages_cpp
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+Built target std_msgs_generate_messages_lisp
+Built target std_msgs_generate_messages_py
+[  2%] /usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+Built target actionlib_msgs_generate_messages_py
+[  2%] /usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+Built target DRCVehiclePlugin
+Built target DRCBuildingPlugin
+Built target sensor_msgs_generate_messages_py
+Built target trajectory_msgs_generate_messages_cpp
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/MultiCameraPlugin.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/MultiCameraPlugin.dir/depend
+Built target control_msgs_generate_messages_py
+Built target trajectory_msgs_generate_messages_py
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_block_laser.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_block_laser.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  80 81 82
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_utils.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_utils.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_f3d.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_f3d.dir/depend
+[  2%] make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_force.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_force.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_ft_sensor.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_ft_sensor.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_gpu_laser.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_gpu_laser.dir/depend
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/DependInfo.cmake --color=
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_hand_of_god.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_hand_of_god.dir/depend
+Built target actionlib_msgs_generate_messages_cpp
+[  2%] make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_maintenance.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_maintenance.dir/build
+[  2%] [  2%] [  2%] make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/MultiCameraPlugin.dir/DependInfo.cmake --color=
+[  2%] make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_block_laser.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_f3d.dir/DependInfo.cmake --color=
+[  2%] make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_force.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_utils.dir/DependInfo.cmake --color=
+[  5%] make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_ft_sensor.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_gpu_laser.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_hand_of_god.dir/DependInfo.cmake --color=
+Built target sensor_msgs_generate_messages_cpp
+Built target control_msgs_generate_messages_cpp
+Built target control_msgs_generate_messages_lisp
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_imu.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_imu.dir/depend
+Built target actionlib_msgs_generate_messages_lisp
+Built target trajectory_msgs_generate_messages_lisp
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_laser.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_laser.dir/depend
+Built target sensor_msgs_generate_messages_lisp
+Built target sandia_hand
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_moveit_planning_scene.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_moveit_planning_scene.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_p3d.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_p3d.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_planar_move.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_planar_move.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_projector.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_projector.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_skid_steer_drive.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_skid_steer_drive.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_template.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_template.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_video.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_video.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/pub_joint_trajectory_test.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/pub_joint_trajectory_test.dir/depend
+make[2]: Leaving directory `/tmp/ws/build'
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/build
+make -f gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_gencfg.dir/build.make gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_gencfg.dir/depend
+make -f drcsim/atlas_description/CMakeFiles/atlas.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas.urdf_gen.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_imu.dir/DependInfo.cmake --color=
+make -f drcsim/atlas_description/CMakeFiles/atlas_cpu_lidar.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_cpu_lidar.urdf_gen.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_p3d.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_ros /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_ros /tmp/ws/build/gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_gencfg.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_laser.dir/DependInfo.cmake --color=
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_moveit_planning_scene.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/pub_joint_trajectory_test.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_planar_move.dir/DependInfo.cmake --color=
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/MultiCameraPlugin.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/MultiCameraPlugin.dir/build
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  59
+make -f drcsim/atlas_description/CMakeFiles/atlas_sandia_hands.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_sandia_hands.urdf_gen.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_description /tmp/ws/build /tmp/ws/build/drcsim/atlas_description /tmp/ws/build/drcsim/atlas_description/CMakeFiles/atlas.urdf_gen.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_description /tmp/ws/build /tmp/ws/build/drcsim/atlas_description /tmp/ws/build/drcsim/atlas_description/CMakeFiles/atlas_cpu_lidar.urdf_gen.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_skid_steer_drive.dir/DependInfo.cmake --color=
+make -f drcsim/atlas_description/CMakeFilesmake[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_description /tmp/ws/build /tmp/ws/build/drcsim/atlas_description /tmp/ws/build/drcsim/atlas_description/CMakeFiles/atlas_irobot_hands.urdf_gen.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_template.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_projector.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_video.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_description /tmp/ws/build /tmp/ws/build/drcsim/atlas_description /tmp/ws/build/drcsim/atlas_description/CMakeFiles/atlas_sandia_hands.urdf_gen.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_block_laser.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_block_laser.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_utils.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_utils.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_f3d.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_f3d.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_description /tmp/ws/build /tmp/ws/build/drcsim/atlas_description /tmp/ws/build/drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_cpu_lidar.urdf_gen.dir/DependInfo.cmake --color=
+[  6%] make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_force.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_force.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_ft_sensor.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_ft_sensor.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakmake[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/MultiCameraPlugin.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_hand_of_god.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_hand_of_god.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_laser.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_laser.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_moveit_planning_scene.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_moveit_planning_scene.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_p3d.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_p3d.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_skid_steer_drive.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_skid_steer_drive.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_template.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_template.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/pub_joint_trajectory_test.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/pub_joint_trajectory_test.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/atlas_description/CMakeFiles/atlas.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas.urdf_gen.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/atlas_description/CMakeFiles/atlas_irobot_hands.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_irobot_hands.urdf_gen.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_projector.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_projector.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_video.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_video.dir/build
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make -f drcsim/atlas_description/CMakeFiles/atlas_sandia_hands.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_sandia_hands.urdf_gen.dir/build
+make -f drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_stumps.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_stumps.urdf_gen.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_description/CMakeFiles/atlas.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  4
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_description/CMakeFiles/atlas_irobot_hands.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_description/CMakeFiles/atlas_cpu_lidar.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_stumps_cpu_lidar.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_stumps_cpu_lidar.urdf_gen.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_imu.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_imu.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_planar_move.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_planar_move.dir/build
+make -f gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_gencfg.dir/build.make gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_gencfg.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_maintenance.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  85
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_description /tmp/ws/build /tmp/ws/build/drcsim/atlas_description /tmp/ws/build/drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_stumps.urdf_gen.dir/DependInfo.cmake --color=
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_description/CMakeFiles/atlas_sandia_hands.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/atlas_description/CMakeFiles/atlas_v3.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_v3.urdf_gen.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_description /tmp/ws/build /tmp/ws/build/drcsim/atlas_description /tmp/ws/build/drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_stumps_cpu_lidar.urdf_gen.dir/DependInfo.cmake --color=
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  31
+make -f drcsim/atlas_description/CMakeFiles/atlas_v3_irobot_hands.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_v3_irobot_hands.urdf_gen.dir/depend
+make -f drcsim/atlas_description/CMakeFiles/atlas_v3_sandia_hands.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_v3_sandia_hands.urdf_gen.dir/depend
+make -f drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia.urdf_gen.dir/depend
+make -f drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia_irobot_hands.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia_irobot_hands.urdf_gen.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_gencfg.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia_sandia_hands.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia_sandia_hands.urdf_gen.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_description /tmp/ws/build /tmp/ws/build/drcsim/atlas_description /tmp/ws/build/drcsim/atlas_description/CMakeFiles/atlas_v3.urdf_gen.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_description /tmp/ws/build /tmp/ws/build/drcsim/atlas_description /tmp/ws/build/drcsim/atlas_description/CMakeFiles/atlas_v3_irobot_hands.urdf_gen.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_description /tmp/ws/build /tmp/ws/build/drcsim/atlas_description /tmp/ws/build/drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia.urdf_gen.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_description /tmp/ws/build /tmp/ws/build/drcsim/atlas_description /tmp/ws/build/drcsim/atlas_description/CMakeFiles/atlas_v3_sandia_hands.urdf_gen.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_description /tmp/ws/build /tmp/ws/build/drcsim/atlas_description /tmp/ws/build/drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia_irobot_hands.urdf_gen.dir/DependInfo.cmake --color=
+make -f drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_cpu_lidar.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_cpu_lidar.urdf_gen.dir/build
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make -f drcsim/drcsim_gazebo/CMakeFiles/bdi_parser.dir/build.make drcsim/drcsim_gazebo/CMakeFiles/bdi_parser.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_utils.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+[  7%] make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_cpu_lidar.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_description /tmp/ws/build /tmp/ws/build/drcsim/atlas_description /tmp/ws/build/drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia_sandia_hands.urdf_gen.dir/DependInfo.cmake --color=
+[  7%] make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_block_laser.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+[  8%] make -f drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_py.dir/build.make drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_py.dir/depend
+[  8%] /usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make -f drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_lisp.dir/build.make drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_lisp.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/drcsim_gazebo /tmp/ws/build /tmp/ws/build/drcsim/drcsim_gazebo /tmp/ws/build/drcsim/drcsim_gazebo/CMakeFiles/bdi_parser.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/pub_joint_trajectory_test.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+Built target MultiCameraPlugin
+Built target atlas.urdf_gen
+Built target atlas_cpu_lidar.urdf_gen
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_f3d.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/handle_msgs /tmp/ws/build /tmp/ws/build/drcsim/handle_msgs /tmp/ws/build/drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+[  9%] Built target atlas_irobot_hands.urdf_gen
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/handle_msgs /tmp/ws/build /tmp/ws/build/drcsim/handle_msgs /tmp/ws/build/drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make -f drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_cpp.dir/build.make drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_cpp.dir/depend
+make -f osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_cpp.dir/build.make osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_cpp.dir/depend
+Built target atlas_sandia_hands.urdf_gen
+make -f osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_lisp.dir/build.make osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_lisp.dir/depend
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_stumps.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_stumps.urdf_gen.dir/build
+make -f osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_py.dir/build.make osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_py.dir/depend
+make -f sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_cpp.dir/build.make sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_cpp.dir/depend
+make -f sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_lisp.dir/build.make sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_lisp.dir/depend
+[  9%] make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/osrf-common/osrf_msgs /tmp/ws/build /tmp/ws/build/osrf-common/osrf_msgs /tmp/ws/build/osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/osrf-common/osrf_msgs /tmp/ws/build /tmp/ws/build/osrf-common/osrf_msgs /tmp/ws/build/osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make -f sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_py.dir/build.make sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_py.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/handle_msgs /tmp/ws/build /tmp/ws/build/drcsim/handle_msgs /tmp/ws/build/drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make -f gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_py.dir/depend
+make[2]: Leaving directory `/tmp/ws/build'
+[  9%] make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_stumps.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+[  9%] [  9%] make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/osrf-common/osrf_msgs /tmp/ws/build /tmp/ws/build/osrf-common/osrf_msgs /tmp/ws/build/osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make -f drcsim/atlas_description/CMakeFiles/atlas_v3.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_v3.urdf_gen.dir/build
+make -f drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia.urdf_gen.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/sandia-hand/ros/sandia_hand_msgs /tmp/ws/build /tmp/ws/build/sandia-hand/ros/sandia_hand_msgs /tmp/ws/build/sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make -f drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia_irobot_hands.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia_irobot_hands.urdf_gen.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/sandia-hand/ros/sandia_hand_msgs /tmp/ws/build /tmp/ws/build/sandia-hand/ros/sandia_hand_msgs /tmp/ws/build/sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+make -f drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_stumps_cpu_lidar.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_stumps_cpu_lidar.urdf_gen.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+Built target gazebo_ros_gencfg
+Built target gazebo_ros_utils
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_description/CMakeFiles/atlas_v3.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia_irobot_hands.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/sandia-hand/ros/sandia_hand_msgs /tmp/ws/build /tmp/ws/build/sandia-hand/ros/sandia_hand_msgs /tmp/ws/build/sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_moveit_planning_scene.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_description/CMakeFiles/atlas_sandia_hands_stumps_cpu_lidar.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_gpu_laser.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+[  9%] make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_hand_of_god.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_p3d.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_msgs /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_msgs /tmp/ws/build/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_force.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  62
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  63
+Built target atlas_sandia_hands_cpu_lidar.urdf_gen
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_planar_move.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_projector.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_laser.dir/build'.
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_skid_steer_drive.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_imu.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_ft_sensor.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+[  9%] make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_video.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+[ 10%] /usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  67
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  66
+make -f drcsim/atlas_description/CMakeFiles/atlas_v3_irobot_hands.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_v3_irobot_hands.urdf_gen.dir/build
+make -f drcsim/atlas_description/CMakeFiles/atlas_v3_sandia_hands.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_v3_sandia_hands.urdf_gen.dir/build
+[ 11%] make -f drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia_sandia_hands.urdf_gen.dir/build.make drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia_sandia_hands.urdf_gen.dir/build
+[ 11%] make -f drcsim/drcsim_gazebo/CMakeFiles/bdi_parser.dir/build.make drcsim/drcsim_gazebo/CMakeFiles/bdi_parser.dir/build
+[ 11%] [ 11%] [ 11%] [ 12%] make -f drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_py.dir/build.make drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_py.dir/build
+[ 12%] make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_description/CMakeFiles/atlas_v3_irobot_hands.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_description/CMakeFiles/atlas_v3_sandia_hands.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_lisp.dir/build.make drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_lisp.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_description/CMakeFiles/atlas_v3_with_v1_inertia_sandia_hands.urdf_gen.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_cpp.dir/build.make drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_cpp.dir/build
+Built target gazebo_ros_block_laser
+make -f osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_cpp.dir/build.make osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_cpp.dir/build
+make -f osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_lisp.dir/build.make osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_lisp.dir/build
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+Built target gazebo_ros_f3d
+Built target pub_joint_trajectory_test
+make -f osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_py.dir/build.make osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_py.dir/build
+make -f sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_cpp.dir/build.make sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_cpp.dir/build
+make -f sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_lisp.dir/build.make sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_lisp.dir/build
+make -f sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_py.dir/build.make sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_py.dir/build
+make -f gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  33
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+[ 12%] [ 12%] Built target gazebo_ros_gpu_laser
+[ 13%] Built target gazebo_ros_force
+Built target gazebo_ros_hand_of_god
+Built target gazebo_ros_ft_sensor
+Built target gazebo_ros_laser
+Built target gazebo_ros_moveit_planning_scene
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+Built target gazebo_ros_p3d
+Built target gazebo_ros_skid_steer_drive
+Built target gazebo_ros_template
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+Built target gazebo_ros_projector
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+Built target gazebo_ros_video
+Built target gazebo_ros_imu
+Built target gazebo_ros_planar_move
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  71 72
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/drcsim_gazebo/CMakeFiles/bdi_parser.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  69 70
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  77
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  86 87 88 89 90
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  91 92 93 94
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  95 96 97 98 99
+[ 13%] make -f gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+[ 14%] [ 15%] [ 15%] [ 15%] [ 15%] [ 15%] [ 17%] [ 20%] [ 21%] [ 21%] [ 22%] [ 23%] [ 27%] /usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  51 52 53 54 55 56 57 58
+Built target atlas_sandia_hands_stumps.urdf_gen
+Built target atlas_v3.urdf_gen
+Built target atlas_v3_with_v1_inertia.urdf_gen
+Built target atlas_v3_with_v1_inertia_irobot_hands.urdf_gen
+[ 31%] Built target atlas_sandia_hands_stumps_cpu_lidar.urdf_gen
+Built target atlas_v3_irobot_hands.urdf_gen
+Built target atlas_v3_sandia_hands.urdf_gen
+Built target atlas_v3_with_v1_inertia_sandia_hands.urdf_gen
+Built target handle_msgs_generate_messages_py
+Built target handle_msgs_generate_messages_lisp
+Built target handle_msgs_generate_messages_cpp
+Built target osrf_msgs_generate_messages_cpp
+Built target bdi_parser
+Built target osrf_msgs_generate_messages_lisp
+make -f gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/depend
+Built target osrf_msgs_generate_messages_py
+Built target sandia_hand_msgs_generate_messages_cpp
+Built target sandia_hand_msgs_generate_messages_lisp
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/loose_finger_cli.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/loose_finger_cli.dir/depend
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/loose_palm_cli.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/loose_palm_cli.dir/depend
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_cli.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_cli.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_msgs /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_msgs /tmp/ws/build/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_firmware_updater.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_firmware_updater.dir/depend
+Built target sandia_hand_msgs_generate_messages_py
+make -f sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_gencpp.dir/build.make sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_gencpp.dir/depend
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_loose_finger_node.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_loose_finger_node.dir/depend
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_loose_palm_node.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_loose_palm_node.dir/depend
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_node.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_node.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/sandia-hand/ros/sandia_hand_driver /tmp/ws/build /tmp/ws/build/sandia-hand/ros/sandia_hand_driver /tmp/ws/build/sandia-hand/ros/sandia_hand_driver/CMakeFiles/loose_finger_cli.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/sandia-hand/ros/sandia_hand_driver /tmp/ws/build /tmp/ws/build/sandia-hand/ros/sandia_hand_driver /tmp/ws/build/sandia-hand/ros/sandia_hand_driver/CMakeFiles/loose_palm_cli.dir/DependInfo.cmake --color=
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_diff_drive.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_diff_drive.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/sandia-hand/ros/sandia_hand_driver /tmp/ws/build /tmp/ws/build/sandia-hand/ros/sandia_hand_driver /tmp/ws/build/sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_cli.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_msgs /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_msgs /tmp/ws/build/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/sandia-hand/ros/sandia_hand_msgs /tmp/ws/build /tmp/ws/build/sandia-hand/ros/sandia_hand_msgs /tmp/ws/build/sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_gencpp.dir/DependInfo.cmake --color=
+[ 44%] make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/sandia-hand/ros/sandia_hand_driver /tmp/ws/build /tmp/ws/build/sandia-hand/ros/sandia_hand_driver /tmp/ws/build/sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_firmware_updater.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/sandia-hand/ros/sandia_hand_driver /tmp/ws/build /tmp/ws/build/sandia-hand/ros/sandia_hand_driver /tmp/ws/build/sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_loose_palm_node.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/sandia-hand/ros/sandia_hand_driver /tmp/ws/build /tmp/ws/build/sandia-hand/ros/sandia_hand_driver /tmp/ws/build/sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_loose_finger_node.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/sandia-hand/ros/sandia_hand_driver /tmp/ws/build /tmp/ws/build/sandia-hand/ros/sandia_hand_driver /tmp/ws/build/sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_node.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/vision_reconfigure.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_camera_utils.dir/DependInfo.cmake --color=
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_tricycle_drive.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_tricycle_drive.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/hokuyo_node.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/hokuyo_node.dir/depend
+Built target gazebo_msgs_generate_messages_py
+make -f drcsim/handle_msgs/CMakeFiles/handle_msgs_gencpp.dir/build.make drcsim/handle_msgs/CMakeFiles/handle_msgs_gencpp.dir/depend
+make -f osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_gencpp.dir/build.make osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_gencpp.dir/depend
+make[2]: Leaving directory `/tmp/ws/build'
+make -f gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/handle_msgs /tmp/ws/build /tmp/ws/build/drcsim/handle_msgs /tmp/ws/build/drcsim/handle_msgs/CMakeFiles/handle_msgs_gencpp.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/osrf-common/osrf_msgs /tmp/ws/build /tmp/ws/build/osrf-common/osrf_msgs /tmp/ws/build/osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_gencpp.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/hokuyo_node.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/tmp/ws/build'
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/loose_finger_cli.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/loose_finger_cli.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make -f gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+make -f sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_gencpp.dir/build.make sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_gencpp.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/loose_palm_cli.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/loose_palm_cli.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_firmware_updater.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_firmware_updater.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_diff_drive.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_gencpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_loose_palm_node.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_loose_palm_node.dir/build
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_tricycle_drive.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `sandia-hand/ros/sandia_hand_driver/CMakeFiles/loose_finger_cli.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `sandia-hand/ros/sandia_hand_driver/CMakeFiles/loose_palm_cli.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_firmware_updater.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_cli.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_cli.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_loose_finger_node.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_loose_finger_node.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_node.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_node.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/vision_reconfigure.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/vision_reconfigure.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_camera_utils.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_camera_utils.dir/build
+make -f drcsim/handle_msgs/CMakeFiles/handle_msgs_gencpp.dir/build.make drcsim/handle_msgs/CMakeFiles/handle_msgs_gencpp.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_loose_palm_node.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  35 36 37 38 39 40 41 42
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  43 44 45 46 47 48 49 50
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/hokuyo_node.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/hokuyo_node.dir/build
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  83
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/handle_msgs/CMakeFiles/handle_msgs_gencpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_gencpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+[ 44%] make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_cli.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+[ 45%] make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_diff_drive.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_diff_drive.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_tricycle_drive.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_tricycle_drive.dir/build
+[ 56%] make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_loose_finger_node.dir/build'.
+[ 57%] [ 58%] [ 58%] make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_node.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/vision_reconfigure.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/hokuyo_node.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+[ 58%] [ 61%] /usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+Built target sandia_hand_msgs_gencpp
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_camera_utils.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+[ 61%] [ 61%] /usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  100
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+Built target gazebo_msgs_generate_messages_cpp
+Built target loose_finger_cli
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+Built target gazebo_msgs_generate_messages_lisp
+Built target loose_palm_cli
+Built target sandia_hand_firmware_updater
+Built target sandia_hand_loose_palm_node
+Built target handle_msgs_gencpp
+make -f drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages.dir/build.make drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages.dir/depend
+Built target sandia_hand_cli
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_diff_drive.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+Built target sandia_hand_loose_finger_node
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_tricycle_drive.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+[ 61%] /usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+[ 62%] [ 62%] [ 62%] make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/handle_msgs /tmp/ws/build /tmp/ws/build/drcsim/handle_msgs /tmp/ws/build/drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages.dir/DependInfo.cmake --color=
+Built target sandia_hand_node
+make -f sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages.dir/build.make sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages.dir/depend
+Built target vision_reconfigure
+Built target gazebo_ros_camera_utils
+[ 62%] make -f drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_py.dir/build.make drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_py.dir/depend
+make -f drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_cpp.dir/build.make drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_cpp.dir/depend
+Built target osrf_msgs_gencpp
+make -f drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_lisp.dir/build.make drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_lisp.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/sandia-hand/ros/sandia_hand_msgs /tmp/ws/build /tmp/ws/build/sandia-hand/ros/sandia_hand_msgs /tmp/ws/build/sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages.dir/DependInfo.cmake --color=
+make -f gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages.dir/build.make gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages.dir/depend
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_homing.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_homing.dir/depend
+Built target hokuyo_node
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_msgs /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_msgs /tmp/ws/build/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages.dir/DependInfo.cmake --color=
+[ 62%] make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/camera_synchronizer.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/camera_synchronizer.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/osrf-common/osrf_msgs /tmp/ws/build /tmp/ws/build/osrf-common/osrf_msgs /tmp/ws/build/osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+[ 62%] Built target gazebo_ros_diff_drive
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/camera_synchronizer.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages.dir/build.make drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages.dir/build
+make -f sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages.dir/build.make sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_camera.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_camera.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_depth_camera.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_depth_camera.dir/depend
+Built target gazebo_ros_tricycle_drive
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_multicamera.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_multicamera.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_msgs /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_msgs /tmp/ws/build/gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_gencpp.dir/DependInfo.cmake --color=
+make -f gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages.dir/build.make gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/handle_msgs/CMakeFiles/handle_msgs_generate_messages.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `sandia-hand/ros/sandia_hand_msgs/CMakeFiles/sandia_hand_msgs_generate_messages.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/sandia-hand/ros/sandia_hand_driver /tmp/ws/build /tmp/ws/build/sandia-hand/ros/sandia_hand_driver /tmp/ws/build/sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_homing.dir/DependInfo.cmake --color=
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_openni_kinect.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_openni_kinect.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_prosilica.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_prosilica.dir/depend
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_generate_messages.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make -f osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages.dir/build.make osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages.dir/build
+make -f drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_lisp.dir/build.make drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_lisp.dir/build
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Leaving directory `/tmp/ws/build'
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/camera_synchronizer.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/camera_synchronizer.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_camera.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_multicamera.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `osrf-common/osrf_msgs/CMakeFiles/osrf_msgs_generate_messages.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+[ 62%] make -f drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_cpp.dir/build.make drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_cpp.dir/build
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+Built target handle_msgs_generate_messages
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_depth_camera.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make -f gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_gencpp.dir/build.make gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_gencpp.dir/build
+make -f drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_py.dir/build.make drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_py.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  14 15 16 17 18 19 20 21
+[ 62%] make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_openni_kinect.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_msgs/CMakeFiles/gazebo_msgs_gencpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_prosilica.dir/DependInfo.cmake --color=
+Built target gazebo_msgs_generate_messages
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  5 6 7 8 9 10 11 12 13
+[ 62%] make[2]: Leaving directory `/tmp/ws/build'
+[ 62%] make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/camera_synchronizer.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make -f sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_homing.dir/build.make sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_homing.dir/build
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+Built target osrf_msgs_generate_messages
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+Built target sandia_hand_msgs_generate_messages
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  22 23 24 25 26 27 28 29 30
+[ 70%] make[2]: Leaving directory `/tmp/ws/build'
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_multicamera.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_multicamera.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_camera.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_camera.dir/build
+[ 70%] Built target atlas_msgs_generate_messages_lisp
+[ 79%] [ 79%] [ 88%] Built target gazebo_msgs_gencpp
+Built target atlas_msgs_generate_messages_cpp
+Built target camera_synchronizer
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_bumper.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_bumper.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_pose_trajectory.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_pose_trajectory.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_state_publisher.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_state_publisher.dir/depend
+make[2]: Leaving directory `/tmp/ws/build'
+Built target atlas_msgs_generate_messages_py
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_trajectory.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_trajectory.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_depth_camera.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_depth_camera.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+make -f gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_api_plugin.dir/build.make gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_api_plugin.dir/depend
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_openni_kinect.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_openni_kinect.dir/build
+make -f gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_paths_plugin.dir/build.make gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_paths_plugin.dir/depend
+make -f drcsim/atlas_msgs/CMakeFiles/atlas_msgs_gencpp.dir/build.make drcsim/atlas_msgs/CMakeFiles/atlas_msgs_gencpp.dir/depend
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/atlas_msgs_gencpp.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_ros /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_ros /tmp/ws/build/gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_paths_plugin.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_bumper.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_pose_trajectory.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_trajectory.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_ros /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_ros /tmp/ws/build/gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_api_plugin.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins /tmp/ws/build/gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_state_publisher.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_multicamera.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_prosilica.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_prosilica.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/atlas_msgs/CMakeFiles/atlas_msgs_gencpp.dir/build.make drcsim/atlas_msgs/CMakeFiles/atlas_msgs_gencpp.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_camera.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Leaving directory `/tmp/ws/build'
+make -f gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_paths_plugin.dir/build.make gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_paths_plugin.dir/build
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/atlas_msgs_gencpp.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `sandia-hand/ros/sandia_hand_driver/CMakeFiles/sandia_hand_homing.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  84
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_bumper.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_bumper.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_pose_trajectory.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_pose_trajectory.dir/build
+[ 88%] make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_trajectory.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_trajectory.dir/build
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Leaving directory `/tmp/ws/build'
+Built target gazebo_ros_multicamera
+make -f gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_api_plugin.dir/build.make gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_api_plugin.dir/build
+make -f gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_state_publisher.dir/build.make gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_state_publisher.dir/build
+make -f drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages.dir/build.make drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages.dir/depend
+[ 88%] [ 88%] make[2]: Entering directory `/tmp/ws/build'
+cd /tmp/ws/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/ws/src /tmp/ws/src/drcsim/atlas_msgs /tmp/ws/build /tmp/ws/build/drcsim/atlas_msgs /tmp/ws/build/drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages.dir/DependInfo.cmake --color=
+[ 89%] Built target gazebo_ros_camera
+Built target atlas_msgs_gencpp
+Built target sandia_hand_homing
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_depth_camera.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  61
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_openni_kinect.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  65
+Linking CXX shared library /tmp/ws/devel/lib/libgazebo_ros_paths_plugin.so
+cd /tmp/ws/build/gazebo_ros_pkgs/gazebo_ros && /usr/bin/cmake -E cmake_link_script CMakeFiles/gazebo_ros_paths_plugin.dir/link.txt --verbose=1
+make[2]: Leaving directory `/tmp/ws/build'
+make -f drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages.dir/build.make drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages.dir/build
+[ 90%] make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `drcsim/atlas_msgs/CMakeFiles/atlas_msgs_generate_messages.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+[ 91%] Built target gazebo_ros_depth_camera
+Built target gazebo_ros_openni_kinect
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_trajectory.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  64
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_bumper.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_pose_trajectory.dir/build'.
+make[2]: Entering directory `/tmp/ws/build'mmake[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_prosilica.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles  60
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -Wl,-rpath,/usr/local/lib/gazebo-4.0/plugins pthread -L/usr/local/lib -L/usr/local/lib/gazebo-4.0/plugins -lgazebo_transport -lgazebo_physics -lgazebo_sensors -lgazebo_rendering -lgazebo_gui -lgazebo_msgs -lgazebo_math -lgazebo_common -lgazebo -lboost_thread-mt -lboost_signals-mt -lboost_system-mt -lboost_filesystem-mt -lboost_program_options-mt -lboost_regex-mt -lboost_iostreams-mt -lboost_date_time-mt -Wl,-rpath,/usr/local/lib/gazebo-4.0/plugins -L/usr/local/lib -L/usr/local/lib/gazebo-4.0/plugins   -shared -Wl,-soname,libgazebo_ros_paths_plugin.so -o /tmp/ws/devel/lib/libgazebo_ros_paths_plugin.so CMakeFiles/gazebo_ros_paths_plugin.dir/src/gazebo_ros_paths_plugin.cpp.o -lgazebo_transport -lgazebo_physics -lgazebo_sensors -lgazebo_rendering -lgazebo_gui -lgazebo_msgs -lgazebo_math -lgazebo_common -lgazebo -lboost_thread-mt -lboost_signals-mt -lboost_system-mt -lboost_filesystem-mt -lboost_program_options-mt -lboost_regex-mt -lboost_iostreams-mt -lboost_date_time-mt /usr/local/lib/libgazebo.so /usr/local/lib/libgazebo_common.so /usr/local/lib/libgazebo_gimpact.so /usr/local/lib/libgazebo_gui.so /usr/local/lib/libgazebo_gui_building.so /usr/local/lib/libgazebo_gui_viewers.so /usr/local/lib/libgazebo_math.so /usr/local/lib/libgazebo_msgs.so /usr/local/lib/libgazebo_ode.so /usr/local/lib/libgazebo_opcode.so /usr/local/lib/libgazebo_opende_ou.so /usr/local/lib/libgazebo_physics.so /usr/local/lib/libgazebo_physics_ode.so /usr/local/lib/libgazebo_rendering.so /usr/local/lib/libgazebo_selection_buffer.so /usr/local/lib/libgazebo_sensors.so /usr/local/lib/libgazebo_skyx.so /usr/local/lib/libgazebo_transport.so /usr/local/lib/libgazebo_util.so /usr/local/lib/libgazebo_ccd.so -lprotobuf -lsdformat -lsdformat /opt/ros/hydro/lib/libroslib.so /opt/ros/hydro/lib/libtf.so /opt/ros/hydro/lib/libtf2_ros.so /opt/ros/hydro/lib/libactionlib.so /opt/ros/hydro/lib/libmessage_filters.so /opt/ros/hydro/lib/libroscpp.so -lboost_signals-mt -lboost_filesystem-mt /opt/ros/hydro/lib/libxmlrpcpp.so /opt/ros/hydro/lib/libtf2.so /opt/ros/hydro/lib/librosconsole.so /opt/ros/hydro/lib/librosconsole_log4cxx.so /opt/ros/hydro/lib/librosconsole_backend_interface.so -llog4cxx -lboost_regex-mt /opt/ros/hydro/lib/libdynamic_reconfigure_config_init_mutex.so /opt/ros/hydro/lib/libroscpp_serialization.so /opt/ros/hydro/lib/librostime.so -lboost_date_time-mt -lboost_system-mt -lboost_thread-mt -lpthread /opt/ros/hydro/lib/libcpp_common.so /opt/ros/hydro/lib/libconsole_bridge.so -lboost_thread-mt -lpthread /opt/ros/hydro/lib/libcpp_common.so /opt/ros/hydro/lib/libconsole_bridge.so -Wl,-rpath,/usr/local/lib:/opt/ros/hydro/lib: 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+make[2]: Entering directory `/tmp/ws/build'
+make[2]: Nothing to be done for `gazebo_ros_pkgs/gazebo_plugins/CMakeFiles/gazebo_ros_joint_state_publisher.dir/build'.
+make[2]: Leaving directory `/tmp/ws/build'
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+/usr/bin/cmake -E cmake_progress_report /tmp/ws/build/CMakeFiles 
+c++: error: pthread: No such file or directory
+[ 91%] make[2]: *** [/tmp/ws/devel/lib/libgazebo_ros_paths_plugin.so] Error 1
+make[2]: Leaving directory `/tmp/ws/build'
+make[1]: *** [gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_paths_plugin.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+Built target atlas_msgs_generate_messages
+[ 92%] Linking CXX shared library /tmp/ws/devel/lib/libgazebo_ros_api_plugin.so
+[ 93%] Built target gazebo_ros_joint_trajectory
+[ 93%] [ 93%] [ 93%] cd /tmp/ws/build/gazebo_ros_pkgs/gazebo_ros && /usr/bin/cmake -E cmake_link_script CMakeFiles/gazebo_ros_api_plugin.dir/link.txt --verbose=1
+Built target gazebo_ros_bumper
+Built target gazebo_ros_prosilica
+Built target gazebo_ros_joint_state_publisher
+Built target gazebo_ros_joint_pose_trajectory
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -Wl,-rpath,/usr/local/lib/gazebo-4.0/plugins pthread -L/usr/local/lib -L/usr/local/lib/gazebo-4.0/plugins -lgazebo_transport -lgazebo_physics -lgazebo_sensors -lgazebo_rendering -lgazebo_gui -lgazebo_msgs -lgazebo_math -lgazebo_common -lgazebo -lboost_thread-mt -lboost_signals-mt -lboost_system-mt -lboost_filesystem-mt -lboost_program_options-mt -lboost_regex-mt -lboost_iostreams-mt -lboost_date_time-mt -Wl,-rpath,/usr/local/lib/gazebo-4.0/plugins -L/usr/local/lib -L/usr/local/lib/gazebo-4.0/plugins   -shared -Wl,-soname,libgazebo_ros_api_plugin.so -o /tmp/ws/devel/lib/libgazebo_ros_api_plugin.so CMakeFiles/gazebo_ros_api_plugin.dir/src/gazebo_ros_api_plugin.cpp.o -lgazebo_transport -lgazebo_physics -lgazebo_sensors -lgazebo_rendering -lgazebo_gui -lgazebo_msgs -lgazebo_math -lgazebo_common -lgazebo -lboost_thread-mt -lboost_signals-mt -lboost_system-mt -lboost_filesystem-mt -lboost_program_options-mt -lboost_regex-mt -lboost_iostreams-mt -lboost_date_time-mt /usr/local/lib/libgazebo.so /usr/local/lib/libgazebo_common.so /usr/local/lib/libgazebo_gimpact.so /usr/local/lib/libgazebo_gui.so /usr/local/lib/libgazebo_gui_building.so /usr/local/lib/libgazebo_gui_viewers.so /usr/local/lib/libgazebo_math.so /usr/local/lib/libgazebo_msgs.so /usr/local/lib/libgazebo_ode.so /usr/local/lib/libgazebo_opcode.so /usr/local/lib/libgazebo_opende_ou.so /usr/local/lib/libgazebo_physics.so /usr/local/lib/libgazebo_physics_ode.so /usr/local/lib/libgazebo_rendering.so /usr/local/lib/libgazebo_selection_buffer.so /usr/local/lib/libgazebo_sensors.so /usr/local/lib/libgazebo_skyx.so /usr/local/lib/libgazebo_transport.so /usr/local/lib/libgazebo_util.so /usr/local/lib/libgazebo_ccd.so -lprotobuf -lsdformat -lsdformat /opt/ros/hydro/lib/libroslib.so /opt/ros/hydro/lib/libtf.so /opt/ros/hydro/lib/libtf2_ros.so /opt/ros/hydro/lib/libactionlib.so /opt/ros/hydro/lib/libmessage_filters.so /opt/ros/hydro/lib/libroscpp.so -lboost_signals-mt -lboost_filesystem-mt /opt/ros/hydro/lib/libxmlrpcpp.so /opt/ros/hydro/lib/libtf2.so /opt/ros/hydro/lib/librosconsole.so /opt/ros/hydro/lib/librosconsole_log4cxx.so /opt/ros/hydro/lib/librosconsole_backend_interface.so -llog4cxx -lboost_regex-mt /opt/ros/hydro/lib/libdynamic_reconfigure_config_init_mutex.so /opt/ros/hydro/lib/libroscpp_serialization.so /opt/ros/hydro/lib/librostime.so -lboost_date_time-mt -lboost_system-mt -lboost_thread-mt -lpthread /opt/ros/hydro/lib/libcpp_common.so /opt/ros/hydro/lib/libconsole_bridge.so -lboost_thread-mt -ltinyxml -lpthread /opt/ros/hydro/lib/libcpp_common.so /opt/ros/hydro/lib/libconsole_bridge.so -ltinyxml -Wl,-rpath,/usr/local/lib:/opt/ros/hydro/lib: 
+c++: error: pthread: No such file or directory
+make[2]: *** [/tmp/ws/devel/lib/libgazebo_ros_api_plugin.so] Error 1
+make[2]: Leaving directory `/tmp/ws/build'
+make[1]: *** [gazebo_ros_pkgs/gazebo_ros/CMakeFiles/gazebo_ros_api_plugin.dir/all] Error 2
+make[1]: Leaving directory `/tmp/ws/build'
+make: *** [all] Error 2
+Base path: /tmp/ws
+Source space: /tmp/ws/src
+Build space: /tmp/ws/build
+Devel space: /tmp/ws/devel
+Install space: /tmp/ws/install
+####
+#### Running command: "make cmake_check_build_system" in "/tmp/ws/build"
+####
+####
+#### Running command: "make install -j40 -l40" in "/tmp/ws/build"
+####
+Invoking "make" failed

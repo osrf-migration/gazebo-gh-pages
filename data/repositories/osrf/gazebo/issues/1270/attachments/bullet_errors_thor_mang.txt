@@ -1,0 +1,269 @@
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:419] Joint must be created before setting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456[1;[ INFO] [1441697229.990553876]: Camera Plugin (ns = /)  <tf_prefix_>, set to ""
+31m] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[Err] [BulletHingeJoint.cc:370] Joint must be created before getting low stop
+[Err] [BulletHingeJoint.cc:358] Joint must be created before getting high stop
+[Err] [BulletHingeJoint.cc:456] Joint must be created before getting friction
+[INFO] [WallTime: 1441697230.007586] [0.000000] Spawn status: SpawnModel: Successfully spawned model
+[INFO] [WallTime: 1441697230.007911] [0.000000] Waiting for service /gazebo/set_model_configuration
+[INFO] [WallTime: 1441697230.010008] [0.000000] temporary hack to **fix** the -J joint position option (issue #93), sleeping for 1 second to avoid race condition.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:345] bulletHinge not yet created.
+[Err] [BulletHingeJoint.cc:324] bulletHinge not yet created.

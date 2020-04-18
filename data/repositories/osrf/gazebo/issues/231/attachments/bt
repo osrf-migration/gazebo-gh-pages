@@ -1,0 +1,104 @@
+ahisham@ahisham-Latitude-D610:~/gazebo/clone/build$ source ~/fuerte_workspace/setup.bash 
+ahisham@ahisham-Latitude-D610:~/gazebo/clone/build$ gazebo
+Gazebo multi-robot simulator, version 1.2.5
+Copyright (C) 2012 Nate Koenig, John Hsu, and contributors.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+Exception [Master.cc:69] Unable to start server[Address already in use]
+
+
+terminate called after throwing an instance of 'gazebo::common::Exception'
+Gazebo multi-robot simulator, version 1.2.5
+Copyright (C) 2012 Nate Koenig, John Hsu, and contributors.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+Msg Waiting for master
+Msg Connected to gazebo master @ http://localhost:11345
+Warning [RenderEngine.cc:386] Unable to load Ogre Plugin[/usr/lib/i386-linux-gnu/OGRE-1.7.4/Plugin_CgProgramManager]Heightmaps(Terrain) will not display properly.You'll need to install Ogre3d from source.Please visit www.ogre3d.org.
+Warning [gazebo_main.cc:62] escalating to SIGKILL on client
+ahisham@ahisham-Latitude-D610:~/gazebo/clone/build$ ^C
+ahisham@ahisham-Latitude-D610:~/gazebo/clone/build$ gdb gzclient
+GNU gdb (Ubuntu/Linaro 7.4-2012.04-0ubuntu2) 7.4-2012.04
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i686-linux-gnu".
+For bug reporting instructions, please see:
+<http://bugs.launchpad.net/gdb-linaro/>...
+Reading symbols from /home/ahisham/gazebo/gazebo-compiled/bin/gzclient...done.
+(gdb) run
+Starting program: /home/ahisham/gazebo/gazebo-compiled/bin/gzclient 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/i386-linux-gnu/libthread_db.so.1".
+Gazebo multi-robot simulator, version 1.2.5
+Copyright (C) 2012 Nate Koenig, John Hsu, and contributors.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[New Thread 0xb45b4b40 (LWP 15308)]
+Msg Waiting for master
+Msg Connected to gazebo master @ http://localhost:11345
+[New Thread 0xb3bffb40 (LWP 15309)]
+Warning [RenderEngine.cc:386] Unable to load Ogre Plugin[/usr/lib/i386-linux-gnu/OGRE-1.7.4/Plugin_CgProgramManager]Heightmaps(Terrain) will not display properly.You'll need to install Ogre3d from source.Please visit www.ogre3d.org.
+[New Thread 0xb07efb40 (LWP 15310)]
+[New Thread 0xadf1cb40 (LWP 15311)]
+[New Thread 0xad71bb40 (LWP 15312)]
+[New Thread 0xace1cb40 (LWP 15313)]
+[Thread 0xace1cb40 (LWP 15313) exited]
+
+Program received signal SIGSEGV, Segmentation fault.
+0xb6278b05 in gazebo::rendering::SelectionBuffer::OnSelectionClick (
+    this=0xa11e280, _x=476, _y=584)
+    at /home/ahisham/gazebo/clone/gazebo/rendering/selection_buffer/SelectionBuffer.cc:133
+133	  memcpy(static_cast<void *>(&color), this->buffer + posInStream, 4);
+(gdb) bt
+#0  0xb6278b05 in gazebo::rendering::SelectionBuffer::OnSelectionClick (
+    this=0xa11e280, _x=476, _y=584)
+    at /home/ahisham/gazebo/clone/gazebo/rendering/selection_buffer/SelectionBuffer.cc:133
+#1  0xb7bdd49f in gazebo::rendering::UserCamera::GetVisual (this=0x9ec48f0, 
+    _mousePos=...)
+    at /home/ahisham/gazebo/clone/gazebo/rendering/UserCamera.cc:573
+#2  0x081c42ae in gazebo::gui::GLWidget::OnMouseMoveNormal (this=0x8e766b8)
+    at /home/ahisham/gazebo/clone/gazebo/gui/GLWidget.cc:546
+#3  0x081c3aa2 in gazebo::gui::GLWidget::mouseMoveEvent (this=0x8e766b8, 
+    _event=0xbfffe2b4) at /home/ahisham/gazebo/clone/gazebo/gui/GLWidget.cc:431
+#4  0xb6f0b1e8 in QWidget::event(QEvent*) ()
+   from /usr/lib/i386-linux-gnu/libQtGui.so.4
+#5  0xb6eb0ed4 in QApplicationPrivate::notify_helper(QObject*, QEvent*) ()
+   from /usr/lib/i386-linux-gnu/libQtGui.so.4
+#6  0xb6eb7024 in QApplication::notify(QObject*, QEvent*) ()
+   from /usr/lib/i386-linux-gnu/libQtGui.so.4
+#7  0xb6c1597e in QCoreApplication::notifyInternal(QObject*, QEvent*) ()
+   from /usr/lib/i386-linux-gnu/libQtCore.so.4
+#8  0xb6eb1e95 in QApplicationPrivate::sendMouseEvent(QWidget*, QMouseEvent*, QWidget*, QWidget*, QWidget**, QPointer<QWidget>&, bool) ()
+---Type <return> to continue, or q <return> to quit---
+   from /usr/lib/i386-linux-gnu/libQtGui.so.4
+#9  0xb6f3e074 in ?? () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+#10 0xb6f3c911 in QApplication::x11ProcessEvent(_XEvent*) ()
+   from /usr/lib/i386-linux-gnu/libQtGui.so.4
+#11 0xb6f69eac in ?? () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+#12 0xb58dbd86 in g_main_context_dispatch ()
+   from /lib/i386-linux-gnu/libglib-2.0.so.0
+#13 0xb58dc125 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+#14 0xb58dc201 in g_main_context_iteration ()
+   from /lib/i386-linux-gnu/libglib-2.0.so.0
+#15 0xb6c48887 in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+#16 0xb6f69aaa in ?? () from /usr/lib/i386-linux-gnu/libQtGui.so.4
+#17 0xb6c1450d in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/i386-linux-gnu/libQtCore.so.4
+#18 0xb6c147a9 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) ()
+   from /usr/lib/i386-linux-gnu/libQtCore.so.4
+#19 0xb6c19eba in QCoreApplication::exec() ()
+   from /usr/lib/i386-linux-gnu/libQtCore.so.4
+#20 0xb6eaea74 in QApplication::exec() ()
+   from /usr/lib/i386-linux-gnu/libQtGui.so.4
+---Type <return> to continue, or q <return> to quit---
+#21 0x0819da1f in gazebo::gui::run (_argc=1, _argv=0xbfffede4)
+    at /home/ahisham/gazebo/clone/gazebo/gui/Gui.cc:194
+#22 0x08197a97 in main (_argc=1, _argv=0xbfffede4)
+    at /home/ahisham/gazebo/clone/gazebo/gui/main.cc:23
+(gdb) 
+

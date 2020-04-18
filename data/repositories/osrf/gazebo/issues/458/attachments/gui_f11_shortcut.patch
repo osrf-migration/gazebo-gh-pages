@@ -1,0 +1,11 @@
+diff -r 0c10c7dd1e38 gazebo/gui/MainWindow.cc
+--- a/gazebo/gui/MainWindow.cc	Wed Jan 30 10:39:02 2013 -0800
++++ b/gazebo/gui/MainWindow.cc	Wed Feb 13 21:33:49 2013 -0200
+@@ -927,6 +927,7 @@
+ 
+   g_fullScreenAct = new QAction(tr("Full Screen"), this);
+   g_fullScreenAct->setStatusTip(tr("Full Screen(F-11 to exit)"));
++  g_fullScreenAct->setShortcut(Qt::Key_F11);
+   connect(g_fullScreenAct, SIGNAL(triggered()), this,
+       SLOT(FullScreen()));
+ 

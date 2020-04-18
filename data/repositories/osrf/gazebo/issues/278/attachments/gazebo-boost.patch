@@ -1,0 +1,99 @@
+diff -Naur gazebo-r4533eaee93a0-orig/gazebo/common/Material.cc gazebo-r4533eaee93a0/gazebo/common/Material.cc
+--- gazebo-r4533eaee93a0-orig/gazebo/common/Material.cc	2012-11-21 19:02:13.000000000 +0100
++++ gazebo-r4533eaee93a0/gazebo/common/Material.cc	2012-12-05 22:41:54.024071214 +0100
+@@ -14,7 +14,6 @@
+  * limitations under the License.
+  *
+  */
+-#define BOOST_FILESYSTEM_VERSION 2
+ 
+ #include <boost/filesystem.hpp>
+ #include <algorithm>
+diff -Naur gazebo-r4533eaee93a0-orig/gazebo/common/ModelDatabase.cc gazebo-r4533eaee93a0/gazebo/common/ModelDatabase.cc
+--- gazebo-r4533eaee93a0-orig/gazebo/common/ModelDatabase.cc	2012-11-21 19:02:13.000000000 +0100
++++ gazebo-r4533eaee93a0/gazebo/common/ModelDatabase.cc	2012-12-05 22:42:54.477240110 +0100
+@@ -15,8 +15,6 @@
+  *
+ */
+ 
+-#define BOOST_FILESYSTEM_VERSION 2
+-
+ #include <tinyxml.h>
+ #include <libtar.h>
+ #include <curl/curl.h>
+diff -Naur gazebo-r4533eaee93a0-orig/gazebo/common/SystemPaths.cc gazebo-r4533eaee93a0/gazebo/common/SystemPaths.cc
+--- gazebo-r4533eaee93a0-orig/gazebo/common/SystemPaths.cc	2012-11-21 19:02:13.000000000 +0100
++++ gazebo-r4533eaee93a0/gazebo/common/SystemPaths.cc	2012-12-05 22:42:47.087667750 +0100
+@@ -18,7 +18,6 @@
+  * Author: Nate Koenig, Jordi Polo
+  * Date: 3 May 2008
+  */
+-#define BOOST_FILESYSTEM_VERSION 2
+ 
+ #include <assert.h>
+ #include <dirent.h>
+diff -Naur gazebo-r4533eaee93a0-orig/gazebo/gui/InsertModelWidget.cc gazebo-r4533eaee93a0/gazebo/gui/InsertModelWidget.cc
+--- gazebo-r4533eaee93a0-orig/gazebo/gui/InsertModelWidget.cc	2012-11-21 19:02:13.000000000 +0100
++++ gazebo-r4533eaee93a0/gazebo/gui/InsertModelWidget.cc	2012-12-05 22:49:06.309077834 +0100
+@@ -14,7 +14,6 @@
+  * limitations under the License.
+  *
+  */
+-#define BOOST_FILESYSTEM_VERSION 2
+ 
+ #include <boost/filesystem.hpp>
+ #include <boost/lexical_cast.hpp>
+@@ -98,7 +97,7 @@
+       {
+         // This is for boost::filesystem version 3+
+         std::string modelName;
+-        std::string fullPath = path + "/" + dIter->filename();
++        std::string fullPath = path + "/" + dIter->filename().native();
+         std::string manifest = fullPath + "/manifest.xml";
+ 
+         TiXmlDocument xmlDoc;
+diff -Naur gazebo-r4533eaee93a0-orig/gazebo/rendering/RenderEngine.cc gazebo-r4533eaee93a0/gazebo/rendering/RenderEngine.cc
+--- gazebo-r4533eaee93a0-orig/gazebo/rendering/RenderEngine.cc	2012-11-21 19:02:14.000000000 +0100
++++ gazebo-r4533eaee93a0/gazebo/rendering/RenderEngine.cc	2012-12-05 22:46:09.825945613 +0100
+@@ -18,7 +18,6 @@
+  * Author: Nate Koenig
+  * Date: 13 Feb 2006
+  */
+-#define BOOST_FILESYSTEM_VERSION 2
+ 
+ #include <X11/Xlib.h>
+ #include <X11/Xutil.h>
+@@ -436,9 +435,9 @@
+         for (std::vector<boost::filesystem::path>::iterator dIter =
+             paths.begin(); dIter != paths.end(); ++dIter)
+         {
+-          if (dIter->filename().find(".material") != std::string::npos)
++          if (dIter->filename().native().find(".material") != std::string::npos)
+           {
+-            std::string fullPath = path + "/" + dIter->filename();
++            std::string fullPath = path + "/" + dIter->filename().native();
+ 
+             Ogre::DataStreamPtr stream =
+               Ogre::ResourceGroupManager::getSingleton().openResource(
+diff -Naur gazebo-r4533eaee93a0-orig/gazebo/sdf/interface/parser.cc gazebo-r4533eaee93a0/gazebo/sdf/interface/parser.cc
+--- gazebo-r4533eaee93a0-orig/gazebo/sdf/interface/parser.cc	2012-11-21 19:02:14.000000000 +0100
++++ gazebo-r4533eaee93a0/gazebo/sdf/interface/parser.cc	2012-12-05 22:43:02.493442738 +0100
+@@ -14,7 +14,6 @@
+  * limitations under the License.
+  *
+ */
+-#define BOOST_FILESYSTEM_VERSION 2
+ #include <stdlib.h>
+ #include <stdio.h>
+ 
+diff -Naur gazebo-r4533eaee93a0-orig/test/regression/ServerFixture.hh gazebo-r4533eaee93a0/test/regression/ServerFixture.hh
+--- gazebo-r4533eaee93a0-orig/test/regression/ServerFixture.hh	2012-11-21 19:02:15.000000000 +0100
++++ gazebo-r4533eaee93a0/test/regression/ServerFixture.hh	2012-12-05 22:42:16.162789914 +0100
+@@ -18,7 +18,6 @@
+ #pragma GCC diagnostic ignored "-Wswitch-default"
+ #pragma GCC diagnostic ignored "-Wfloat-equal"
+ #pragma GCC diagnostic ignored "-Wshadow"
+-#define BOOST_FILESYSTEM_VERSION 2
+ 
+ #include <gtest/gtest.h>
+ #include <boost/thread.hpp>

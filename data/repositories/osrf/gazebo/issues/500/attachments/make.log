@@ -1,0 +1,1504 @@
+-- Gazebo version 1.4.6
+-- Found CPack generators: DEB
+-- Could NOT find Doxygen (missing:  DOXYGEN_EXECUTABLE) 
+-- 
+
+====== Finding 3rd Party Packages ======
+-- Operating system is Linux
+-- checking for module 'freeimage>='
+--   package 'freeimage>=' not found
+--   freeimage.pc not found, trying freeimage_include_dir and freeimage_library_dir flags.
+--   Looking for FreeImage.h - found
+--   Looking for libfreeimage - found
+-- checking for module 'libprofiler'
+--   package 'libprofiler' not found
+-- Looking for libprofiler - not found
+-- checking for module 'libtcmalloc'
+--   package 'libtcmalloc' not found
+-- Looking for libtcmalloc - not found
+-- checking for module 'CEGUI'
+--   package 'CEGUI' not found
+-- checking for module 'CEGUI-OGRE'
+--   package 'CEGUI-OGRE' not found
+-- 	CEGUI not found, opengl GUI will be disabled.
+-- checking for module 'bullet'
+--   package 'bullet' not found
+-- Looking for tinyxml.h - found
+-- Looking for libtar.h - found
+-- checking for modules 'playercore>=3.0;playerc++'
+--   package 'playercore>=3.0' not found
+--   package 'playerc++' not found
+-- 	Player not found, gazebo plugin for player will not be built.
+-- checking for module 'gts'
+--   package 'gts' not found
+-- 	GNU Triangulation Surface library not found - Gazebo will not have CSG support.
+-- checking for module 'bullet'
+--   package 'bullet' not found
+-- found urdf_model/model.h - found
+-- found urdf_parser/urdf_parser.h - found
+-- found console_bridge/console.h - found
+-- Looking for ltdl.h - found
+-- Looking for libltdl - found
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- ----------------------------------------
+
+-- 
+SSE4 disabled.
+
+-- Looking for a valid DRI display
+--  + found a valid dri display (glxinfo)
+-- 
+
+====== Configuring 3rd Party Packages ======
+-- ----------------------------------------
+
+-- BUILD WARNINGS
+-- 	CEGUI not found, opengl GUI will be disabled.
+-- 	Player not found, gazebo plugin for player will not be built.
+-- 	GNU Triangulation Surface library not found - Gazebo will not have CSG support.
+-- END BUILD WARNINGS
+
+-- C Flags: -ggdb3  -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -msse -msse2 -mfpmath=sse -msse3 -mssse3
+-- Build Type: DEBUG
+-- Install path: /opt/gazebo
+-- Configuration successful. Type make to compile gazebo
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /opt/gazebo/build
+Scanning dependencies of target gazebomsgs_out
+[  0%] Building CXX object gazebo/msgs/CMakeFiles/gazebomsgs_out.dir/generator/GazeboGenerator.cc.o
+[  0%] Building CXX object gazebo/msgs/CMakeFiles/gazebomsgs_out.dir/generator/gazebo_generator.cc.o
+Linking CXX executable gazebomsgs_out
+Running C++ protocol buffer compiler on axis.proto
+Running C++ protocol buffer compiler on boxgeom.proto
+Running C++ protocol buffer compiler on camerasensor.proto
+Running C++ protocol buffer compiler on collision.proto
+Running C++ protocol buffer compiler on color.proto
+Running C++ protocol buffer compiler on contact.proto
+Running C++ protocol buffer compiler on contacts.proto
+Running C++ protocol buffer compiler on contactsensor.proto
+Running C++ protocol buffer compiler on cylindergeom.proto
+Running C++ protocol buffer compiler on factory.proto
+Running C++ protocol buffer compiler on fog.proto
+Running C++ protocol buffer compiler on friction.proto
+Running C++ protocol buffer compiler on geometry.proto
+Running C++ protocol buffer compiler on gui_overlay_config.proto
+Running C++ protocol buffer compiler on gui_camera.proto
+Running C++ protocol buffer compiler on gui.proto
+Running C++ protocol buffer compiler on gz_string.proto
+Running C++ protocol buffer compiler on gz_string_v.proto
+Running C++ protocol buffer compiler on header.proto
+Running C++ protocol buffer compiler on heightmapgeom.proto
+Running C++ protocol buffer compiler on imagegeom.proto
+Running C++ protocol buffer compiler on image.proto
+Running C++ protocol buffer compiler on image_stamped.proto
+Running C++ protocol buffer compiler on images_stamped.proto
+Running C++ protocol buffer compiler on imu.proto
+Running C++ protocol buffer compiler on inertial.proto
+Running C++ protocol buffer compiler on int.proto
+Running C++ protocol buffer compiler on joint.proto
+Running C++ protocol buffer compiler on joint_animation.proto
+Running C++ protocol buffer compiler on joint_cmd.proto
+Running C++ protocol buffer compiler on joint_wrench.proto
+Running C++ protocol buffer compiler on joint_wrench_stamped.proto
+Running C++ protocol buffer compiler on laserscan.proto
+Running C++ protocol buffer compiler on laserscan_stamped.proto
+Running C++ protocol buffer compiler on light.proto
+Running C++ protocol buffer compiler on link.proto
+Running C++ protocol buffer compiler on log_control.proto
+Running C++ protocol buffer compiler on log_status.proto
+Running C++ protocol buffer compiler on material.proto
+Running C++ protocol buffer compiler on meshgeom.proto
+Running C++ protocol buffer compiler on model.proto
+Running C++ protocol buffer compiler on model_configuration.proto
+Running C++ protocol buffer compiler on model_v.proto
+Running C++ protocol buffer compiler on packet.proto
+Running C++ protocol buffer compiler on physics.proto
+Running C++ protocol buffer compiler on planegeom.proto
+Running C++ protocol buffer compiler on pid.proto
+Running C++ protocol buffer compiler on plugin.proto
+Running C++ protocol buffer compiler on pose.proto
+Running C++ protocol buffer compiler on pose_animation.proto
+Running C++ protocol buffer compiler on pose_stamped.proto
+Running C++ protocol buffer compiler on pose_trajectory.proto
+Running C++ protocol buffer compiler on pose_v.proto
+Running C++ protocol buffer compiler on projector.proto
+Running C++ protocol buffer compiler on publishers.proto
+Running C++ protocol buffer compiler on publish.proto
+Running C++ protocol buffer compiler on quaternion.proto
+Running C++ protocol buffer compiler on raysensor.proto
+Running C++ protocol buffer compiler on request.proto
+Running C++ protocol buffer compiler on response.proto
+Running C++ protocol buffer compiler on road.proto
+Running C++ protocol buffer compiler on scene.proto
+Running C++ protocol buffer compiler on selection.proto
+Running C++ protocol buffer compiler on sensor.proto
+Running C++ protocol buffer compiler on server_control.proto
+Running C++ protocol buffer compiler on shadows.proto
+Running C++ protocol buffer compiler on sky.proto
+Running C++ protocol buffer compiler on spheregeom.proto
+Running C++ protocol buffer compiler on subscribe.proto
+Running C++ protocol buffer compiler on surface.proto
+Running C++ protocol buffer compiler on test.proto
+Running C++ protocol buffer compiler on time.proto
+Running C++ protocol buffer compiler on topic_info.proto
+Running C++ protocol buffer compiler on track_visual.proto
+Running C++ protocol buffer compiler on vector2d.proto
+Running C++ protocol buffer compiler on vector3d.proto
+Running C++ protocol buffer compiler on visual.proto
+Running C++ protocol buffer compiler on world_control.proto
+Running C++ protocol buffer compiler on world_reset.proto
+Running C++ protocol buffer compiler on world_stats.proto
+Running C++ protocol buffer compiler on world_modify.proto
+[  0%] Built target gazebomsgs_out
+Scanning dependencies of target gazebo_math
+[  0%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Angle.cc.o
+[  0%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Box.cc.o
+[  0%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Matrix3.cc.o
+[  0%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Matrix4.cc.o
+[  0%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Plane.cc.o
+[  1%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Pose.cc.o
+[  1%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Quaternion.cc.o
+[  1%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Rand.cc.o
+[  1%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Vector2d.cc.o
+[  1%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Vector2i.cc.o
+[  1%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Vector3.cc.o
+[  1%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Vector4.cc.o
+[  2%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Helpers.cc.o
+[  2%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/Spline.cc.o
+[  2%] Building CXX object gazebo/math/CMakeFiles/gazebo_math.dir/RotationSpline.cc.o
+Linking CXX shared library libgazebo_math.so
+[  2%] Built target gazebo_math
+Scanning dependencies of target gazebo_common
+[  2%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Animation.cc.o
+[  2%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Assert.cc.o
+[  2%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/BVHLoader.cc.o
+[  2%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/ColladaLoader.cc.o
+[  2%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Color.cc.o
+[  4%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Common.cc.o
+[  4%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Console.cc.o
+[  4%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Diagnostics.cc.o
+[  4%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Event.cc.o
+[  4%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Events.cc.o
+[  4%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Exception.cc.o
+[  4%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Image.cc.o
+[  5%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/KeyFrame.cc.o
+[  5%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/LogPlay.cc.o
+[  5%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/LogRecord.cc.o
+[  5%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Material.cc.o
+[  5%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Mesh.cc.o
+[  5%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/MeshLoader.cc.o
+[  5%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/MeshManager.cc.o
+[  5%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/ModelDatabase.cc.o
+[  6%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/PID.cc.o
+[  6%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/SkeletonAnimation.cc.o
+[  6%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Skeleton.cc.o
+[  6%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/STLLoader.cc.o
+[  6%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/SystemPaths.cc.o
+[  6%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Time.cc.o
+[  6%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Timer.cc.o
+[  8%] Building CXX object gazebo/common/CMakeFiles/gazebo_common.dir/Video.cc.o
+Linking CXX shared library libgazebo_common.so
+[  8%] Built target gazebo_common
+Scanning dependencies of target gazebo_ccd
+[  8%] Building C object deps/libccd/CMakeFiles/gazebo_ccd.dir/src/alloc.c.o
+[  8%] Building C object deps/libccd/CMakeFiles/gazebo_ccd.dir/src/ccd.c.o
+[  8%] Building C object deps/libccd/CMakeFiles/gazebo_ccd.dir/src/mpr.c.o
+[  8%] Building C object deps/libccd/CMakeFiles/gazebo_ccd.dir/src/polytope.c.o
+[  9%] Building C object deps/libccd/CMakeFiles/gazebo_ccd.dir/src/support.c.o
+[  9%] Building C object deps/libccd/CMakeFiles/gazebo_ccd.dir/src/vec3.c.o
+Linking C shared library libgazebo_ccd.so
+[  9%] Built target gazebo_ccd
+Scanning dependencies of target gazebo_opende_ou
+[  9%] Building CXX object deps/opende/ou/CMakeFiles/gazebo_opende_ou.dir/src/atomic.cpp.o
+[  9%] Building CXX object deps/opende/ou/CMakeFiles/gazebo_opende_ou.dir/src/customization.cpp.o
+[ 10%] Building CXX object deps/opende/ou/CMakeFiles/gazebo_opende_ou.dir/src/malloc.cpp.o
+[ 10%] Building CXX object deps/opende/ou/CMakeFiles/gazebo_opende_ou.dir/src/threadlocalstorage.cpp.o
+Linking CXX shared library libgazebo_opende_ou.so
+[ 10%] Built target gazebo_opende_ou
+Scanning dependencies of target gazebo_gimpact
+[ 10%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_tri_tri_overlap.cpp.o
+[ 10%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_math.cpp.o
+[ 10%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gimpact.cpp.o
+[ 10%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_trimesh_trimesh_collision.cpp.o
+[ 10%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_trimesh_sphere_collision.cpp.o
+[ 10%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_trimesh.cpp.o
+[ 12%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_trimesh_capsule_collision.cpp.o
+[ 12%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_memory.cpp.o
+[ 12%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_contact.cpp.o
+[ 12%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_boxpruning.cpp.o
+[ 12%] Building CXX object deps/opende/GIMPACT/CMakeFiles/gazebo_gimpact.dir/src/gim_trimesh_ray_collision.cpp.o
+Linking CXX shared library libgazebo_gimpact.so
+[ 12%] Built target gazebo_gimpact
+Scanning dependencies of target gazebo_opcode
+[ 12%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_AABBCollider.cpp.o
+[ 13%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_AABBTree.cpp.o
+[ 13%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_BaseModel.cpp.o
+[ 13%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_Collider.cpp.o
+[ 13%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_Common.cpp.o
+[ 13%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_HybridModel.cpp.o
+[ 13%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_LSSCollider.cpp.o
+[ 13%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_MeshInterface.cpp.o
+[ 13%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_Model.cpp.o
+[ 14%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_OBBCollider.cpp.o
+[ 14%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Opcode.cpp.o
+[ 14%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_OptimizedTree.cpp.o
+[ 14%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_Picking.cpp.o
+[ 14%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_PlanesCollider.cpp.o
+[ 14%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_RayCollider.cpp.o
+[ 14%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_SphereCollider.cpp.o
+[ 16%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_TreeBuilders.cpp.o
+[ 16%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_TreeCollider.cpp.o
+[ 16%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/OPC_VolumeCollider.cpp.o
+[ 16%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/StdAfx.cpp.o
+[ 16%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceAABB.cpp.o
+[ 16%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceContainer.cpp.o
+[ 16%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceHPoint.cpp.o
+[ 17%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceIndexedTriangle.cpp.o
+[ 17%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceMatrix3x3.cpp.o
+[ 17%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceMatrix4x4.cpp.o
+[ 17%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceOBB.cpp.o
+[ 17%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IcePlane.cpp.o
+[ 17%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IcePoint.cpp.o
+[ 17%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceRandom.cpp.o
+[ 18%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceRay.cpp.o
+[ 18%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceRevisitedRadix.cpp.o
+[ 18%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceSegment.cpp.o
+[ 18%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceTriangle.cpp.o
+[ 18%] Building CXX object deps/opende/OPCODE/CMakeFiles/gazebo_opcode.dir/Ice/IceUtils.cpp.o
+Linking CXX shared library libgazebo_opcode.so
+[ 18%] Built target gazebo_opcode
+Scanning dependencies of target gazebo_ode
+[ 18%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/array.cpp.o
+[ 18%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/box.cpp.o
+[ 18%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/capsule.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_cylinder_box.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_cylinder_plane.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_cylinder_sphere.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_cylinder_trimesh.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_kernel.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_libccd.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_quadtreespace.cpp.o
+[ 20%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_sapspace.cpp.o
+[ 21%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_space.cpp.o
+[ 21%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_transform.cpp.o
+[ 21%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_box.cpp.o
+[ 21%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_ccylinder.cpp.o
+[ 21%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_disabled.cpp.o
+[ 21%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_distance.cpp.o
+[ 21%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_gimpact.cpp.o
+[ 22%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_opcode.cpp.o
+[ 22%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_plane.cpp.o
+[ 22%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_ray.cpp.o
+[ 22%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_sphere.cpp.o
+[ 22%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_trimesh.cpp.o
+[ 22%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_trimesh_trimesh_new.cpp.o
+[ 22%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/collision_util.cpp.o
+[ 24%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/convex.cpp.o
+[ 24%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/cylinder.cpp.o
+[ 24%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/error.cpp.o
+[ 24%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/export-dif.cpp.o
+[ 24%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/heightfield.cpp.o
+[ 24%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/lcp.cpp.o
+[ 24%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/mass.cpp.o
+[ 25%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/mat.cpp.o
+[ 25%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/matrix.cpp.o
+[ 25%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/memory.cpp.o
+[ 25%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/misc.cpp.o
+[ 25%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/obstack.cpp.o
+[ 25%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/ode.cpp.o
+[ 25%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/odeinit.cpp.o
+[ 27%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/odemath.cpp.o
+[ 27%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/odeou.cpp.o
+[ 27%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/odetls.cpp.o
+[ 27%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/optimize.cpp.o
+[ 27%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/plane.cpp.o
+[ 27%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/quickstep.cpp.o
+[ 27%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/ray.cpp.o
+[ 27%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/robuststep.cpp.o
+[ 28%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/rotation.cpp.o
+[ 28%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/sphere.cpp.o
+[ 28%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/step.cpp.o
+[ 28%] Building C object deps/opende/CMakeFiles/gazebo_ode.dir/src/symm.c.o
+[ 28%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/timer.cpp.o
+[ 28%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/util.cpp.o
+[ 28%] Building C object deps/opende/CMakeFiles/gazebo_ode.dir/src/fastdot.c.o
+[ 29%] Building C object deps/opende/CMakeFiles/gazebo_ode.dir/src/fastldlt.c.o
+[ 29%] Building C object deps/opende/CMakeFiles/gazebo_ode.dir/src/fastlsolve.c.o
+[ 29%] Building C object deps/opende/CMakeFiles/gazebo_ode.dir/src/fastltsolve.c.o
+[ 29%] Building C object deps/opende/CMakeFiles/gazebo_ode.dir/src/nextafterf.c.o
+[ 29%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/amotor.cpp.o
+[ 29%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/ball.cpp.o
+[ 29%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/contact.cpp.o
+[ 31%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/fixed.cpp.o
+[ 31%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/hinge2.cpp.o
+[ 31%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/hinge.cpp.o
+[ 31%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/joint.cpp.o
+[ 31%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/lmotor.cpp.o
+[ 31%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/null.cpp.o
+[ 31%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/piston.cpp.o
+[ 32%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/plane2d.cpp.o
+[ 32%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/pr.cpp.o
+[ 32%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/pu.cpp.o
+[ 32%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/screw.cpp.o
+[ 32%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/slider.cpp.o
+[ 32%] Building CXX object deps/opende/CMakeFiles/gazebo_ode.dir/src/joints/universal.cpp.o
+Linking CXX shared library libgazebo_ode.so
+[ 32%] Built target gazebo_ode
+Scanning dependencies of target gazebo_sdf_interface
+[ 32%] Building CXX object gazebo/sdf/interface/CMakeFiles/gazebo_sdf_interface.dir/Param.cc.o
+[ 32%] Building CXX object gazebo/sdf/interface/CMakeFiles/gazebo_sdf_interface.dir/SDF.cc.o
+[ 33%] Building CXX object gazebo/sdf/interface/CMakeFiles/gazebo_sdf_interface.dir/parser.cc.o
+[ 33%] Building CXX object gazebo/sdf/interface/CMakeFiles/gazebo_sdf_interface.dir/Converter.cc.o
+[ 33%] Building CXX object gazebo/sdf/interface/CMakeFiles/gazebo_sdf_interface.dir/parser_urdf.cc.o
+Linking CXX shared library libgazebo_sdf_interface.so
+[ 33%] Built target gazebo_sdf_interface
+Scanning dependencies of target gazebo_msgs
+[ 35%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/axis.pb.cc.o
+[ 35%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/boxgeom.pb.cc.o
+[ 35%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/camerasensor.pb.cc.o
+[ 35%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/collision.pb.cc.o
+[ 35%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/color.pb.cc.o
+[ 35%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/contact.pb.cc.o
+[ 35%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/contacts.pb.cc.o
+[ 36%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/contactsensor.pb.cc.o
+[ 36%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/cylindergeom.pb.cc.o
+[ 36%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/factory.pb.cc.o
+[ 36%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/fog.pb.cc.o
+[ 36%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/friction.pb.cc.o
+[ 36%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/geometry.pb.cc.o
+[ 36%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/gui_overlay_config.pb.cc.o
+[ 37%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/gui_camera.pb.cc.o
+[ 37%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/gui.pb.cc.o
+[ 37%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/gz_string.pb.cc.o
+[ 37%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/gz_string_v.pb.cc.o
+[ 37%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/header.pb.cc.o
+[ 37%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/heightmapgeom.pb.cc.o
+[ 37%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/imagegeom.pb.cc.o
+[ 37%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/image.pb.cc.o
+[ 39%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/image_stamped.pb.cc.o
+[ 39%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/images_stamped.pb.cc.o
+[ 39%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/imu.pb.cc.o
+[ 39%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/inertial.pb.cc.o
+[ 39%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/int.pb.cc.o
+[ 39%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/joint.pb.cc.o
+[ 39%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/joint_animation.pb.cc.o
+[ 40%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/joint_cmd.pb.cc.o
+[ 40%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/joint_wrench.pb.cc.o
+[ 40%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/joint_wrench_stamped.pb.cc.o
+[ 40%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/laserscan.pb.cc.o
+[ 40%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/laserscan_stamped.pb.cc.o
+[ 40%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/light.pb.cc.o
+[ 40%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/link.pb.cc.o
+[ 41%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/log_control.pb.cc.o
+[ 41%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/log_status.pb.cc.o
+[ 41%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/material.pb.cc.o
+[ 41%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/meshgeom.pb.cc.o
+[ 41%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/model.pb.cc.o
+[ 41%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/model_configuration.pb.cc.o
+[ 41%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/model_v.pb.cc.o
+[ 43%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/packet.pb.cc.o
+[ 43%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/physics.pb.cc.o
+[ 43%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/planegeom.pb.cc.o
+[ 43%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/pid.pb.cc.o
+[ 43%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/plugin.pb.cc.o
+[ 43%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/pose.pb.cc.o
+[ 43%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/pose_animation.pb.cc.o
+[ 44%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/pose_stamped.pb.cc.o
+[ 44%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/pose_trajectory.pb.cc.o
+[ 44%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/pose_v.pb.cc.o
+[ 44%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/projector.pb.cc.o
+[ 44%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/publishers.pb.cc.o
+[ 44%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/publish.pb.cc.o
+[ 44%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/quaternion.pb.cc.o
+[ 44%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/raysensor.pb.cc.o
+[ 45%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/request.pb.cc.o
+[ 45%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/response.pb.cc.o
+[ 45%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/road.pb.cc.o
+[ 45%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/scene.pb.cc.o
+[ 45%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/selection.pb.cc.o
+[ 45%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/sensor.pb.cc.o
+[ 45%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/server_control.pb.cc.o
+[ 47%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/shadows.pb.cc.o
+[ 47%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/sky.pb.cc.o
+[ 47%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/spheregeom.pb.cc.o
+[ 47%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/subscribe.pb.cc.o
+[ 47%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/surface.pb.cc.o
+[ 47%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/test.pb.cc.o
+[ 47%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/time.pb.cc.o
+[ 48%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/topic_info.pb.cc.o
+[ 48%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/track_visual.pb.cc.o
+[ 48%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/vector2d.pb.cc.o
+[ 48%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/vector3d.pb.cc.o
+[ 48%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/visual.pb.cc.o
+[ 48%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/world_control.pb.cc.o
+[ 48%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/world_reset.pb.cc.o
+[ 50%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/world_stats.pb.cc.o
+[ 50%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/world_modify.pb.cc.o
+[ 50%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/msgs.cc.o
+[ 50%] Building CXX object gazebo/msgs/CMakeFiles/gazebo_msgs.dir/MsgFactory.cc.o
+Linking CXX shared library libgazebo_msgs.so
+[ 50%] Built target gazebo_msgs
+Scanning dependencies of target gazebo_physics_ode
+[ 51%] Building CXX object gazebo/physics/ode/CMakeFiles/gazebo_physics_ode.dir/ODEPhysics.cc.o
+[ 51%] Building CXX object gazebo/physics/ode/CMakeFiles/gazebo_physics_ode.dir/ODECollision.cc.o
+[ 51%] Building CXX object gazebo/physics/ode/CMakeFiles/gazebo_physics_ode.dir/ODELink.cc.o
+[ 51%] Building CXX object gazebo/physics/ode/CMakeFiles/gazebo_physics_ode.dir/ODEJoint.cc.o
+[ 51%] Building CXX object gazebo/physics/ode/CMakeFiles/gazebo_physics_ode.dir/ODESliderJoint.cc.o
+[ 51%] Building CXX object gazebo/physics/ode/CMakeFiles/gazebo_physics_ode.dir/ODEHingeJoint.cc.o
+[ 51%] Building CXX object gazebo/physics/ode/CMakeFiles/gazebo_physics_ode.dir/ODEHinge2Joint.cc.o
+[ 51%] Building CXX object gazebo/physics/ode/CMakeFiles/gazebo_physics_ode.dir/ODEUniversalJoint.cc.o
+[ 52%] Building CXX object gazebo/physics/ode/CMakeFiles/gazebo_physics_ode.dir/ODEBallJoint.cc.o
+[ 52%] Building CXX object gazebo/physics/ode/CMakeFiles/gazebo_physics_ode.dir/ODETrimeshShape.cc.o
+[ 52%] Building CXX object gazebo/physics/ode/CMakeFiles/gazebo_physics_ode.dir/ODERayShape.cc.o
+[ 52%] Building CXX object gazebo/physics/ode/CMakeFiles/gazebo_physics_ode.dir/ODEMultiRayShape.cc.o
+[ 52%] Building CXX object gazebo/physics/ode/CMakeFiles/gazebo_physics_ode.dir/ODEHeightmapShape.cc.o
+[ 52%] Building CXX object gazebo/physics/ode/CMakeFiles/gazebo_physics_ode.dir/ODEScrewJoint.cc.o
+Linking CXX shared library libgazebo_physics_ode.so
+[ 52%] Built target gazebo_physics_ode
+Scanning dependencies of target gazebo_physics
+[ 52%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/Actor.cc.o
+[ 52%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/Base.cc.o
+[ 52%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/BoxShape.cc.o
+[ 52%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/Collision.cc.o
+[ 52%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/CollisionState.cc.o
+[ 52%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/Contact.cc.o
+[ 54%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/ContactManager.cc.o
+[ 54%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/CylinderShape.cc.o
+[ 54%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/Entity.cc.o
+[ 54%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/Gripper.cc.o
+[ 54%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/HeightmapShape.cc.o
+[ 54%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/Inertial.cc.o
+[ 54%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/Joint.cc.o
+[ 55%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/JointController.cc.o
+[ 55%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/JointState.cc.o
+[ 55%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/Link.cc.o
+[ 55%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/LinkState.cc.o
+[ 55%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/MapShape.cc.o
+[ 55%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/Model.cc.o
+[ 55%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/ModelState.cc.o
+[ 56%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/MultiRayShape.cc.o
+[ 56%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/Physics.cc.o
+[ 56%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/PhysicsEngine.cc.o
+[ 56%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/PhysicsFactory.cc.o
+[ 56%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/PlaneShape.cc.o
+[ 56%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/RayShape.cc.o
+[ 56%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/Road.cc.o
+[ 58%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/Shape.cc.o
+[ 58%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/SphereShape.cc.o
+[ 58%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/State.cc.o
+[ 58%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/SurfaceParams.cc.o
+[ 58%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/TrimeshShape.cc.o
+[ 58%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/World.cc.o
+[ 58%] Building CXX object gazebo/physics/CMakeFiles/gazebo_physics.dir/WorldState.cc.o
+Linking CXX shared library libgazebo_physics.so
+[ 58%] Built target gazebo_physics
+Scanning dependencies of target gazebo_skyx
+[ 58%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/AtmosphereManager.cpp.o
+[ 58%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/BasicController.cpp.o
+[ 58%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/CloudsManager.cpp.o
+[ 59%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/ColorGradient.cpp.o
+[ 59%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/GPUManager.cpp.o
+[ 59%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/MeshManager.cpp.o
+[ 59%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/MoonManager.cpp.o
+[ 59%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/SkyX.cpp.o
+[ 59%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/VCloudsManager.cpp.o
+[ 59%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/VClouds/DataManager.cpp.o
+[ 59%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/VClouds/Ellipsoid.cpp.o
+[ 60%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/VClouds/FastFakeRandom.cpp.o
+[ 60%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/VClouds/GeometryBlock.cpp.o
+[ 60%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/VClouds/GeometryManager.cpp.o
+[ 60%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/VClouds/Lightning.cpp.o
+[ 60%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/VClouds/LightningManager.cpp.o
+[ 60%] Building CXX object gazebo/rendering/skyx/CMakeFiles/gazebo_skyx.dir/src/VClouds/VClouds.cpp.o
+Linking CXX shared library libgazebo_skyx.so
+[ 60%] Built target gazebo_skyx
+Scanning dependencies of target gazebo_selection_buffer
+[ 60%] Building CXX object gazebo/rendering/selection_buffer/CMakeFiles/gazebo_selection_buffer.dir/MaterialSwitcher.cc.o
+[ 60%] Building CXX object gazebo/rendering/selection_buffer/CMakeFiles/gazebo_selection_buffer.dir/SelectionBuffer.cc.o
+[ 60%] Building CXX object gazebo/rendering/selection_buffer/CMakeFiles/gazebo_selection_buffer.dir/SelectionRenderListener.cc.o
+Linking CXX shared library libgazebo_selection_buffer.so
+[ 60%] Built target gazebo_selection_buffer
+Scanning dependencies of target gazebo_rendering
+[ 60%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/ArrowVisual.cc.o
+[ 62%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/AxisVisual.cc.o
+[ 62%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Camera.cc.o
+[ 62%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/CameraVisual.cc.o
+[ 62%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/COMVisual.cc.o
+[ 62%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/ContactVisual.cc.o
+[ 62%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Conversions.cc.o
+[ 62%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/DepthCamera.cc.o
+[ 63%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/DynamicLines.cc.o
+[ 63%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/DynamicRenderable.cc.o
+[ 63%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/FPSViewController.cc.o
+[ 63%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Grid.cc.o
+[ 63%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/GUIOverlay.cc.o
+[ 63%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Heightmap.cc.o
+[ 63%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/JointVisual.cc.o
+[ 64%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/LaserVisual.cc.o
+[ 64%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Light.cc.o
+[ 64%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Material.cc.o
+[ 64%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/MovableText.cc.o
+[ 64%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/OrbitViewController.cc.o
+[ 64%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Projector.cc.o
+[ 64%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/RenderEngine.cc.o
+[ 66%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/RenderEvents.cc.o
+[ 66%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Rendering.cc.o
+[ 66%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Road2d.cc.o
+[ 66%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/RFIDVisual.cc.o
+[ 66%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/RFIDTagVisual.cc.o
+[ 66%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/RTShaderSystem.cc.o
+[ 66%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o
+[ 66%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/UserCamera.cc.o
+[ 67%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/VideoVisual.cc.o
+[ 67%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/ViewController.cc.o
+[ 67%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Visual.cc.o
+[ 67%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/WireBox.cc.o
+[ 67%] Building CXX object gazebo/rendering/CMakeFiles/gazebo_rendering.dir/WindowManager.cc.o
+Linking CXX shared library libgazebo_rendering.so
+[ 67%] Built target gazebo_rendering
+Scanning dependencies of target gazebo_sensors
+[ 67%] Building CXX object gazebo/sensors/CMakeFiles/gazebo_sensors.dir/CameraSensor.cc.o
+[ 68%] Building CXX object gazebo/sensors/CMakeFiles/gazebo_sensors.dir/ContactSensor.cc.o
+[ 68%] Building CXX object gazebo/sensors/CMakeFiles/gazebo_sensors.dir/DepthCameraSensor.cc.o
+[ 68%] Building CXX object gazebo/sensors/CMakeFiles/gazebo_sensors.dir/ImuSensor.cc.o
+[ 68%] Building CXX object gazebo/sensors/CMakeFiles/gazebo_sensors.dir/MultiCameraSensor.cc.o
+[ 68%] Building CXX object gazebo/sensors/CMakeFiles/gazebo_sensors.dir/RaySensor.cc.o
+[ 68%] Building CXX object gazebo/sensors/CMakeFiles/gazebo_sensors.dir/RFIDSensor.cc.o
+[ 68%] Building CXX object gazebo/sensors/CMakeFiles/gazebo_sensors.dir/RFIDTag.cc.o
+[ 70%] Building CXX object gazebo/sensors/CMakeFiles/gazebo_sensors.dir/Sensors.cc.o
+[ 70%] Building CXX object gazebo/sensors/CMakeFiles/gazebo_sensors.dir/Sensor.cc.o
+[ 70%] Building CXX object gazebo/sensors/CMakeFiles/gazebo_sensors.dir/SensorFactory.cc.o
+[ 70%] Building CXX object gazebo/sensors/CMakeFiles/gazebo_sensors.dir/SensorManager.cc.o
+Linking CXX shared library libgazebo_sensors.so
+[ 70%] Built target gazebo_sensors
+Scanning dependencies of target gazebo_transport
+[ 70%] Building CXX object gazebo/transport/CMakeFiles/gazebo_transport.dir/CallbackHelper.cc.o
+[ 71%] Building CXX object gazebo/transport/CMakeFiles/gazebo_transport.dir/Connection.cc.o
+[ 71%] Building CXX object gazebo/transport/CMakeFiles/gazebo_transport.dir/ConnectionManager.cc.o
+[ 71%] Building CXX object gazebo/transport/CMakeFiles/gazebo_transport.dir/IOManager.cc.o
+[ 71%] Building CXX object gazebo/transport/CMakeFiles/gazebo_transport.dir/Node.cc.o
+[ 71%] Building CXX object gazebo/transport/CMakeFiles/gazebo_transport.dir/Publication.cc.o
+[ 71%] Building CXX object gazebo/transport/CMakeFiles/gazebo_transport.dir/PublicationTransport.cc.o
+[ 71%] Building CXX object gazebo/transport/CMakeFiles/gazebo_transport.dir/Publisher.cc.o
+[ 72%] Building CXX object gazebo/transport/CMakeFiles/gazebo_transport.dir/Subscriber.cc.o
+[ 72%] Building CXX object gazebo/transport/CMakeFiles/gazebo_transport.dir/SubscriptionTransport.cc.o
+[ 72%] Building CXX object gazebo/transport/CMakeFiles/gazebo_transport.dir/TopicManager.cc.o
+[ 72%] Building CXX object gazebo/transport/CMakeFiles/gazebo_transport.dir/Transport.cc.o
+Linking CXX shared library libgazebo_transport.so
+[ 72%] Built target gazebo_transport
+[ 72%] Generating qrc_qtpropertybrowser.cxx
+[ 74%] Generating moc_qtpropertybrowser.cxx
+[ 74%] Generating moc_qtpropertymanager.cxx
+[ 74%] Generating moc_qteditorfactory.cxx
+[ 74%] Generating moc_qtvariantproperty.cxx
+[ 74%] Generating moc_qttreepropertybrowser.cxx
+[ 74%] Generating moc_qtbuttonpropertybrowser.cxx
+[ 74%] Generating moc_qtgroupboxpropertybrowser.cxx
+[ 75%] Generating moc_qtpropertybrowserutils_p.cxx
+Scanning dependencies of target gzqtpropertybrowser
+[ 75%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qtpropertybrowser.cpp.o
+[ 75%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qtpropertymanager.cpp.o
+[ 77%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qteditorfactory.cpp.o
+[ 77%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qtvariantproperty.cpp.o
+[ 77%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qttreepropertybrowser.cpp.o
+[ 77%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qtbuttonpropertybrowser.cpp.o
+[ 77%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qtgroupboxpropertybrowser.cpp.o
+[ 77%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qtpropertybrowserutils.cpp.o
+[ 77%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/moc_qtpropertybrowser.cxx.o
+[ 78%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/moc_qtpropertymanager.cxx.o
+[ 78%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/moc_qteditorfactory.cxx.o
+[ 78%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/moc_qtvariantproperty.cxx.o
+[ 78%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/moc_qttreepropertybrowser.cxx.o
+[ 78%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/moc_qtbuttonpropertybrowser.cxx.o
+[ 78%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/moc_qtgroupboxpropertybrowser.cxx.o
+[ 78%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/moc_qtpropertybrowserutils_p.cxx.o
+[ 78%] Building CXX object gazebo/gui/qtpropertybrowser/CMakeFiles/gzqtpropertybrowser.dir/qrc_qtpropertybrowser.cxx.o
+Linking CXX static library libgzqtpropertybrowser.a
+[ 78%] Built target gzqtpropertybrowser
+[ 78%] Generating qrc_resources.cxx
+[ 78%] Generating moc_BuildingEditorPalette.cxx
+[ 78%] Generating moc_BuildingModelManip.cxx
+[ 78%] Generating moc_DoorItem.cxx
+[ 78%] Generating moc_EditorItem.cxx
+[ 79%] Generating moc_EditorView.cxx
+[ 79%] Generating moc_FinishBuildingDialog.cxx
+[ 79%] Generating moc_FloorItem.cxx
+[ 79%] Generating moc_LevelInspectorDialog.cxx
+[ 79%] Generating moc_LevelWidget.cxx
+[ 79%] Generating moc_RectItem.cxx
+[ 79%] Generating moc_ScaleWidget.cxx
+[ 81%] Generating moc_StairsInspectorDialog.cxx
+[ 81%] Generating moc_StairsItem.cxx
+[ 81%] Generating moc_WallInspectorDialog.cxx
+[ 81%] Generating moc_WallItem.cxx
+[ 81%] Generating moc_WindowDoorInspectorDialog.cxx
+[ 81%] Generating moc_WindowItem.cxx
+Scanning dependencies of target gazebo_model_editor
+[ 81%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/BuildingEditorPalette.cc.o
+[ 81%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/BuildingEditorWidget.cc.o
+[ 81%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/BuildingItem.cc.o
+[ 81%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/BuildingMaker.cc.o
+[ 82%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/BuildingModelManip.cc.o
+[ 82%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/DoorItem.cc.o
+[ 82%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/EditorEvents.cc.o
+[ 82%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/EditorItem.cc.o
+[ 82%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/EditorView.cc.o
+[ 82%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/FinishBuildingDialog.cc.o
+[ 82%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/FloorItem.cc.o
+[ 82%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/GrabberHandle.cc.o
+[ 83%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/GridLines.cc.o
+[ 83%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/LevelInspectorDialog.cc.o
+[ 83%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/LevelWidget.cc.o
+[ 83%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/LineSegmentItem.cc.o
+[ 83%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/PolylineItem.cc.o
+[ 83%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/RectItem.cc.o
+[ 83%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/RotateHandle.cc.o
+[ 85%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/ScaleWidget.cc.o
+[ 85%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/StairsInspectorDialog.cc.o
+[ 85%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/StairsItem.cc.o
+[ 85%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/WallInspectorDialog.cc.o
+[ 85%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/WallItem.cc.o
+[ 85%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/WindowDoorInspectorDialog.cc.o
+[ 85%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/WindowItem.cc.o
+[ 86%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_BuildingEditorPalette.cxx.o
+[ 86%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_BuildingModelManip.cxx.o
+[ 86%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_DoorItem.cxx.o
+[ 86%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_EditorItem.cxx.o
+[ 86%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_EditorView.cxx.o
+[ 86%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_FinishBuildingDialog.cxx.o
+[ 86%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_FloorItem.cxx.o
+[ 87%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_LevelInspectorDialog.cxx.o
+[ 87%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_LevelWidget.cxx.o
+[ 87%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_RectItem.cxx.o
+[ 87%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_ScaleWidget.cxx.o
+[ 87%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_StairsInspectorDialog.cxx.o
+[ 87%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_StairsItem.cxx.o
+[ 87%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_WallInspectorDialog.cxx.o
+[ 89%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_WallItem.cxx.o
+[ 89%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_WindowDoorInspectorDialog.cxx.o
+[ 89%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/moc_WindowItem.cxx.o
+[ 89%] Building CXX object gazebo/gui/model_editor/CMakeFiles/gazebo_model_editor.dir/qrc_resources.cxx.o
+Linking CXX static library libgazebo_model_editor.a
+[ 89%] Built target gazebo_model_editor
+[ 89%] Generating qrc_resources.cxx
+[ 89%] Generating moc_Actions.cxx
+[ 89%] Generating moc_GLWidget.cxx
+[ 89%] Generating moc_InsertModelWidget.cxx
+[ 89%] Generating moc_JointControlWidget.cxx
+[ 90%] Generating moc_MainWindow.cxx
+[ 90%] Generating moc_ModelListWidget.cxx
+[ 90%] Generating moc_ModelEditWidget.cxx
+[ 90%] Generating moc_ModelRightMenu.cxx
+[ 90%] Generating moc_RenderWidget.cxx
+[ 90%] Generating moc_TimePanel.cxx
+[ 90%] Generating moc_ToolsWidget.cxx
+[ 91%] Generating moc_TopicSelector.cxx
+[ 91%] Generating viewers/moc_ImageView.cxx
+[ 91%] Generating viewers/moc_LaserView.cxx
+[ 91%] Generating viewers/moc_TextView.cxx
+[ 91%] Generating viewers/moc_TopicView.cxx
+Scanning dependencies of target gzclient
+[ 91%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/__/gazebo.cc.o
+[ 91%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/Actions.cc.o
+[ 91%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/BoxMaker.cc.o
+[ 91%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/CylinderMaker.cc.o
+[ 91%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/EntityMaker.cc.o
+[ 93%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/RenderWidget.cc.o
+[ 93%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/GLWidget.cc.o
+[ 93%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/Gui.cc.o
+[ 93%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/GuiEvents.cc.o
+[ 93%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/InsertModelWidget.cc.o
+[ 93%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/JointControlWidget.cc.o
+[ 93%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/LightMaker.cc.o
+[ 93%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/main.cc.o
+[ 94%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/MainWindow.cc.o
+[ 94%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/MeshMaker.cc.o
+[ 94%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/ModelEditWidget.cc.o
+[ 94%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/ModelListWidget.cc.o
+[ 94%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/ModelMaker.cc.o
+[ 94%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/ModelRightMenu.cc.o
+[ 94%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/SphereMaker.cc.o
+[ 95%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/TimePanel.cc.o
+[ 95%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/ToolsWidget.cc.o
+[ 95%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/TopicSelector.cc.o
+[ 95%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/viewers/ImageView.cc.o
+[ 95%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/viewers/LaserView.cc.o
+[ 95%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/viewers/TopicView.cc.o
+[ 95%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/viewers/TextView.cc.o
+[ 97%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/viewers/ViewFactory.cc.o
+[ 97%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/moc_Actions.cxx.o
+[ 97%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/moc_GLWidget.cxx.o
+[ 97%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/moc_InsertModelWidget.cxx.o
+[ 97%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/moc_JointControlWidget.cxx.o
+[ 97%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/moc_MainWindow.cxx.o
+[ 97%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/moc_ModelListWidget.cxx.o
+[ 98%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/moc_ModelEditWidget.cxx.o
+[ 98%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/moc_ModelRightMenu.cxx.o
+[ 98%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/moc_RenderWidget.cxx.o
+[ 98%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/moc_TimePanel.cxx.o
+[ 98%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/moc_ToolsWidget.cxx.o
+[ 98%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/moc_TopicSelector.cxx.o
+[ 98%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/viewers/moc_ImageView.cxx.o
+[100%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/viewers/moc_LaserView.cxx.o
+[100%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/viewers/moc_TextView.cxx.o
+[100%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/viewers/moc_TopicView.cxx.o
+[100%] Building CXX object gazebo/gui/CMakeFiles/gzclient.dir/qrc_resources.cxx.o
+Linking CXX executable gzclient
+CMakeFiles/gzclient.dir/Actions.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/Actions.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/Actions.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/RenderWidget.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/RenderWidget.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/RenderWidget.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/GLWidget.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/GLWidget.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/GLWidget.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/Gui.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/Gui.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/Gui.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/InsertModelWidget.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/InsertModelWidget.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/InsertModelWidget.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/JointControlWidget.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/JointControlWidget.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/JointControlWidget.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/MainWindow.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/MainWindow.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/MainWindow.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/ModelEditWidget.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/ModelEditWidget.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/ModelEditWidget.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/ModelListWidget.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/ModelListWidget.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/ModelListWidget.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/ModelRightMenu.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/ModelRightMenu.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/ModelRightMenu.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/TimePanel.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/TimePanel.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/TimePanel.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/ToolsWidget.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/ToolsWidget.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/ToolsWidget.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/TopicSelector.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/TopicSelector.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/TopicSelector.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/ImageView.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/viewers/ImageView.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/ImageView.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/LaserView.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/viewers/LaserView.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/LaserView.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/TopicView.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/viewers/TopicView.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/TopicView.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/TextView.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/viewers/TextView.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/TextView.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/ViewFactory.cc.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/viewers/ViewFactory.cc.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/ViewFactory.cc.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_Actions.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/moc_Actions.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_Actions.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_GLWidget.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/moc_GLWidget.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_GLWidget.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_InsertModelWidget.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/moc_InsertModelWidget.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_InsertModelWidget.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_JointControlWidget.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/moc_JointControlWidget.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_JointControlWidget.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_MainWindow.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/moc_MainWindow.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_MainWindow.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_ModelListWidget.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/moc_ModelListWidget.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_ModelListWidget.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_ModelEditWidget.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/moc_ModelEditWidget.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_ModelEditWidget.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_ModelRightMenu.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/moc_ModelRightMenu.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_ModelRightMenu.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_RenderWidget.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/moc_RenderWidget.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_RenderWidget.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_TimePanel.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/moc_TimePanel.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_TimePanel.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_ToolsWidget.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/moc_ToolsWidget.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_ToolsWidget.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_TopicSelector.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/moc_TopicSelector.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/moc_TopicSelector.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/moc_ImageView.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/viewers/moc_ImageView.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/moc_ImageView.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/moc_LaserView.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/viewers/moc_LaserView.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/moc_LaserView.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/moc_TextView.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/viewers/moc_TextView.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/moc_TextView.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/moc_TopicView.cxx.o: In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+CMakeFiles/gzclient.dir/viewers/moc_TopicView.cxx.o: In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+CMakeFiles/gzclient.dir/viewers/moc_TopicView.cxx.o: In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(BuildingEditorPalette.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(BuildingEditorPalette.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(BuildingEditorPalette.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(BuildingEditorWidget.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(BuildingEditorWidget.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(BuildingEditorWidget.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(EditorView.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(EditorView.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(EditorView.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(FloorItem.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(FloorItem.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(FloorItem.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(GridLines.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(GridLines.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(GridLines.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(LevelInspectorDialog.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(LevelInspectorDialog.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(LevelInspectorDialog.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(LevelWidget.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(LevelWidget.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(LevelWidget.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(LineSegmentItem.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(LineSegmentItem.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(LineSegmentItem.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(PolylineItem.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(PolylineItem.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(PolylineItem.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(RectItem.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(RectItem.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(RectItem.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(RotateHandle.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(RotateHandle.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(RotateHandle.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(ScaleWidget.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(ScaleWidget.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(ScaleWidget.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(StairsItem.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(StairsItem.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(StairsItem.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(WallItem.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(WallItem.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(WallItem.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(WindowItem.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(WindowItem.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(WindowItem.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_BuildingEditorPalette.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_BuildingEditorPalette.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_BuildingEditorPalette.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_DoorItem.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_DoorItem.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_DoorItem.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_EditorItem.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_EditorItem.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_EditorItem.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_EditorView.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_EditorView.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_EditorView.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_FloorItem.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_FloorItem.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_FloorItem.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_LevelInspectorDialog.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_LevelInspectorDialog.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_LevelInspectorDialog.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_LevelWidget.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_LevelWidget.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_LevelWidget.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_RectItem.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_RectItem.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_RectItem.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_ScaleWidget.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_ScaleWidget.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_ScaleWidget.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_StairsInspectorDialog.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_StairsInspectorDialog.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_StairsInspectorDialog.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_StairsItem.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_StairsItem.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_StairsItem.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_WallInspectorDialog.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_WallInspectorDialog.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_WallInspectorDialog.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_WallItem.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_WallItem.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_WallItem.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_WindowDoorInspectorDialog.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_WindowDoorInspectorDialog.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_WindowDoorInspectorDialog.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_WindowItem.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_WindowItem.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_WindowItem.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(BuildingMaker.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(BuildingMaker.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(BuildingMaker.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(BuildingModelManip.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(BuildingModelManip.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(BuildingModelManip.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(DoorItem.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(DoorItem.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(DoorItem.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(EditorItem.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(EditorItem.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(EditorItem.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(FinishBuildingDialog.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(FinishBuildingDialog.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(FinishBuildingDialog.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(GrabberHandle.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(GrabberHandle.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(GrabberHandle.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(StairsInspectorDialog.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(StairsInspectorDialog.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(StairsInspectorDialog.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(WallInspectorDialog.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(WallInspectorDialog.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(WallInspectorDialog.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(WindowDoorInspectorDialog.cc.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(WindowDoorInspectorDialog.cc.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(WindowDoorInspectorDialog.cc.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_BuildingModelManip.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_BuildingModelManip.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_BuildingModelManip.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_FinishBuildingDialog.cxx.o): In function `qWait':
+/usr/include/qt4/QtTest/qtestsystem.h:70: undefined reference to `QTest::qSleep(int)'
+model_editor/libgazebo_model_editor.a(moc_FinishBuildingDialog.cxx.o): In function `simulateEvent':
+/usr/include/qt4/QtTest/qtestkeyboard.h:76: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:77: undefined reference to `QTest::defaultKeyDelay()'
+/usr/include/qt4/QtTest/qtestkeyboard.h:84: undefined reference to `QTest::qWarn(char const*)'
+model_editor/libgazebo_model_editor.a(moc_FinishBuildingDialog.cxx.o): In function `mouseEvent':
+/usr/include/qt4/QtTest/qtestmouse.h:77: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:78: undefined reference to `QTest::defaultMouseDelay()'
+/usr/include/qt4/QtTest/qtestmouse.h:124: undefined reference to `QTest::qWarn(char const*)'
+collect2: ld returned 1 exit status
+distcc[390] ERROR: compile (null) on localhost failed
+make[3]: *** [gazebo/gui/gzclient-1.4.6] Error 1
+make[2]: *** [gazebo/gui/CMakeFiles/gzclient.dir/all] Error 2
+make[1]: *** [gazebo/gui/CMakeFiles/gzclient.dir/rule] Error 2
+make: *** [gzclient] Error 2

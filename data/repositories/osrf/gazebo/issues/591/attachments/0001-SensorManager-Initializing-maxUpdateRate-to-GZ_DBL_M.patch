@@ -1,0 +1,42 @@
+From e7393741a92655695b61b7d5f01c94b864622157 Mon Sep 17 00:00:00 2001
+From: eacousineau <eacousineau@gmail.com>
+Date: Tue, 19 Mar 2013 22:27:30 -0500
+Subject: [PATCH] SensorManager: Initializing maxUpdateRate to GZ_DBL_MIN, made
+ SensorContainer::RunLoop() submit a very large sleep time to
+ SimTimeEventManager::AddRelativeEvent(). Changed it to zero when comparing
+ against other sensor's update rates, and used 1MHz as default update rate if
+ none is defined.
+
+---
+ gazebo/sensors/SensorManager.cc | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/gazebo/sensors/SensorManager.cc b/gazebo/sensors/SensorManager.cc
+index 58779cf..f1f30f8 100644
+--- a/gazebo/sensors/SensorManager.cc
++++ b/gazebo/sensors/SensorManager.cc
+@@ -425,7 +425,7 @@ void SensorManager::SensorContainer::RunLoop()
+   engine->InitForThread();
+ 
+   common::Time sleepTime, startTime, eventTime, diffTime;
+-  double maxUpdateRate = GZ_DBL_MIN;
++  double maxUpdateRate = 0.;
+ 
+   boost::mutex tmpMutex;
+   boost::mutex::scoped_lock lock2(tmpMutex);
+@@ -450,10 +450,10 @@ void SensorManager::SensorContainer::RunLoop()
+   }
+ 
+   // Calculate an appropriate sleep time.
+-  if (maxUpdateRate > 0)
++  if (maxUpdateRate > 0.)
+     sleepTime.Set(1.0 / (maxUpdateRate));
+   else
+-    sleepTime.Set(0, 1e6);
++	sleepTime.Set(0, 1e-6);
+ 
+   while (!this->stop)
+   {
+-- 
+1.8.2.rc3.1.gbc47ec0
+

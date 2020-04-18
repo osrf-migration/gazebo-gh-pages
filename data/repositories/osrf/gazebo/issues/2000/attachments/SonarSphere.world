@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <model name="my_sensor">
+      <link name="sonar_sensor">
+        <pose>0 0 0.64 1.570796327 0 0</pose>
+        <gravity>false</gravity>
+        <sensor name='spherefollowing_proximity_sensor' type='sonar'>
+          <pose>0 0 0 0 -1.570796327 0</pose>
+          <always_on>1</always_on>
+          <visualize>1</visualize>
+          <update_rate>30.000000</update_rate>
+          <sonar>
+            <min>0.25</min>
+            <max>2</max>
+            <radius>0.3</radius>
+          </sonar>
+          <plugin name='sonar_measure' filename='SonarMeasurePlugin.so'/>
+        </sensor>
+      </link>
+    </model>
+
+    <model name="sphere">
+      <pose>2 0 0.64 0 0 0</pose>
+      <static>false</static>
+      <link name="body">
+        <gravity>false</gravity>
+        <visual name="visual">
+           <geometry>
+             <sphere><radius>0.15</radius></sphere>
+           </geometry>
+           <material>
+            <ambient>0.8 0.0 0.0 1 </ambient>
+            <diffuse>0.8 0.0 0.0 1 </diffuse>
+            <specular>0.25 0.25 0.25 1 </specular>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <sphere>
+              <radius>0.15</radius>
+            </sphere>
+          </geometry>
+        </collision>
+      </link>
+      <plugin name="SphereMovePlugin" filename="SphereMovePlugin.so"/>
+    </model>
+  </world>
+</sdf>
